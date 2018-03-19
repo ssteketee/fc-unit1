@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Reflect Family</title>
+	<meta name="description" content="This page supports the Reflect Family activity from Introducing Geometric Transformations as Functions.">
+
+		<script type="text/javascript">
+			WIDGETS.setWidgetsPrefs ([
+				{pages: "none"} // turn off all widgets for all sketches
+				// {widget: "visibility", sketches: "rotate-stars", pages: "6,7"}
+			]);
+		</script>
+
+</head>
+
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area" style="margin:0 auto; padding:10px;">
+	
+<div class="title lessonTitle">The Reflect Family</div>
+
+<div class = "bodyText">
+
+<div class="section">
+  <p class="fcSectionHead fcOpen">1 Reflect</p>
+  <div class="fcSectionBody fcVisible">
+    <div class="jaxContainer">
+      <p>Using this sketch, you’ll construct and explore reflect functions. You’ll manipulate them, observe them, and learn how this function family behaves.</p>
+    </div>
+    <p class="fcSubsectionHead fcOpen">Worksheet</p>
+    <div class="fcSubsectionBody fcVisible" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
+      <object data="./reflect-family-worksheet.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
+    </div>
+    <div class="sketch_container" style="width: 960px;">
+      <div class="sketch_canvas" data-url="./reflect-family.json">&nbsp;</div>
+      <div class="sketch_caption">
+        <p>Hint videos:
+          <a class="play-video" data-src="./step01">Step 1</a>
+          <a class="play-video" data-src="./step05">Step 5</a>
+          <a class="play-video" data-src="./step11">Step 11</a>
+          Download the <a href="./reflect-family-worksheet.pdf">student worksheet.</a>
+        </p>
+      </div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+  </div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">2 Interlude</p>
+	<div class="fcSectionBody">
+		<video width="960" controls
+			poster="./video/lucy-harpo-mime.png" >
+			<source
+				src="./video/tlucy-harpo-mime-960x720.webm"
+				type="video/webm">
+			<source
+				src="./video/lucy-harpo-mime-960x720.mp4"
+				type="video/mp4">
+			Your browser doesn't support HTML5 video tag.
+		</video>
+    <p style="font-size: 70%;"><a href="https://www.youtube.com/watch?v=TNm5Dax56ck">From <em>I Love Lucy</em> Season 4 Episode 27. Downloaded from https://www.youtube.com/watch?v=TNm5Dax56ck</a></p>
+		<p>✏️ How does this video relate to the reflect functions you just constructed?</p>
+  </div>
+</div>                                     
+
+<div class="section">
+	<p class="fcSectionHead">3 Reflection Designs</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+		<div class="sketch_container" style="margin-left:4rem;">
+			<div class="sketch_canvas" data-delayed-url="./reflection-designs.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">4 Reflect Games</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>Each of these three games has a different purpose:</p>
+      <ol>
+        <li>Given independent variable `x` and mirror `j`, can you find `r_j(x)`?</li>
+        <li>Given mirror `j` and `r_j(x)`, can you find independent variable `x`?</li>
+        <li>Given independent variable `x` and `r_j(x)`, can you find mirror `j`?</li> 
+      </ol>
+      <p>For each game play a few times at easier levels, and work your way up to level 5. (Once you start a game at one level, you must press Reset to change to a different level.)</p>
+      <p>✏️ For each game, how many hits can you score in ten tries at level 5?</p>
+      <p>✏️ What methods did you invent to make it easier to get a high score?</p>
+    </div>
+		<div class="sketch_container" style="margin-left:4rem;">
+			<div class="sketch_canvas" data-delayed-url="./reflect-games.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+	</div>
+</div>
+        
+<div class="section">
+	<p class="fcSectionHead">5 Reflect Dance</p>
+  <div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>In a group of four or five students, mark a mirror on the classroom floor with a string or rope and invent a reflect-family dance</p>
+      <p>One person should be the independent variable, another should be the dependent variable, a third should be the videographer, and the remaining group members are choreographers in charge of making sure the dancers are correctly positioned relative to the mirror.</p>
+      <p>Take turns so everyone in the group has a chance to be the independent or dependent dancer.</p>
+      <p>Then choreograph a reflect-family dance for your entire group, and ask someone from another group to video your group dance. </p>
+    </div>
+    <div><img src="./video/ballet.png" style="width: 970px;"><br><a href="www.nytimes.com/2016/10/25/arts/dance/review-ballet-with-intricate-geometry-and-a-lot-of-fun-suzanne-farrell-george-balanchine-kennedy-center.html">NY Times 25 October 2016</a> Suzanne Farrell Ballet at Kennedy Center</div>
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">6︎ Objectives</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>This page supports the Reflect Family lesson from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. You will construct reflect functions, manipulate and observe them, and learn how this function family behaves.</p>
+      <p>By the end of this lesson, you&rsquo;ll be able to perform these actions and answer these questions:</p>
+			<ul>
+        <li>Construct independent variable x and reflect it across a mirror.</li>
+        <li>Label the dependent variable using meaningful function notation.</li>
+        <li>Drag independent variable x, trace both variables, and describe their relative motion. </li>
+        <li>Move the mirror to form and investigate a different member of the family.</li>
+        <li>Restrict the domain of x to a polygon and describe the resulting range.</li>
+        <li>Identify fixed points of the function and describe their relationship to the mirror.</li>
+				<li>Solve challenges that involve finding a hidden mirror.</li>
+			</ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+		<p>Record every major revision, in reverse chronological order</p>
+    <div class="updateHistory">
+      04 Mar 2018: Converted to new lesson format.<br>
+      06 Mar 2017: Fixed a bug on page 5 where the <em>x</em> tool didn&rsquo;t work.<br>
+      16 May 2016: Updated websketch page 8 to eliminate tracing, which was confusing.<br>
+      31 Oct 2015: Updated this page to the website format.<br>
+		</div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link type="text/css" rel="stylesheet" href="/includes/style.css">
+    <!--#include virtual="/includes/head.html" -->
+    <title>Reflection Games</title>
+    <meta name="description" content="The games on this page support the Reflection Family activity from Introducing Geometric Transformations as Functions.">
+
+    <script charset="utf-8" type="text/javascript" src="../js/jquery-2.1.0.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="../js/wsp-min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="../js/wsp-runner.js"></script>
+    <link rel="StyleSheet" type="text/css" href="/includes/worksheet-styles.css">
+
+    <style type="text/css">
+      .sketch_canvas {
+          border: medium solid lightgray;
+          display: inline-block;
+      }
+    </style>
+
+   </head>
+  <body>
+    <div id="templatemo_container"> 
+      <!--#include virtual="/includes/banner.html" -->
+      <div id="templatemo_content">
+        <div id="templatemo_full_column" style="background:#fff;">
+          <div class="text_area" align="left">
+            <div class="title">Reflection Games
+            </div>
+            <p> These games will help you to master the <a href="./index.shtml">Reflection Family activity</a> from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. You will play three games, and learn to master them at higher and higher levels. By the time you are good at all three games, you will have a very good understanding of how this function family behaves.</p>
+            
+    <div class="sketch_canvas" data-url="./reflection-games.json" >&nbsp;</div>
+  <!-- [Disabled] include virtual="/includes/modal-video.html" -->            
+
+<!--            <a id="play" onclick="playVideo('./step02');">
+              <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
+              Step 2
+            </a>&nbsp; &nbsp; &nbsp;
+
+-->
+            
+            <p>Return to the <a href="./index.shtml">Reflection Family activity.</a>
+            </p>
+  
+            <p class="subtitle">Release Information and Rights</p>
+  <!--#include virtual="../js-version.html" -->
+            <p class="subtitle">Update History:</p>
+            31 October 2015: Updated this page to the website format.<br>
+          </div> <!--templatemo_text_area-->
+        </div> <!--templatemo_full_column-->
+      </div> <!--templatemo_content-->
+      <!--#include virtual="/includes/footer.html" -->
+    </div> <!--templatemo_container-->
+       
+  </body>
+</html>

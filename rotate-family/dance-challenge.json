@@ -1,0 +1,5928 @@
+{
+  "metadata": {
+    "width": 957,
+    "height": 597,
+    "wsp-version": "4.5.1-alpha",
+    "wsp-build-number": "1020",
+    "wsp-build-stamp": "stek-macbook-pro.lan/20180119091811",
+    "exporter-version": "6.00A3007(dev)",
+    "exporter-build": "3007(dev)",
+    "original-document-name": "dance-challenge.gsp",
+    "start-page": "1",
+    "authorPreferences": {
+      "enableLabelEditing": "none"
+    }
+  },
+  "resources": {
+    "pictures": [
+      {
+        "height": 63,
+        "width": 63,
+        "src": "data:image/png;base64,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"
+      },
+      {
+        "height": 61,
+        "width": 64,
+        "src": "data:image/png;base64,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"
+      }
+    ],
+    "fontList": [
+      "\"Arial\", sans-serif",
+      "\"Times New Roman\", sans-serif",
+      "\"Geneva\", sans-serif"
+    ]
+  },
+  "pages": [
+    {
+      "metadata": {
+        "title": "1",
+        "id": "1",
+        "sketchRect": {
+          "top": 16,
+          "left": 89,
+          "bottom": 613,
+          "right": 1046
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "px",
+          "angle": "signed deg"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 0,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "Points": {
+            "color": "blue"
+          },
+          "Straights": {
+            "color": "blue"
+          },
+          "Curves": {
+            "color": "white"
+          },
+          "Interior": {
+            "color": "rgb(0,254,0)"
+          },
+          "Plot": {
+            "color": "rgb(124,0,124)"
+          },
+          "PointLocus": {
+            "color": "black"
+          },
+          "Selection": {
+            "color": "rgb(251,0,251)"
+          },
+          "Background": {
+            "color": "rgb(205,234,245)"
+          },
+          "ActionButton": {
+            "color": "rgb(255,128,0)"
+          }
+        },
+        "text": {
+          "mathItalicization": true,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-weight": "normal",
+              "font-style": "italic"
+            },
+            "Caption": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 18,
+              "color": "rgb(0,0,254)"
+            },
+            "Measurement": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 12
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Times New Roman\", sans-serif",
+                "font-size": 12,
+                "color": "rgb(0,0,254)"
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif"
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Arial\", sans-serif"
+            }
+          }
+        },
+        "limitScrolling": true
+      },
+      "objects": {
+        "1": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 425,
+              "y": 29
+            }
+          },
+          "textMFS": "<VL<T'Rotation Dance 1'>>",
+          "style": {
+            "selectable": false,
+            "font-family": 0,
+            "font-size": 36,
+            "font-weight": "bold"
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 290
+            }
+          },
+          "label": "S",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -5,
+              "labelOffsetY": -26,
+              "font-size": 18
+            }
+          }
+        },
+        "3": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 862,
+              "y": 227
+            }
+          },
+          "label": "T",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 5,
+              "labelOffsetY": -1,
+              "font-size": 18
+            }
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 862,
+              "y": 341
+            }
+          },
+          "label": "U",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -23,
+              "labelOffsetY": -6,
+              "font-size": 18
+            }
+          }
+        },
+        "5": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 949,
+              "y": 343
+            }
+          },
+          "label": "V",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -1,
+              "labelOffsetY": -25,
+              "font-size": 18
+            }
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 949,
+              "y": 258
+            }
+          },
+          "label": "W",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -2,
+              "labelOffsetY": 4,
+              "font-size": 18
+            }
+          }
+        },
+        "7": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "0": "2",
+            "1": "3",
+            "2": "4",
+            "3": "5",
+            "4": "6"
+          },
+          "constraint": "PolygonFromPoints",
+          "style": {
+            "hidden": true,
+            "layerOrder": 1,
+            "framePerimeter": true
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 483.0671634153,
+              "y": 473.12720381261
+            }
+          },
+          "label": "L",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "9": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1138,
+              "y": 572
+            }
+          },
+          "label": "N",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -27,
+              "labelOffsetY": -14
+            }
+          }
+        },
+        "10": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 106,
+              "y": 383
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "3.1389991",
+          "label": "Countdown",
+          "style": {
+            "font-size": 24,
+            "color": "rgb(0,0,254)",
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "11": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 531
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "3.4",
+          "label": "ready",
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 1,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "12": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 555
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.49999",
+          "label": "go",
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "13": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "11",
+            "1": "10"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 178
+            }
+          },
+          "label": "Move Countdown \u2192 ready",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move Countdown \u2192 ready"
+          ],
+          "shouldAutogenerateLabel": true,
+          "rate": 0
+        },
+        "14": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "12",
+            "1": "10"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 197
+            }
+          },
+          "label": "Move Countdown \u2192 go",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move Countdown \u2192 go"
+          ],
+          "shouldAutogenerateLabel": true,
+          "rate": 3
+        },
+        "15": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "9"
+          },
+          "angle": 3.1415926535898,
+          "distance": 250,
+          "constraint": "TranslateFixDistFixAngle",
+          "label": "hard",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -10,
+              "labelOffsetY": 5,
+              "font-size": 18
+            }
+          }
+        },
+        "16": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "15"
+          },
+          "angle": 3.1415926535898,
+          "distance": 250,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "17": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "15",
+            "p1": "16"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,0,126)",
+            "line-style": "dashed"
+          }
+        },
+        "18": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "17"
+          },
+          "value": 2.448,
+          "constraint": "PointOnPath",
+          "label": "easy",
+          "style": {
+            "hidden": true,
+            "selectable": false,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -24,
+              "labelOffsetY": 5,
+              "font-size": 18
+            }
+          }
+        },
+        "19": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "15",
+            "p1": "18"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,126)"
+          }
+        },
+        "20": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 703,
+              "y": 339
+            }
+          },
+          "label": "C",
+          "style": {
+            "selectable": false,
+            "color": "rgb(255,128,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "21": {
+          "kind": "Expression",
+          "genus": "AngleParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 293
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "180\u00b0",
+          "label": "\u03b8",
+          "style": {
+            "selectable": false,
+            "font-size": 24,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "22": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 544,
+              "y": 282
+            }
+          },
+          "label": "Z",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "23": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "22",
+            "center": "20",
+            "angle": "21"
+          },
+          "constraint": "RotateMeasureAngle",
+          "label": "e",
+          "style": {
+            "hidden": true,
+            "traced": true,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -22,
+              "labelOffsetY": 5
+            },
+            "radius": 6
+          }
+        },
+        "24": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "center": "20",
+            "p0": "22",
+            "p1": "23"
+          },
+          "constraint": "ArcAroundPoint",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,127)"
+          }
+        },
+        "25": {
+          "kind": "PathMarker",
+          "genus": "PathMarker",
+          "parents": {
+            "path": "24"
+          },
+          "value": 1,
+          "constraint": "PathMarker",
+          "style": {
+            "selectable": false,
+            "color": "black",
+            "tick-mark-style": "OpenArrow",
+            "strokes": 1,
+            "arrow-direction": "Forward"
+          }
+        },
+        "26": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1089,
+              "y": 13
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.4307260245475354",
+          "label": "start",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "27": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 63
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1",
+          "label": "v",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "28": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 89
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1",
+          "label": "s",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "29": {
+          "kind": "Expression",
+          "genus": "DistanceParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1076,
+              "y": 115
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "76 pixels",
+          "label": "y-scale",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "30": {
+          "kind": "Measure",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "path": "19"
+          },
+          "constraint": "MeasurementLength",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 161
+            }
+          },
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "31": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "18"
+          },
+          "angle": -1.5707963267949,
+          "distance": 36,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "32": {
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "31",
+            "unitDistance": "29"
+          },
+          "constraint": "AxisExternalDist",
+          "orientation": "vertical",
+          "label": "y",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
+          }
+        },
+        "33": {
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "31",
+            "unitDistance": "30"
+          },
+          "constraint": "AxisExternalDist",
+          "orientation": "horizontal",
+          "label": "x",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
+          }
+        },
+        "34": {
+          "kind": "CoordSys",
+          "genus": "CoordSys",
+          "parents": {
+            "axisX": "33",
+            "axisY": "32"
+          },
+          "constraint": "CoordSys",
+          "shape": "rectangular",
+          "style": {
+            "hidden": true,
+            "grid": "gridlines"
+          }
+        },
+        "35": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordSys": "34"
+          },
+          "coordX": 1,
+          "coordY": 0,
+          "constraint": "PlotFixedXFixedY",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "36": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "35",
+            "p1": "31"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,125)",
+            "width": 1
+          }
+        },
+        "37": {
+          "kind": "Expression",
+          "genus": "DistanceParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1088,
+              "y": 70
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "15 pixels",
+          "label": "cross_size",
+          "style": {
+            "hidden": true,
+            "font-size": 10,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "38": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "22",
+            "distance": "37"
+          },
+          "angle": 0,
+          "constraint": "TranslateMeasureDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "39": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "38",
+            "p1": "22"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "40": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "22",
+            "p1": "38"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "selectable": false
+          }
+        },
+        "41": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "39",
+            "center": "22"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "42": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "41",
+            "center": "22"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "43": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "42",
+            "center": "22"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "44": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 152,
+              "y": 67
+            }
+          },
+          "style": {
+            "hidden": true
+          }
+        },
+        "45": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "44"
+          },
+          "geom": {
+            "loc": {
+              "x": 172,
+              "y": 53
+            }
+          },
+          "label": "Hide Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 14
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Point",
+            "Show Point"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "46": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "45"
+          },
+          "geom": {
+            "loc": {
+              "x": 172,
+              "y": 75
+            }
+          },
+          "label": "Erase Traces",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 14
+            }
+          },
+          "constraint": "ActionButtonPresentSimultaneously",
+          "messages": [
+            "Erase Traces"
+          ],
+          "stopAfter": "firstActionStops",
+          "eraseAnyTraces": true
+        },
+        "47": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "19"
+          },
+          "value": 0.53267973856209,
+          "constraint": "PointOnPath",
+          "label": "H[1]",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -14,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "48": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "47",
+            "path": "19"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 122,
+              "y": 133
+            }
+          },
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "49": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "48"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 122,
+              "y": 155
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "round(9*@0)/9",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "50": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "param": "49",
+            "path": "19"
+          },
+          "constraint": "PlotValueOnPath",
+          "style": {
+            "hidden": true
+          }
+        },
+        "51": {
+          "kind": "Sampler",
+          "genus": "PointLocus",
+          "parents": {
+            "0": "48",
+            "1": "49",
+            "2": "50",
+            "drivenObject": "50",
+            "domainObject": "19",
+            "driverObject": "47"
+          },
+          "constraint": "GeomLocus",
+          "style": {
+            "color": "aqua",
+            "line-style": "solid",
+            "width": 3,
+            "endpointRadius": 2.5,
+            "arrowheadRadius": 8
+          },
+          "numSamples": 500,
+          "isDiscrete": false,
+          "showEndpoints": true,
+          "driverDomain": {
+            "low": 0,
+            "high": 1
+          }
+        },
+        "52": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "51"
+          },
+          "value": 0.94589178356714,
+          "constraint": "PointOnPath",
+          "label": "difficulty",
+          "style": {
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -38,
+              "labelOffsetY": -32
+            }
+          }
+        },
+        "53": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "52"
+          },
+          "angle": 1.5707963267949,
+          "distance": 20,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "54": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "52",
+            "path": "19"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 180
+            }
+          },
+          "label": "m[2]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "55": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "54"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 203
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "trunc(9.999*(1-@0)+1)",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "56": {
+          "kind": "Text",
+          "genus": "CompositeText",
+          "parents": {
+            "p0": "53",
+            "text": "55"
+          },
+          "constraint": "Pegged",
+          "style": {
+            "font-size": 24,
+            "color": "black"
+          }
+        },
+        "57": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "54"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "60 pixels*@0+10 pixels",
+          "label": "m[5]",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "58": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "57"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/5",
+          "label": "tolerance",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "59": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "52",
+            "path": "19"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 435,
+              "y": 91
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "60": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "9",
+            "p1": "52"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,0,126)"
+          }
+        },
+        "61": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "60"
+          },
+          "value": 0.43072602454754,
+          "constraint": "PointOnPath",
+          "label": "P",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -9,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "62": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "61",
+            "path": "60"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "63": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "62",
+            "1": "26"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 121
+            }
+          },
+          "label": "Move start\u2192d",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move start\u2192d"
+          ],
+          "rate": 0
+        },
+        "64": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "62",
+            "1": "26"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "65": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "64"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1-sgn(.5+sgn(@0)))/2",
+          "label": "m[2]<0",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "66": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "64",
+            "1": "65"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0+@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "67": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "61",
+            "path": "60"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 482
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "68": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "param": "67",
+            "path": "7"
+          },
+          "constraint": "PlotValueOnPath",
+          "label": "d",
+          "style": {
+            "selectable": false,
+            "traced": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "69": {
+          "kind": "Measure",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "p0": "22",
+            "obj0": "68"
+          },
+          "constraint": "MeasurementDistance",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "label": "Zd",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "70": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "69",
+            "1": "58"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "71": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "70"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1+sgn(-.5+sgn(@0)))/2",
+          "label": "m[2]>0",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "72": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "70",
+            "1": "71"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0*@1",
+          "label": "m[4]",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "73": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "72",
+            "1": "57"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 115
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": ".25*(1-@0/@1)",
+          "label": "m[3]",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "74": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "23",
+            "blue": "27",
+            "green": "28",
+            "red": "73"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "label": "e",
+          "style": {
+            "traced": true,
+            "color": "red",
+            "radius": 6
+          }
+        },
+        "75": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "parents": {
+            "p0": "74"
+          },
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "constraint": "PictureCenteredOnOnePoint",
+          "image": 0,
+          "style": {
+            "opacity": 1,
+            "layerOrder": 3
+          }
+        },
+        "76": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "source": "7",
+            "blue": "27",
+            "green": "28",
+            "red": "73"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "style": {
+            "selectable": false,
+            "color": "red",
+            "layerOrder": 2
+          }
+        },
+        "77": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "72",
+            "1": "57"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "78": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordX": "66",
+            "coordY": "77",
+            "coordSys": "34"
+          },
+          "constraint": "PlotMarkedXMarkedY",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "79": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "78",
+            "blue": "27",
+            "green": "28",
+            "red": "73"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "traced": true,
+            "color": "red"
+          }
+        },
+        "80": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "79"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 216
+            }
+          },
+          "label": "Show Plotted Point",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Show Plotted Point",
+            "Hide Plotted Point"
+          ],
+          "fade": true
+        },
+        "81": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "79"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 254
+            }
+          },
+          "label": "Hide Plotted Point",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Plotted Point",
+            "Show Plotted Point"
+          ],
+          "fade": true
+        },
+        "82": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "68",
+            "center": "20",
+            "angle": "21"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "83": {
+          "kind": "Sampler",
+          "genus": "PointLocus",
+          "parents": {
+            "0": "67",
+            "1": "68",
+            "2": "82",
+            "drivenObject": "82",
+            "domainObject": "60",
+            "driverObject": "61"
+          },
+          "constraint": "GeomLocus",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "line-style": "solid",
+            "width": 1,
+            "endpointRadius": 2,
+            "arrowheadRadius": 6.5
+          },
+          "numSamples": 500,
+          "isDiscrete": false,
+          "showEndpoints": true,
+          "driverDomain": {
+            "low": 0,
+            "high": 1
+          }
+        },
+        "84": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "83"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 159
+            }
+          },
+          "label": "Hide Locus",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Locus",
+            "Show Locus"
+          ],
+          "shouldAutogenerateLabel": true,
+          "fade": true
+        },
+        "85": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "83"
+          },
+          "geom": {
+            "loc": {
+              "x": 106,
+              "y": 427
+            }
+          },
+          "latentVisibility": true,
+          "label": "Check Result",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 24
+            }
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Check Result",
+            "Check Result"
+          ],
+          "fade": true
+        },
+        "86": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "85"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 273
+            }
+          },
+          "label": "Show Action Button Check Result",
+          "style": {
+            "hidden": true,
+            "color": "black"
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Show Action Button Check Result",
+            "Hide Action Button Check Result"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "87": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "85"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 140
+            }
+          },
+          "label": "Hide Action Button Check Result",
+          "style": {
+            "hidden": true,
+            "color": "black"
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Action Button Check Result",
+            "Show Action Button Check Result"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "88": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "61"
+          },
+          "geom": {
+            "loc": {
+              "x": 928,
+              "y": 565
+            }
+          },
+          "label": "Animate Point",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonAnimate",
+          "messages": [
+            "Animate Point"
+          ],
+          "animationStates": [
+            {
+              "rate": 1,
+              "timeInterval": 0,
+              "repeat": false,
+              "motionType": "forward"
+            }
+          ]
+        },
+        "89": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "88"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 235
+            }
+          },
+          "label": "Present Animation",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonPresentSimultaneously",
+          "messages": [
+            "Present Animation"
+          ],
+          "stopAfter": "firstActionStops",
+          "stopAnyMotions": true,
+          "eraseAnyTraces": true
+        },
+        "90": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "63",
+            "1": "87",
+            "2": "84",
+            "3": "13",
+            "4": "14",
+            "5": "80",
+            "6": "89",
+            "7": "81",
+            "8": "86"
+          },
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 334
+            }
+          },
+          "label": "Ready\u2026Set\u2026Go",
+          "style": {
+            "label": {
+              "font-size": 24
+            }
+          },
+          "constraint": "ActionButtonPresentSequentially",
+          "messages": [
+            "Ready\u2026Set\u2026Go"
+          ],
+          "waitTime": 0,
+          "stopAnyMotions": true,
+          "eraseAnyTraces": true
+        },
+        "91": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "parents": {
+            "p0": "68"
+          },
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "constraint": "PictureCenteredOnOnePoint",
+          "image": 1,
+          "style": {
+            "selectable": false,
+            "opacity": 1,
+            "layerOrder": 4
+          }
+        },
+        "92": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 435,
+              "y": 76
+            }
+          },
+          "textMFS": "<T'Drag the dependent variable (the frog)'>"
+        },
+        "93": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "20",
+            "p1": "22"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "width": 0.5
+          }
+        },
+        "94": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "20",
+            "p1": "74"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "width": 0.5
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "title": "2",
+        "id": "2",
+        "sketchRect": {
+          "top": 16,
+          "left": 89,
+          "bottom": 613,
+          "right": 1046
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "px",
+          "angle": "signed deg"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 0,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "Points": {
+            "color": "blue"
+          },
+          "Straights": {
+            "color": "blue"
+          },
+          "Curves": {
+            "color": "white"
+          },
+          "Interior": {
+            "color": "red"
+          },
+          "Plot": {
+            "color": "rgb(124,0,124)"
+          },
+          "PointLocus": {
+            "color": "black"
+          },
+          "Selection": {
+            "color": "rgb(251,0,251)"
+          },
+          "Background": {
+            "color": "rgb(205,234,245)"
+          },
+          "ActionButton": {
+            "color": "rgb(255,128,0)"
+          }
+        },
+        "text": {
+          "mathItalicization": true,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-weight": "normal",
+              "font-style": "italic"
+            },
+            "Caption": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 24,
+              "font-style": "italic",
+              "color": "rgb(0,0,254)"
+            },
+            "Measurement": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 12
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Times New Roman\", sans-serif",
+                "font-size": 12,
+                "color": "blue"
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif"
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Arial\", sans-serif"
+            }
+          }
+        },
+        "limitScrolling": true
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 454,
+              "y": 123
+            }
+          },
+          "label": "S",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -5,
+              "labelOffsetY": -26,
+              "font-size": 18
+            }
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 453,
+              "y": 266
+            }
+          },
+          "label": "T",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 5,
+              "labelOffsetY": -1,
+              "font-size": 18
+            }
+          }
+        },
+        "3": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 396,
+              "y": 332
+            }
+          },
+          "label": "U",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -23,
+              "labelOffsetY": -6,
+              "font-size": 18
+            }
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 524,
+              "y": 334
+            }
+          },
+          "label": "V",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -1,
+              "labelOffsetY": -25,
+              "font-size": 18
+            }
+          }
+        },
+        "5": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 524,
+              "y": 182
+            }
+          },
+          "label": "W",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -2,
+              "labelOffsetY": 4,
+              "font-size": 18
+            }
+          }
+        },
+        "6": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "0": "1",
+            "1": "2",
+            "2": "3",
+            "3": "4",
+            "4": "5"
+          },
+          "constraint": "PolygonFromPoints",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,254,254)",
+            "layerOrder": 1,
+            "framePerimeter": true
+          }
+        },
+        "7": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 483.0671634153,
+              "y": 473.12720381261
+            }
+          },
+          "label": "L",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1138,
+              "y": 572
+            }
+          },
+          "label": "N",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -27,
+              "labelOffsetY": -14
+            }
+          }
+        },
+        "9": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 106,
+              "y": 383
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.49999",
+          "label": "Countdown",
+          "style": {
+            "font-size": 24,
+            "color": "rgb(0,0,254)",
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "10": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 531
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "3.4",
+          "label": "ready",
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 1,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "11": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 555
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.49999",
+          "label": "go",
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "12": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "10",
+            "1": "9"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 232
+            }
+          },
+          "label": "Move Countdown \u2192 ready",
+          "style": {
+            "hidden": true,
+            "label": {
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move Countdown \u2192 ready"
+          ],
+          "shouldAutogenerateLabel": true,
+          "rate": 0
+        },
+        "13": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "11",
+            "1": "9"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 251
+            }
+          },
+          "label": "Move Countdown \u2192 go",
+          "style": {
+            "hidden": true,
+            "label": {
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move Countdown \u2192 go"
+          ],
+          "shouldAutogenerateLabel": true,
+          "rate": 3
+        },
+        "14": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "8"
+          },
+          "angle": 3.1415926535898,
+          "distance": 250,
+          "constraint": "TranslateFixDistFixAngle",
+          "label": "hard",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -10,
+              "labelOffsetY": 5,
+              "font-size": 18
+            }
+          }
+        },
+        "15": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "14"
+          },
+          "angle": 3.1415926535898,
+          "distance": 250,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "16": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "14",
+            "p1": "15"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,0,126)",
+            "line-style": "dashed"
+          }
+        },
+        "17": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "16"
+          },
+          "value": 2.448,
+          "constraint": "PointOnPath",
+          "label": "easy",
+          "style": {
+            "hidden": true,
+            "selectable": false,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -24,
+              "labelOffsetY": 5,
+              "font-size": 18
+            }
+          }
+        },
+        "18": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "14",
+            "p1": "17"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,126)"
+          }
+        },
+        "19": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 683,
+              "y": 195
+            }
+          },
+          "label": "C",
+          "style": {
+            "selectable": false,
+            "color": "rgb(255,128,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "20": {
+          "kind": "Expression",
+          "genus": "AngleParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 108,
+              "y": 293
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "90\u00b0",
+          "label": "\u03b8",
+          "style": {
+            "selectable": false,
+            "font-size": 24,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "21": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 696,
+              "y": 399
+            }
+          },
+          "label": "Z",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -19,
+              "labelOffsetY": -27
+            }
+          }
+        },
+        "22": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "21",
+            "center": "19",
+            "angle": "20"
+          },
+          "constraint": "RotateMeasureAngle",
+          "label": "e",
+          "style": {
+            "hidden": true,
+            "traced": true,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -22,
+              "labelOffsetY": 5
+            },
+            "radius": 6
+          }
+        },
+        "23": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "center": "19",
+            "p0": "21",
+            "p1": "22"
+          },
+          "constraint": "ArcAroundPoint",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,127)"
+          }
+        },
+        "24": {
+          "kind": "PathMarker",
+          "genus": "PathMarker",
+          "parents": {
+            "path": "23"
+          },
+          "value": 0.98216029034511,
+          "constraint": "PathMarker",
+          "style": {
+            "selectable": false,
+            "color": "black",
+            "tick-mark-style": "OpenArrow",
+            "strokes": 1,
+            "arrow-direction": "Forward"
+          }
+        },
+        "25": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 840,
+              "y": 173
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1",
+          "label": "s",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "26": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 840,
+              "y": 147
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1",
+          "label": "v",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "27": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 840,
+              "y": 97
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.1050288540807912",
+          "label": "start",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "28": {
+          "kind": "Expression",
+          "genus": "DistanceParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1088,
+              "y": 70
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "15 pixels",
+          "label": "cross_size",
+          "style": {
+            "hidden": true,
+            "font-size": 10,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "29": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "21",
+            "distance": "28"
+          },
+          "angle": 0,
+          "constraint": "TranslateMeasureDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "30": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "29",
+            "p1": "21"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "31": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "21",
+            "p1": "29"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "selectable": false
+          }
+        },
+        "32": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "30",
+            "center": "21"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "33": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "32",
+            "center": "21"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "34": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "33",
+            "center": "21"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "35": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 152,
+              "y": 67
+            }
+          },
+          "style": {
+            "hidden": true
+          }
+        },
+        "36": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "35"
+          },
+          "geom": {
+            "loc": {
+              "x": 172,
+              "y": 53
+            }
+          },
+          "label": "Hide Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 14,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Point",
+            "Show Point"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "37": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "36"
+          },
+          "geom": {
+            "loc": {
+              "x": 172,
+              "y": 75
+            }
+          },
+          "label": "Erase Traces",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 14,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonPresentSimultaneously",
+          "messages": [
+            "Erase Traces"
+          ],
+          "stopAfter": "firstActionStops",
+          "eraseAnyTraces": true
+        },
+        "38": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "18"
+          },
+          "value": 0.15849673202614,
+          "constraint": "PointOnPath",
+          "label": "C[1]",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -13,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "39": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "38",
+            "path": "18"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 1325,
+              "y": 218
+            }
+          },
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "40": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "39"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1325,
+              "y": 240
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "round(9*@0)/9",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "41": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "param": "40",
+            "path": "18"
+          },
+          "constraint": "PlotValueOnPath",
+          "style": {
+            "hidden": true
+          }
+        },
+        "42": {
+          "kind": "Sampler",
+          "genus": "PointLocus",
+          "parents": {
+            "0": "39",
+            "1": "40",
+            "2": "41",
+            "drivenObject": "41",
+            "domainObject": "18",
+            "driverObject": "38"
+          },
+          "constraint": "GeomLocus",
+          "style": {
+            "color": "aqua",
+            "line-style": "solid",
+            "width": 3,
+            "endpointRadius": 2.5,
+            "arrowheadRadius": 8
+          },
+          "numSamples": 500,
+          "isDiscrete": false,
+          "showEndpoints": true,
+          "driverDomain": {
+            "low": 0,
+            "high": 1
+          }
+        },
+        "43": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "42"
+          },
+          "value": 0.94589178356714,
+          "constraint": "PointOnPath",
+          "label": "difficulty",
+          "style": {
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -36,
+              "labelOffsetY": -32
+            }
+          }
+        },
+        "44": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "43"
+          },
+          "angle": 1.5707963267949,
+          "distance": 20,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "45": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "43",
+            "path": "18"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 290
+            }
+          },
+          "label": "m[3]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "46": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "45"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 442
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "trunc(9.999*(1-@0)+1)",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "47": {
+          "kind": "Text",
+          "genus": "CompositeText",
+          "parents": {
+            "p0": "44",
+            "text": "46"
+          },
+          "constraint": "Pegged",
+          "style": {
+            "font-style": "normal",
+            "color": "black"
+          }
+        },
+        "48": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "45"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 309
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "60 pixels*@0+10 pixels",
+          "label": "radius",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "49": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "48"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 327
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/5",
+          "label": "tolerance",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "50": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "8",
+            "p1": "43"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,0,126)"
+          }
+        },
+        "51": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "50"
+          },
+          "value": 0.10502885408079,
+          "constraint": "PointOnPath",
+          "label": "P",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -9,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "52": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "51"
+          },
+          "geom": {
+            "loc": {
+              "x": 939,
+              "y": 567
+            }
+          },
+          "label": "Animate Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonAnimate",
+          "messages": [
+            "Animate Point"
+          ],
+          "animationStates": [
+            {
+              "rate": 1,
+              "timeInterval": 0,
+              "repeat": false,
+              "motionType": "forward"
+            }
+          ]
+        },
+        "53": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "52"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 289
+            }
+          },
+          "label": "Present Animation",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonPresentSimultaneously",
+          "messages": [
+            "Present Animation"
+          ],
+          "stopAfter": "firstActionStops",
+          "stopAnyMotions": true,
+          "eraseAnyTraces": true
+        },
+        "54": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "51",
+            "path": "50"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 191
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "55": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "54",
+            "1": "27"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 226
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-@1",
+          "label": "m[2]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "56": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "55"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 245
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1-sgn(.5+sgn(@0)))/2",
+          "label": "m[2]<0",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "57": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "55",
+            "1": "56"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 267
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0+@1",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "58": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "54",
+            "1": "27"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 175
+            }
+          },
+          "label": "start\u2192d",
+          "style": {
+            "hidden": true,
+            "label": {
+              "color": "black"
+            }
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "start\u2192d"
+          ],
+          "rate": 0
+        },
+        "59": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "param": "54",
+            "path": "6"
+          },
+          "constraint": "PlotValueOnPath",
+          "label": "d",
+          "style": {
+            "selectable": false,
+            "traced": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "60": {
+          "kind": "Measure",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "p0": "21",
+            "obj0": "59"
+          },
+          "constraint": "MeasurementDistance",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 208
+            }
+          },
+          "label": "Zd",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "61": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "60",
+            "1": "49"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 345
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-@1",
+          "label": "m[2]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "62": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "61"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 363
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1+sgn(-.5+sgn(@0)))/2",
+          "label": "m[2]>0",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "63": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "61",
+            "1": "62"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 385
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0*@1",
+          "label": "effective_distance",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "64": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "63",
+            "1": "48"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 840,
+              "y": 199
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": ".25*(1-@0/@1)",
+          "label": "h",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "65": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "22",
+            "blue": "26",
+            "green": "25",
+            "red": "64"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "label": "e",
+          "style": {
+            "traced": true,
+            "color": "red",
+            "radius": 6
+          }
+        },
+        "66": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "parents": {
+            "p0": "65"
+          },
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "constraint": "PictureCenteredOnOnePoint",
+          "image": 1,
+          "style": {
+            "opacity": 1,
+            "layerOrder": 3
+          }
+        },
+        "67": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "source": "6",
+            "blue": "26",
+            "green": "25",
+            "red": "64"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "style": {
+            "selectable": false,
+            "layerOrder": 2
+          }
+        },
+        "68": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "63",
+            "1": "48"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 846,
+              "y": 403
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/@1",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "69": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "59",
+            "center": "19",
+            "angle": "20"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)",
+            "radius": 6
+          }
+        },
+        "70": {
+          "kind": "Sampler",
+          "genus": "PointLocus",
+          "parents": {
+            "0": "69",
+            "drivenObject": "69",
+            "domainObject": "6",
+            "driverObject": "59"
+          },
+          "constraint": "GeomLocus",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "line-style": "solid",
+            "width": 1,
+            "endpointRadius": 2,
+            "arrowheadRadius": 6.5
+          },
+          "numSamples": 500,
+          "isDiscrete": false,
+          "showEndpoints": true,
+          "driverDomain": {
+            "low": 0,
+            "high": 1
+          }
+        },
+        "71": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "70"
+          },
+          "geom": {
+            "loc": {
+              "x": 106,
+              "y": 427
+            }
+          },
+          "latentVisibility": true,
+          "label": "Check Result",
+          "style": {
+            "label": {
+              "font-size": 24,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Check Result",
+            "Check Result"
+          ],
+          "fade": true
+        },
+        "72": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "71"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 327
+            }
+          },
+          "label": "Show Action Button Check Result",
+          "style": {
+            "hidden": true,
+            "color": "black"
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Show Action Button Check Result",
+            "Hide Action Button Check Result"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "73": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "71"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 194
+            }
+          },
+          "label": "Hide Action Button Check Result",
+          "style": {
+            "hidden": true,
+            "color": "black"
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Action Button Check Result",
+            "Show Action Button Check Result"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "74": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "70"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 213
+            }
+          },
+          "label": "Hide Locus",
+          "style": {
+            "hidden": true,
+            "label": {
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Locus",
+            "Show Locus"
+          ],
+          "shouldAutogenerateLabel": true,
+          "fade": true
+        },
+        "75": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "parents": {
+            "p0": "59"
+          },
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "constraint": "PictureCenteredOnOnePoint",
+          "image": 0,
+          "style": {
+            "selectable": false,
+            "opacity": 1,
+            "layerOrder": 4
+          }
+        },
+        "76": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 425,
+              "y": 29
+            }
+          },
+          "textMFS": "<VL<T'Rotation Dance 2'>>",
+          "style": {
+            "selectable": false,
+            "font-family": 0,
+            "font-size": 36,
+            "font-weight": "bold",
+            "font-style": "normal"
+          }
+        },
+        "77": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 427,
+              "y": 76
+            }
+          },
+          "textMFS": "<VL<T'Drag the dependent variable (the penguin)'>>",
+          "style": {
+            "font-size": 18,
+            "font-style": "normal"
+          }
+        },
+        "78": {
+          "kind": "Point",
+          "genus": "OriginPoint",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 279,
+              "y": 536
+            }
+          },
+          "label": "B[1]",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -34,
+              "labelOffsetY": -15
+            },
+            "radius": 2
+          }
+        },
+        "79": {
+          "kind": "Point",
+          "genus": "UnitPoint",
+          "parents": {
+            "origin": "78"
+          },
+          "value": 610.1,
+          "constraint": "HorizontalUnitPoint",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)",
+            "radius": 2
+          }
+        },
+        "80": {
+          "kind": "Point",
+          "genus": "UnitPoint",
+          "parents": {
+            "unitPoint": "79"
+          },
+          "unitDistance": 76.1,
+          "constraint": "UnitPointInternalRectangle",
+          "label": "A[1]",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            },
+            "radius": 2
+          }
+        },
+        "81": {
+          "kind": "Measure",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "p0": "80",
+            "obj0": "78"
+          },
+          "constraint": "MeasurementDistance",
+          "geom": {
+            "loc": {
+              "x": 1056,
+              "y": 74
+            }
+          },
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "82": {
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "78",
+            "unitPoint": "80"
+          },
+          "constraint": "AxisInternalDist",
+          "orientation": "vertical",
+          "label": "y",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
+          }
+        },
+        "83": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "78",
+            "p1": "79"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "selectable": false,
+            "color": "rgb(0,0,125)",
+            "width": 0.5
+          }
+        },
+        "84": {
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "78",
+            "unitPoint": "79"
+          },
+          "constraint": "AxisInternalDist",
+          "orientation": "horizontal",
+          "label": "x",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
+          }
+        },
+        "85": {
+          "kind": "CoordSys",
+          "genus": "CoordSys",
+          "parents": {
+            "axisX": "84",
+            "axisY": "82"
+          },
+          "constraint": "CoordSys",
+          "shape": "rectangular",
+          "style": {
+            "hidden": true,
+            "grid": "gridlines"
+          }
+        },
+        "86": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordX": "57",
+            "coordY": "68",
+            "coordSys": "85"
+          },
+          "constraint": "PlotMarkedXMarkedY",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "87": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "86",
+            "blue": "26",
+            "green": "25",
+            "red": "64"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "traced": true,
+            "color": "red"
+          }
+        },
+        "88": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "87"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 308
+            }
+          },
+          "label": "Hide Plotted Point",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Plotted Point",
+            "Show Plotted Point"
+          ],
+          "fade": true
+        },
+        "89": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "87"
+          },
+          "geom": {
+            "loc": {
+              "x": 910,
+              "y": 270
+            }
+          },
+          "label": "Show Plotted Point",
+          "style": {
+            "hidden": true
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Show Plotted Point",
+            "Hide Plotted Point"
+          ],
+          "fade": true
+        },
+        "90": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "58",
+            "1": "73",
+            "2": "74",
+            "3": "12",
+            "4": "13",
+            "5": "89",
+            "6": "53",
+            "7": "88",
+            "8": "72"
+          },
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 334
+            }
+          },
+          "label": "Ready\u2026Set\u2026Go",
+          "style": {
+            "label": {
+              "font-size": 24
+            }
+          },
+          "constraint": "ActionButtonPresentSequentially",
+          "messages": [
+            "Ready\u2026Set\u2026Go"
+          ],
+          "waitTime": 0,
+          "eraseAnyTraces": true
+        },
+        "91": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "21",
+            "p1": "19"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "width": 0.5
+          }
+        },
+        "92": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "19",
+            "p1": "65"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "width": 0.5
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "title": "3",
+        "id": "3",
+        "sketchRect": {
+          "top": 16,
+          "left": 89,
+          "bottom": 613,
+          "right": 1046
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "px",
+          "angle": "signed deg"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 0,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "Points": {
+            "color": "green"
+          },
+          "Straights": {
+            "color": "blue"
+          },
+          "Curves": {
+            "color": "white"
+          },
+          "Interior": {
+            "color": "rgb(0,254,0)"
+          },
+          "Plot": {
+            "color": "rgb(124,0,124)"
+          },
+          "PointLocus": {
+            "color": "black"
+          },
+          "Selection": {
+            "color": "rgb(251,0,251)"
+          },
+          "Background": {
+            "color": "rgb(205,234,245)"
+          },
+          "ActionButton": {
+            "color": "rgb(255,128,0)"
+          }
+        },
+        "text": {
+          "mathItalicization": true,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-weight": "normal",
+              "font-style": "italic"
+            },
+            "Caption": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 24,
+              "color": "rgb(0,0,254)"
+            },
+            "Measurement": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 24
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Times New Roman\", sans-serif",
+                "font-size": 18
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif"
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Arial\", sans-serif"
+            }
+          }
+        },
+        "limitScrolling": true
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 878,
+              "y": 236
+            }
+          },
+          "latentVisibility": true,
+          "label": "S"
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 876,
+              "y": 386
+            }
+          },
+          "latentVisibility": true,
+          "label": "T"
+        },
+        "3": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 703,
+              "y": 446
+            }
+          },
+          "latentVisibility": true,
+          "label": "U"
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 932,
+              "y": 438
+            }
+          },
+          "latentVisibility": true,
+          "label": "V"
+        },
+        "5": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 932,
+              "y": 353
+            }
+          },
+          "latentVisibility": true,
+          "label": "W"
+        },
+        "6": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "0": "1",
+            "1": "2",
+            "2": "3",
+            "3": "4",
+            "4": "5"
+          },
+          "constraint": "PolygonFromPoints",
+          "style": {
+            "hidden": true,
+            "layerOrder": 1,
+            "framePerimeter": true
+          }
+        },
+        "7": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 483.0671634153,
+              "y": 473.12720381261
+            }
+          },
+          "label": "L",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1138,
+              "y": 572
+            }
+          },
+          "label": "N",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -27,
+              "labelOffsetY": -14
+            }
+          }
+        },
+        "9": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 106,
+              "y": 383
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.49999",
+          "label": "Countdown",
+          "style": {
+            "color": "rgb(0,0,254)",
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "10": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 531
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "3.4",
+          "label": "ready",
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 1,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "11": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 555
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.49999",
+          "label": "go",
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "12": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "10",
+            "1": "9"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 178
+            }
+          },
+          "label": "Move Countdown \u2192 ready",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move Countdown \u2192 ready"
+          ],
+          "shouldAutogenerateLabel": true,
+          "rate": 0
+        },
+        "13": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "11",
+            "1": "9"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 197
+            }
+          },
+          "label": "Move Countdown \u2192 go",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move Countdown \u2192 go"
+          ],
+          "shouldAutogenerateLabel": true,
+          "rate": 3
+        },
+        "14": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "8"
+          },
+          "angle": 3.1415926535898,
+          "distance": 250,
+          "constraint": "TranslateFixDistFixAngle",
+          "label": "hard",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -10,
+              "labelOffsetY": 5,
+              "font-size": 18
+            }
+          }
+        },
+        "15": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "14"
+          },
+          "angle": 3.1415926535898,
+          "distance": 250,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "16": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "14",
+            "p1": "15"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,0,126)",
+            "line-style": "dashed"
+          }
+        },
+        "17": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "16"
+          },
+          "value": 2.448,
+          "constraint": "PointOnPath",
+          "label": "easy",
+          "style": {
+            "hidden": true,
+            "selectable": false,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -24,
+              "labelOffsetY": 5,
+              "font-size": 18
+            }
+          }
+        },
+        "18": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "14",
+            "p1": "17"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,126)"
+          }
+        },
+        "19": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 663,
+              "y": 312
+            }
+          },
+          "latentVisibility": true,
+          "label": "C",
+          "style": {
+            "selectable": false,
+            "color": "rgb(255,128,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "20": {
+          "kind": "Expression",
+          "genus": "AngleParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 289
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "-315\u00b0",
+          "latentVisibility": true,
+          "label": "\u03b8",
+          "style": {
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "21": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 626.97204204489,
+              "y": 195.73654403271
+            }
+          },
+          "label": "Z",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "22": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "21",
+            "center": "19",
+            "angle": "20"
+          },
+          "constraint": "RotateMeasureAngle",
+          "label": "e",
+          "style": {
+            "hidden": true,
+            "traced": true,
+            "color": "blue",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -22,
+              "labelOffsetY": 5
+            },
+            "radius": 6
+          }
+        },
+        "23": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1089,
+              "y": 13
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "0.2799139595823285",
+          "label": "start",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "24": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 63
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1",
+          "label": "v",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "25": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 89
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1",
+          "label": "s",
+          "style": {
+            "hidden": true,
+            "font-size": 14,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "26": {
+          "kind": "Expression",
+          "genus": "DistanceParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1076,
+              "y": 115
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "76 pixels",
+          "label": "y-scale",
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "27": {
+          "kind": "Measure",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "path": "18"
+          },
+          "constraint": "MeasurementLength",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 161
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "28": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "17"
+          },
+          "angle": -1.5707963267949,
+          "distance": 36,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "29": {
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "28",
+            "unitDistance": "26"
+          },
+          "constraint": "AxisExternalDist",
+          "orientation": "vertical",
+          "label": "y",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
+          }
+        },
+        "30": {
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "28",
+            "unitDistance": "27"
+          },
+          "constraint": "AxisExternalDist",
+          "orientation": "horizontal",
+          "label": "x",
+          "style": {
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
+          }
+        },
+        "31": {
+          "kind": "CoordSys",
+          "genus": "CoordSys",
+          "parents": {
+            "axisX": "30",
+            "axisY": "29"
+          },
+          "constraint": "CoordSys",
+          "shape": "rectangular",
+          "style": {
+            "hidden": true,
+            "grid": "gridlines"
+          }
+        },
+        "32": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordSys": "31"
+          },
+          "coordX": 1,
+          "coordY": 0,
+          "constraint": "PlotFixedXFixedY",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "33": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "32",
+            "p1": "28"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,125)",
+            "width": 1
+          }
+        },
+        "34": {
+          "kind": "Expression",
+          "genus": "DistanceParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 1088,
+              "y": 70
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "15 pixels",
+          "label": "cross_size",
+          "style": {
+            "hidden": true,
+            "font-size": 10,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "35": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "21",
+            "distance": "34"
+          },
+          "angle": 0,
+          "constraint": "TranslateMeasureDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "36": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "35",
+            "p1": "21"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "37": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "21",
+            "p1": "35"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "selectable": false
+          }
+        },
+        "38": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "36",
+            "center": "21"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "39": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "38",
+            "center": "21"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "40": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "39",
+            "center": "21"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "selectable": false,
+            "color": "white"
+          }
+        },
+        "41": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 152,
+              "y": 67
+            }
+          },
+          "style": {
+            "hidden": true,
+            "color": "blue"
+          }
+        },
+        "42": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "41"
+          },
+          "geom": {
+            "loc": {
+              "x": 172,
+              "y": 53
+            }
+          },
+          "label": "Hide Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 14,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Point",
+            "Show Point"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "43": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "42"
+          },
+          "geom": {
+            "loc": {
+              "x": 172,
+              "y": 75
+            }
+          },
+          "label": "Erase Traces",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 14,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonPresentSimultaneously",
+          "messages": [
+            "Erase Traces"
+          ],
+          "stopAfter": "firstActionStops",
+          "eraseAnyTraces": true
+        },
+        "44": {
+          "kind": "Expression",
+          "genus": "AngleMeasure",
+          "parents": {
+            "0": "20"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 134,
+              "y": 31
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/2",
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 0,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "45": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "21",
+            "center": "19",
+            "angle": "44"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "46": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "18"
+          },
+          "value": 0.26633986928105,
+          "constraint": "PointOnPath",
+          "label": "H[1]",
+          "style": {
+            "hidden": true,
+            "color": "blue",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -14,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "47": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "46",
+            "path": "18"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 1285,
+              "y": 152
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "48": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "47"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1285,
+              "y": 174
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "trunc(9.999*(1-@0)+1)",
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "49": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "48"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1285,
+              "y": 196
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "1-(@0-1)/9",
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "50": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "param": "49",
+            "path": "18"
+          },
+          "constraint": "PlotValueOnPath",
+          "style": {
+            "hidden": true,
+            "color": "blue"
+          }
+        },
+        "51": {
+          "kind": "Sampler",
+          "genus": "PointLocus",
+          "parents": {
+            "0": "47",
+            "1": "48",
+            "2": "49",
+            "3": "50",
+            "drivenObject": "50",
+            "domainObject": "18",
+            "driverObject": "46"
+          },
+          "constraint": "GeomLocus",
+          "style": {
+            "hidden": true,
+            "color": "aqua",
+            "radius": 2,
+            "endpointRadius": 2,
+            "arrowheadRadius": 6.5
+          },
+          "numSamples": 20,
+          "isDiscrete": true,
+          "showEndpoints": true,
+          "driverDomain": {
+            "low": 0,
+            "high": 1
+          }
+        },
+        "52": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "51"
+          },
+          "value": 0.94736842105263,
+          "constraint": "PointOnPath",
+          "label": "difficulty",
+          "style": {
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -38,
+              "labelOffsetY": -32
+            }
+          }
+        },
+        "53": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "52"
+          },
+          "angle": 1.5707963267949,
+          "distance": 20,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "54": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "52",
+            "path": "18"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 180
+            }
+          },
+          "label": "m[2]",
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "55": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "54"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1285,
+              "y": 134
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "trunc(9.999*(1-@0)+1)",
+          "style": {
+            "hidden": true,
+            "font-size": 12,
+            "precision": 0,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "56": {
+          "kind": "Text",
+          "genus": "CompositeText",
+          "parents": {
+            "p0": "53",
+            "text": "55"
+          },
+          "constraint": "Pegged",
+          "style": {
+            "color": "black"
+          }
+        },
+        "57": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "54"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "60 pixels*@0+10 pixels",
+          "label": "m[5]",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "58": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "57"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/5",
+          "label": "tolerance",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "59": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "52",
+            "path": "18"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 435,
+              "y": 91
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "60": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "8",
+            "p1": "52"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(0,0,126)"
+          }
+        },
+        "61": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "60"
+          },
+          "value": 0.27991395958233,
+          "constraint": "PointOnPath",
+          "label": "P",
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -9,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "62": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "61",
+            "path": "60"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "63": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "62",
+            "1": "23"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 121
+            }
+          },
+          "label": "Move start\u2192d",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Move start\u2192d"
+          ],
+          "rate": 0
+        },
+        "64": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "62",
+            "1": "23"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "65": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "64"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1-sgn(.5+sgn(@0)))/2",
+          "label": "m[2]<0",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "66": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "64",
+            "1": "65"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0+@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "67": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "61",
+            "path": "60"
+          },
+          "constraint": "MeasurementValueOfPointOnPath",
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 482
+            }
+          },
+          "style": {
+            "hidden": true,
+            "font-family": 2,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "68": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "param": "67",
+            "path": "6"
+          },
+          "constraint": "PlotValueOnPath",
+          "label": "d",
+          "style": {
+            "selectable": false,
+            "traced": true,
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -23,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "69": {
+          "kind": "Measure",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "p0": "21",
+            "obj0": "68"
+          },
+          "constraint": "MeasurementDistance",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "label": "Zd",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "70": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "69",
+            "1": "58"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "71": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "70"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1+sgn(-.5+sgn(@0)))/2",
+          "label": "m[2]>0",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "72": {
+          "kind": "Expression",
+          "genus": "DistanceMeasure",
+          "parents": {
+            "0": "70",
+            "1": "71"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0*@1",
+          "label": "m[4]",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "73": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "72",
+            "1": "57"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 929,
+              "y": 115
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": ".25*(1-@0/@1)",
+          "label": "m[3]",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel"
+          }
+        },
+        "74": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "22",
+            "blue": "24",
+            "green": "25",
+            "red": "73"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "label": "e",
+          "style": {
+            "traced": true,
+            "color": "red",
+            "radius": 6
+          }
+        },
+        "75": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "21",
+            "p1": "45",
+            "p2": "74"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "selectable": false,
+            "color": "rgb(0,0,127)"
+          }
+        },
+        "76": {
+          "kind": "PathMarker",
+          "genus": "PathMarker",
+          "parents": {
+            "path": "75"
+          },
+          "value": 1,
+          "constraint": "PathMarker",
+          "style": {
+            "selectable": false,
+            "color": "black",
+            "tick-mark-style": "OpenArrow",
+            "strokes": 1,
+            "arrow-direction": "Forward"
+          }
+        },
+        "77": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "parents": {
+            "p0": "74"
+          },
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "constraint": "PictureCenteredOnOnePoint",
+          "image": 0,
+          "style": {
+            "opacity": 1,
+            "layerOrder": 3
+          }
+        },
+        "78": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "source": "6",
+            "blue": "24",
+            "green": "25",
+            "red": "73"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "style": {
+            "selectable": false,
+            "color": "red",
+            "layerOrder": 2
+          }
+        },
+        "79": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "72",
+            "1": "57"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 1080,
+              "y": 161
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0/@1",
+          "style": {
+            "hidden": true,
+            "font-size": 16,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "80": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordX": "66",
+            "coordY": "79",
+            "coordSys": "31"
+          },
+          "constraint": "PlotMarkedXMarkedY",
+          "style": {
+            "hidden": true,
+            "color": "rgb(252,0,0)"
+          }
+        },
+        "81": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "80",
+            "blue": "24",
+            "green": "25",
+            "red": "73"
+          },
+          "colorRange": "LimitToRange",
+          "colorModel": "TrivariateHSV",
+          "parameterDomainFrom": 0,
+          "parameterDomainTo": 1,
+          "constraint": "ColorizeTrivariate",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "traced": true,
+            "color": "red"
+          }
+        },
+        "82": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "81"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 216
+            }
+          },
+          "label": "Show Plotted Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Show Plotted Point",
+            "Hide Plotted Point"
+          ],
+          "fade": true
+        },
+        "83": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "81"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 254
+            }
+          },
+          "label": "Hide Plotted Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Plotted Point",
+            "Show Plotted Point"
+          ],
+          "fade": true
+        },
+        "84": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "68",
+            "center": "19",
+            "angle": "20"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(253,0,0)"
+          }
+        },
+        "85": {
+          "kind": "Sampler",
+          "genus": "PointLocus",
+          "parents": {
+            "0": "67",
+            "1": "68",
+            "2": "84",
+            "drivenObject": "84",
+            "domainObject": "60",
+            "driverObject": "61"
+          },
+          "constraint": "GeomLocus",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "line-style": "solid",
+            "width": 1,
+            "endpointRadius": 2,
+            "arrowheadRadius": 6.5
+          },
+          "numSamples": 500,
+          "isDiscrete": false,
+          "showEndpoints": true,
+          "driverDomain": {
+            "low": 0,
+            "high": 1
+          }
+        },
+        "86": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "85"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 159
+            }
+          },
+          "label": "Hide Locus",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Locus",
+            "Show Locus"
+          ],
+          "shouldAutogenerateLabel": true,
+          "fade": true
+        },
+        "87": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "85"
+          },
+          "geom": {
+            "loc": {
+              "x": 106,
+              "y": 427
+            }
+          },
+          "latentVisibility": true,
+          "label": "Check Result",
+          "style": {
+            "label": {
+              "font-size": 24,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Check Result",
+            "Check Result"
+          ],
+          "fade": true
+        },
+        "88": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "87"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 273
+            }
+          },
+          "label": "Show Action Button Check Result",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonShow",
+          "messages": [
+            "Show Action Button Check Result",
+            "Hide Action Button Check Result"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "89": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "87"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 140
+            }
+          },
+          "label": "Hide Action Button Check Result",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonHide",
+          "messages": [
+            "Hide Action Button Check Result",
+            "Show Action Button Check Result"
+          ],
+          "shouldAutogenerateLabel": true
+        },
+        "90": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "61"
+          },
+          "geom": {
+            "loc": {
+              "x": 928,
+              "y": 565
+            }
+          },
+          "label": "Animate Point",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonAnimate",
+          "messages": [
+            "Animate Point"
+          ],
+          "animationStates": [
+            {
+              "rate": 1,
+              "timeInterval": 0,
+              "repeat": false,
+              "motionType": "forward"
+            }
+          ]
+        },
+        "91": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "90"
+          },
+          "geom": {
+            "loc": {
+              "x": 830,
+              "y": 235
+            }
+          },
+          "label": "Present Animation",
+          "style": {
+            "hidden": true,
+            "label": {
+              "font-size": 12,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonPresentSimultaneously",
+          "messages": [
+            "Present Animation"
+          ],
+          "stopAfter": "firstActionStops",
+          "stopAnyMotions": true,
+          "eraseAnyTraces": true
+        },
+        "92": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "63",
+            "1": "89",
+            "2": "86",
+            "3": "12",
+            "4": "13",
+            "5": "82",
+            "6": "91",
+            "7": "83",
+            "8": "88"
+          },
+          "geom": {
+            "loc": {
+              "x": 107,
+              "y": 334
+            }
+          },
+          "label": "Ready\u2026Set\u2026Go",
+          "style": {
+            "label": {
+              "font-size": 24,
+              "color": "rgb(0,0,254)"
+            }
+          },
+          "constraint": "ActionButtonPresentSequentially",
+          "messages": [
+            "Ready\u2026Set\u2026Go"
+          ],
+          "waitTime": 0,
+          "stopAnyMotions": true,
+          "eraseAnyTraces": true
+        },
+        "93": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "parents": {
+            "p0": "68"
+          },
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "constraint": "PictureCenteredOnOnePoint",
+          "image": 1,
+          "style": {
+            "selectable": false,
+            "opacity": 1,
+            "layerOrder": 4
+          }
+        },
+        "94": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 425,
+              "y": 29
+            }
+          },
+          "textMFS": "<VL<T'Rotation Dance 3'>>",
+          "style": {
+            "selectable": false,
+            "font-family": 0,
+            "font-size": 36,
+            "font-weight": "bold"
+          }
+        },
+        "95": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "1",
+            "1": "2",
+            "2": "3",
+            "3": "4",
+            "4": "5",
+            "5": "19",
+            "6": "20"
+          },
+          "geom": {
+            "loc": {
+              "x": 115,
+              "y": 47
+            }
+          },
+          "label": "Hide C, \u03b8, and vertices",
+          "constraint": "ActionButtonToggleHideShow",
+          "messages": [
+            "Hide C, \u03b8, and vertices",
+            "Show C, \u03b8, and vertices"
+          ]
+        },
+        "96": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 435,
+              "y": 76
+            }
+          },
+          "textMFS": "<T'Drag the dependent variable (the frog)'>",
+          "style": {
+            "font-size": 18
+          }
+        },
+        "97": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "21",
+            "p1": "19"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "width": 0.5
+          }
+        },
+        "98": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "19",
+            "p1": "74"
+          },
+          "constraint": "Segment",
+          "style": {
+            "selectable": false,
+            "width": 0.5
+          }
+        }
+      }
+    }
+  ]
+}

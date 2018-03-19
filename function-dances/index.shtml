@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Function Dances</title>
+	<meta name="description" content="This lesson supports the transform-dance student project.">
+
+		<script type="text/javascript">
+			WIDGETS.setWidgetsPrefs ([
+				{pages: "none"}, // turn off all widgets for all sketches
+				{sketches; "leopard-construction", pages: "all"},	// all widgets available in this sketch
+				//{widget: "style", sketches: "intro, rotate-stars"}, //turn on the style widget for all pages in sketches intro and rotate-stars.
+				//{sketches: "rotate-stars", pages: "6,7"},	// turn on both widgets for pp. 6 and 7
+				//{widget: "visibility", sketches: "intro", pages: "2"},
+			]);
+		</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area" style="margin:0 auto; padding:10px;">
+
+<div class="title lessonTitle">Geometric Function Dance Project
+	<div class="notesButton buttontip" onclick = "window.open('lesson-template-journal.docx'); $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download lesson journal');">
+		 Ⓙ 
+			<span class="buttontiptext" id="download-text">Download lesson journal</span>
+	</div>
+</div>
+
+<div class = "bodyText">
+<p>This page supports a student project on Geometric Function Dances.</p>
+<p>It currently contains only video examples of dance routines. It can be useful to observe the videos ands identify which functions are being used, and how the dancers transition from one function to another.</p>
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Masters of Dance</p>
+	<div class="fcSectionBody fcVisible">
+		<div class="subsection">
+			<p class="fcSubsectionHead">1a︎︎ The Nicholas Brothers</p>
+			<div class="fcSubsectionBody">
+				<p>The Nicholas brothers were among the best (perhaps <em>the</em> best) American dancers of the 20th century. Though racism limited their appearances, their dances were spectacular in their technique, precision, and originality.</p>
+				<p>As the clip begins, Cab Calloway's band is playing, and Calloway walks out into the audience where the Nicholas brothers are sitting.</p>
+				<video width="960" controls
+					poster="./video/fayard-harold-nicholas.png" >
+					<source
+						src="./video/fayard-harold-nicholas.webm"
+						type="video/webm">
+					<source
+						src="./video/fayard-harold-nicholas.mp4"
+						type="video/mp4">
+					Your browser doesn't support HTML5 video tag.
+				</video>
+				<p>Downloaded from <a href="https://www.youtube.com/watch?v=LBQOfyR75vY">https://www.youtube.com/watch?v=LBQOfyR75vY</a>. The clip comes from the 1943 movie “Stormy Weather,” one of the few movies of that time period to prominently feature Black performers. Read more about the Nicholas Brothers at <a href="https://en.wikipedia.org/wiki/Nicholas_Brothers">https://en.wikipedia.org/wiki/Nicholas_Brothers</a>.</p>
+			</div>
+		</div>
+		<div class="subsection">
+			<p class="fcSubsectionHead">1b Eleanor Powell and Fred Astaire</p>
+			<div class="fcSubsectionBody">
+				<p>Eleanor Powell was one of the great American dancers of the 20th century. In an era in which male dancers were the featured performers, Powell was regarded as the only female dancer who could out-dance Fred Astaire. Judge for yourself... </p>
+				<video width="960" controls
+					poster="./video/powell-astaire.png" >
+					<source
+						src="./video/powell-astaire.webm"
+						type="video/webm">
+					<source
+						src="./video/powell-astaire.mp4"
+						type="video/mp4">
+					Your browser doesn't support HTML5 video tag.
+				</video>
+				<p>Downloaded from <a href="https://www.youtube.com/watch?v=H2pvvGRzTEI">https://www.youtube.com/watch?v=H2pvvGRzTEI</a>. The clip comes from the 1940 movie “Broadway Melody.” Read more about <a href="https://newrepublic.com/article/110438/remembering-eleanor-powell-the-dancer-too-good-fred-astaire">Eleanor Powell—“the dancer too good for Fred Astaire”—here.</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+			
+<div class="section">
+	<p class="fcSectionHead">2 Leopard Dances</p>
+	<div class="fcSectionBody">
+		<div class="subsection">
+			<p class="fcSubsectionHead">2a Demonstration </p>
+			<div class="fcSubsectionBody">
+				<div class="jaxContainer">This websketch demonstrates several animations you can create using the construction steps below.
+				</div>
+				<div class="sketch_container">
+					<div class="sketch_canvas" data-delayed-url="./leopard-demo.json">Loading...</div>
+					<div class="page_buttons"></div>
+					<button class="widget_button"></button>
+				</div>
+			</div>
+		</div>
+		<div class="subsection">
+			<p class="fcSubsectionHead">2b Construction Steps</p>
+			<div class="fcSubsectionBody">
+				<div class="jaxContainer twoColumn">
+					<p>Use pages 1 through 6 to see examples of various construction techniques you can use.</p>
+					<p>Use pages 7 and 8 to construct your own leopard dances. Use the widgets to hide or show elements.</p>
+				</div>
+				<div class="sketch_container">
+					<div class="sketch_canvas" id="leopard-construction" data-delayed-url="./leopard-animation.json">Loading...</div>
+					<div class="page_buttons"></div>
+					<button class="widget_button"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">3 More Coming Soon...</p>
+	<div class="fcSectionBody">
+		<p>Your patience is appreciated.</p>
+	</div>
+</div>
+
+
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>

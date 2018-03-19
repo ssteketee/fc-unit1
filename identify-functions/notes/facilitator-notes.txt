@@ -1,0 +1,36 @@
+Get Started
+	<style type="text/css">
+		.notes .center {text-align: center;}
+		.notes .question {padding-left: 3rem; text-indent: -1.7rem;}
+		.notes img {max-width:450px; border:1px solid;}
+	</style>
+    <p>As a class, look at the sketch on page 1. Begin by inviting a PSMT to the projected computer to drag point `a`. Ask PSMTs to describe the result; they will observe that `a` adn `y` are related. Ask PSMTs what they think will happen if `y` is dragged, and then ask a student to actually drag `y` to see what happens. Discuss the independent/dependent relationship between the two points, noting that `a -> y`.<p>
+    <p>Take a moment for discussion of the realtionship between numeric and geometric variables. PSMTs may observe that they can substitute a number for the value of independent variable a in an equation like `y = 2a + 3` and calculate a result for the dependent variable `y`. By asking PSMTs how they can vary `a` in hte linear function, and how they can vary `a` in the geometric function, encourage them to relaze that htey can vary the independent variable `a` in either type of funciton and see what effect the change has on hte dependent variable `y`.<p>
+    <p>Have the PSMT at the computer continue dragging, and ask her to try to drag a and y to the same location. Ask for suggested descriptions of the relationship. PSMTs may say:<p>
+    <ul>
+        <li>When I drag a to the right, y moves left and slightly up.<li>
+        <li>When I keep draggin a to the right, a and y come together in the middle of the screen.<li>
+        <li>When I drag a up, y moves up and slightly to the right.<li>
+        <li>There are many places where I can drag a to put it together with y. These places seem to lie along a straight line.<li>
+        <li>Variable y moves at the same speed as a, but in a different direction.<li>
+    <ul>
+    <p>Make sure that PSMTs state observations that address the two variables' relative speeds and their relative directions. Lead them to seek locations where the two variables come together. Introduce the term fixed point for such locations.  Ask a PSMTs to drag point a to locate as many fixed points as possible. Use your questioning to encourage students to notice and describe the relative speed and direction of the variables and the existence, locations, and patterns of fixed point(s) throughout this activity.<p>
+    <p>Ask another PSMT try to drag b. When b doesn't move, ask PSMTs what they think this means. Don't evaluate these conjectures; PSMTs will have time later to evaluate and refine their conjectures. Have the same student drag c, and ask students how they should fill in the second grid cell on the left (c → d).<p>
+    <p>Go to page 2 and have another PSMT read the directions. Tell the class that their job is to develop their own definitions of a function. Point out that the directions say that x and x' are an example of a function, and have a different PSMT drag x while the class observes the result. Then have the PSMT drag y to observe the behavior of a non-example. Tell the class that they'll have a number of examples and non-examples, and that their job is to work with their partner to describe the behaviors of the various functions and non-functions and to develop and write the clearest definition of a function that their team can formulate. [Note: Objectives for PSMTs are on page 11 of the activity. You could show those here to set the stage.]<p>
+    <p>Once the directions are clear, have PSMTs work in pairs, going back to page 1 and working through page 10.<p>
+	
+Wrap Up
+	<style type="text/css">
+		.notes .center {text-align: center;}
+		.notes .question {padding-left: 3rem; text-indent: -1.7rem;}
+		.notes img {max-width:450px; border:1px solid;}
+	</style>
+    <p>Begin by asking PSMTs which pages they found most interesting.<p>
+    <p>Next, ask PSMTs to identify common threads they observed as they explored functions and non- functions. Possible observations:<p>
+    <ul>
+        <li>The behavior of non-functions was more interesting than the behavior of functions.<li>
+        <li>Functions always have a single output variable; never more than one and never less than one.<li>
+        <li>What if a relation sometimes has one output value like a function, and sometimes has no output value at all? The definition of a function declares that there is exactly one output value, so relations are hard cases. (They may even prompt mathematicians to take extreme measures like restricting the domain or inventing new kinds of numbers.)<li>
+    <ul>
+    <p>Display definitions from various teams. Encourage PSMTs to debate the merits of the various definitions. Ask questions of your own to clarify students’ thinking and to home in on the critical aspects of their definitions. Discuss and list criteria for a good definition. Formulate a class definition that all can agree on, drawing on as many ideas as possible from the proposed definitions. Have students copy the class definition(s) to their journals. This will be used in all lessons going forward.<p>
+	

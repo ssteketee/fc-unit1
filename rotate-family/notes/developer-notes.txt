@@ -1,0 +1,45 @@
+Get Started
+<style>
+	.s {
+		text-decoration: line-through;
+	}
+</style>
+	<p>Developer notes allow us, as developers, to embed our observations and suggestions directly in the lesson.</p>
+	<p>Revised order on 2/13/18 based on discussion with Daniel. </p>
+	
+Rotate Dances
+		<p> Consider showing just the penguin at first in the Example.</p>
+		<p>The ‘Example’ sketch should show the location of C and the value of theta on both pages. On page 2, students can change the location of C and the value of theta.</p>
+		<p>Repurpose the current ‘Example’ sketch into a game that comes after the physical and virtual rotation dances. Start the game with pages 1 and 3 of Develop Your Methods. For the game itself, make it possible for the sketch to pick new locations of C and values of theta.</p> 
+		<p>The Example sketch questions "Where's the center? What's the angle?" could be made into a game in which you drag a point D to where you think the center is, and set a slider to what you think the angle is, and then press "Check my answer" to see the dance prescribed by your guesses. This would allow you to refine your guess, perhaps even while the dancers  are dancing.</p>
+	<h3>Example</h3>
+		<p>The teacher-note suggestion to use the animation to suggest to students what they'll be doing should be replaced by a video of actual students doing a rotate dance.</p>
+	<h3>Do the Rotate Dance</h3>
+	<h3>Virtual Dance Challenge</h3>
+		<p>Fix long directions on the virtual dance.</p>
+
+Rotation Stars
+	<p><a href="https://geometricfunctions.com/forge-math-connections/index.php?title=Activity:Rotate_Family#To_Do">See wiki to-do list.</a></p>
+	<p>Consider whether the Rotate tool should produce an animation button.</p>
+	<p> Make the text bigger on each page of the websketch.[DONE]</p>
+	<p> Change the default angle of the Angle tool to something other than 90 degrees.[DONE]</p>
+	<p> Change the notation used by the Rotate tool to x', x'', etc., so that compositions are labeled properly.[DONE]</p>
+	<p> Consider removing the Circle tool.[DONE]</p>
+	<p>Record a new Use Widgets video; the existing one is obsolete.</p>
+
+Where, Oh Where, Can the Center Be?
+	<p> Should we make the text in the websketch larger for the Develop Your Methods pages, as we did for Solve the Mystery?</p>
+	<p> Add space on page 3 of Develop Your Methods between 'Where is C hiding?' and the text below it.</p>
+	<p>On page 4 of Develop Your Methods, I'd say, "Penguin and frog are dancing. Press <i>Show Guess</i> and then adjust.."
+	<p> On page 4 of Develop Your Methods, start with tracing turned off.</p> 
+	<p>On page 4 of Develop Your Methods, the button should read “Animate p.”</p> 
+
+
+Go Further
+	<p> Make the text on each page larger.</p>
+
+To Do
+<ul>
+	<li>All activities: A number of help videos are either missing or in need of updating.</li>
+	<li>All activities: Check the in-sketch directions. They should only supplement, not repeat, the web-page directions.</li>
+</ul>

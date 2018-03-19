@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+
+  <title>Function Families</title>
+  <meta name="description" content="This page supports the activity on Identifying Function Families.">
+
+  <script type="text/javascript">
+    WIDGETS.setWidgetsPrefs ([
+      {pages: "none"} // turn off all widgets for all sketches
+//			, {widget: "visibility", sketches: "rotate2", pages: "3,4,5"} // turn on some widgets if desired
+    ]);
+  </script>
+</head>
+
+<body>
+  <div id="templatemo_container">
+    <!--#include virtual="/fc/includes/banner.html" -->
+    <div id="templatemo_content">
+      <div id="templatemo_full_column" style="background:#fff;">
+
+
+<div class="text_area" align="left">
+  
+<div class="title lessonTitle">Identify Function Families
+		<div class="notesButton buttontip" onclick=
+				 "window.open('rotate-family-journal.docx');
+				 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download lesson journal');">
+		 Ⓙ 
+			<span class="buttontiptext" id="download-text">Download lesson journal</span>
+		</a>
+	</div>
+		
+</div>
+
+<div class = "bodyText">
+
+  <p> The members of a function family resemble each other. You will explore the behavior of functions to determine which ones belong to the same family.</p>
+
+  <div class="section">
+    <p class="fcSectionHead">▿︎ Family Resemblances</p>
+    <div class="jaxContainer twoColumn notes">
+      <p>As students analyze the behavior of the four functions on each page, they will find it very helpful to compare the size and orientation of each pair of shapes. (Students may not be familiar with the term <em>asymmetrical</em>. There's no need to define the term at this time; it's sufficient to point out to students that some shapes reveal differences better than others. For instance, if they trace the letter <em>e</em> rather than the letter <em>o,</em> students will find it easier to detect differences in the two shapes.)</p>
+      <p>Though Q3 asks specifically about shape, subsequent questions concentrate focus on behavior of variables. An important objective of this activity is that students connect the differences in the shapes to the relative movement of the variables. What is it about the behavior of the variables that results in the differences they observe in the traced shapes? Students should be able to explain sifferences in shape in terms of the relative rate of change (both speed and direction) of the variables.</p>
+      <p>Looking for fixed points can also be very helpful, partly because function families differ in the number and arrangement of fixed points and partly because dragging through fixed points helps reveal important aspects of the behavior of the variables.</p>
+    </div>
+    <div class="fcSectionBody fcVisible">
+      <div class="jaxContainer twoColumn">
+        <p>On each page of this sketch you’ll analyze four functions to determine which one belongs to a different family from the other three. As part of your investigation you'll compare the relative motion of the two variables (both direction and speed), compare the shapes and sizes of the traces they make, and check each function for fixed points. </p>
+      </div>
+      <p class="fcSubsectionHead">▹︎︎ Worksheet</p>
+        <div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
+          <object data="./identify-families-worksheet.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
+        </div>        
+      <div class="sketch_container">
+        <div class="sketch_canvas" id="sketch" data-url="./identify-families.json">&nbsp;</div>
+        <div class="sketch_caption">     
+          <p>Download the <a href="./identify-families-worksheet.pdf">worksheet.</a>&nbsp; &nbsp; &nbsp; Download the <a href="./identify-families-worksheet.pdf">answer sheet.</a>&nbsp; &nbsp; &nbsp;</p>
+        </div>
+        <span class="page_buttons"></span>
+      </div>		
+    </div>
+  </div>
+
+  <div class="section">
+    <p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+    <div class="fcSectionBody finePrint">
+      <p><strong>Requirements:</strong></p>
+      <p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+      <p><strong>Release Information</strong></p>
+     <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+      <p><strong>Update History:</strong></p>
+     <div class="updateHistory">
+        21 Oct 2017: Migrated from GF to FC format<br>
+        18 Oct 2015: Updated this page to the website format.<br>
+     </div>
+      <br>
+    </div>
+  </div>
+<//div>
+  
+</div> <!--templatemo_text_area-->
+
+
+      </div> <!--templatemo_full_column-->
+    </div> <!--templatemo_content-->
+    <!--#include virtual="/fc/includes/footer.html" -->
+  </div> <!--templatemo_container-->
+</body>
+</html>

@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "width": 780,
+    "height": 540,
+    "wsp-version": "4.5.1-alpha",
+    "wsp-build-number": "1026.6-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180312145504",
+    "exporter-version": "6.00A3007(dev)",
+    "exporter-build": "3007(dev)",
+    "original-document-name": "quadratic-test.gsp",
+    "start-page": "1"
+  },
+  "resources": {
+    "fontList": [
+      "\"Arial\", sans-serif",
+      "\"Times New Roman\", sans-serif"
+    ]
+  },
+  "pages": [
+    {
+      "metadata": {
+        "title": "1",
+        "id": "1",
+        "sketchRect": {
+          "top": 0,
+          "left": 0,
+          "bottom": 540,
+          "right": 780
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "px",
+          "angle": "rad"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 0,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "Straights": {
+            "color": "blue"
+          },
+          "PointLocus": {
+            "color": "blue"
+          },
+          "CoordSys": {
+            "color": "rgb(160,160,160)"
+          },
+          "ActionButton": {
+            "color": "black"
+          }
+        },
+        "text": {
+          "mathItalicization": true,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-weight": "normal"
+            },
+            "Caption": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 18
+            },
+            "Measurement": {
+              "font-family": "\"Arial\", sans-serif"
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Arial\", sans-serif"
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 12
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Arial\", sans-serif",
+              "color": "rgb(160,160,160)"
+            }
+          }
+        }
+      },
+      "objects": {
+        "1": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 10,
+              "y": 5
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "2",
+          "label": "a",
+          "style": {
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "2": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 10,
+              "y": 34
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "-10",
+          "label": "b",
+          "style": {
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "3": {
+          "kind": "Expression",
+          "genus": "ScalarParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 10,
+              "y": 63
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "12",
+          "label": "c",
+          "style": {
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true
+          }
+        },
+        "4": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "2",
+            "1": "1",
+            "2": "3"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 189,
+              "y": 73
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(-@0+sqrt(@0^2-4*@1*@2))/2*@1",
+          "style": {
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate"
+          }
+        },
+        "5": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 165,
+              "y": 204
+            }
+          },
+          "textMFS": "<VL<T'`x = (-b+sqrt(b^2-4ac))/(2a)`'>>"
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 173,
+              "y": 331
+            }
+          },
+          "label": "`x = (-b+sqrt(b^2-4ac))/(2a)`",
+          "style": {
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            },
+            "radius": 6
+          }
+        }
+      }
+    }
+  ]
+}

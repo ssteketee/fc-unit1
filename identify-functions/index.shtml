@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Identify Functions</title>
+	<meta name="description" content="This page supports the activity on Identifying Functions.">
+
+		<script type="text/javascript">
+		WIDGETS.setWidgetsPrefs ([
+			{pages: "none"} // disable all widgets for all sketches; add restrictions if appropriate for "widget", "sketches", and "pages" properties on comma-separated lines below
+		]);
+	</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area">
+<div class="title">Identify Functions</div>
+<div class = "bodyText">
+
+  <div class="section">
+    <p class="fcSectionHead">▿︎ Sketch</p>
+    <div class="jaxContainer twoColumn notes">
+      <p>Facilitator notes go here.</p>
+    </div>
+    <div class="fcSectionBody fcVisible">
+      <div class="jaxContainer">
+        <p>Using this sketch, you’ll learn to distinguish a function from a non-function.</p>
+      </div>
+      <p class="fcSubsectionHead">▹︎︎ Worksheet</p>
+      <div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
+        <object data="./identify-functions.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
+      </div>
+      <div class="sketch_container" style="width: 960px;">
+        <div class="sketch_canvas" id="sketch" data-url="./identify-functions.json">&nbsp;</div>
+        <div class="sketch_caption">
+          <p>Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;</p>
+        </div>
+        <span class="page_buttons"></span>
+      </div>		
+    </div>
+  </div>				
+  
+  
+  <div class="section">
+    <p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+    <div class="fcSectionBody finePrint">
+      <p><strong>Requirements:</strong></p>
+      <p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+      <p><strong>Release Information</strong></p>
+      <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+      <p><strong>Update History:</strong></p>
+     <div class="updateHistory">
+        21 Oct 2017: Migrated to FC site.<br>
+        18 Oct 2015: Created this page.<br>
+     </div>
+      <br>
+    </div>
+  </div>
+
+</div> <!-- bodyText -->
+
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+       
+</body>
+</html>
