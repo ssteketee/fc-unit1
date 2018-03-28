@@ -1,0 +1,31 @@
+Get Started
+<style>
+	.s {
+		text-decoration: line-through;
+	}
+</style>
+	<p>Developer notes allow us, as developers, to embed our observations and suggestions directly in the lesson.</p>
+	<p>Revised order on 2/13/18 based on discussion with Daniel. </p>
+	
+Rotate Dances
+		<p>The ‘Example’ sketch should show the location of C and the value of theta on both pages. On page 2, students can change the location of C and the value of theta.</p>
+		<p>Repurpose the current ‘Example’ sketch into a game that comes after the physical and virtual rotation dances. Start the game with pages 1 and 3 of Develop Your Methods. For the game itself, make it possible for the sketch to pick new locations of C and values of theta.</p> 
+		<p>The Example sketch questions "Where's the center? What's the angle?" could be made into a game in which you drag a point D to where you think the center is, and set a slider to what you think the angle is, and then press "Check my answer" to see the dance prescribed by your guesses. This would allow you to refine your guess, perhaps even while the dancers  are dancing.</p>
+	<h3>Example</h3>
+		<p>The teacher-note suggestion to use the animation to suggest to students what they'll be doing should be replaced by a video of actual students doing a rotate dance.</p>
+	<h3>Do the Rotate Dance</h3>
+	<h3>Virtual Dance Challenge</h3>
+		<p>Fix long directions on the virtual dance.</p>
+
+Rotation Stars
+<a href="https://geometricfunctions.com/forge-math-connections/index.php?title=Activity:Rotate_Family#To_Do">See wiki to-do list.</a>
+
+Where, Oh Where, Can the Center Be?
+	<p>Most of Daniel's comments emailed on 2/11/18 have been addressed. Daniel should check the current version against those comments.</p>
+	<p>Re Daniel's Solve-page-3 concern that students won't realize the segments are of equal length: is it sufficient that Scott added length measurements to the segment tool?</p>
+
+To Do
+<ul>
+	<li>All activities: A number of help videos are either missing or in need of updating.</li>
+	<li>All activities: Check the in-sketch directions. They should only supplement, not repeat, the web-page directions.</li>
+</ul>

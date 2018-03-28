@@ -415,7 +415,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">9︎ Objectives</p>
+	<p class="fcSectionHead">10 Objectives</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
       <p>This page supports the Rotate Family lesson from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. You will construct rotation functions, manipulate and observe them, and learn how this function family behaves.</p>
@@ -443,7 +443,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead" style="font-size: .8rem">10︎︎ The Fine Print</p>
+	<p class="fcSectionHead" style="font-size: .8rem">11︎︎ The Fine Print</p>
 	<div class="fcSectionBody finePrint">
 		<p><strong>Requirements:</strong></p>
 		<p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
@@ -451,7 +451,8 @@
 	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
 		<p><strong>Update History:</strong></p>
 	 <div class="updateHistory">
-			11 Dec 2017: Added Rotation Stars section.
+			27 Mar 2018: Updated to new organization; previous version is preserved temporarily at <a href="https://geometricfunctions.org/fc/unit1/rotate-family-old">https://geometricfunctions.org/fc/unit1/rotate-family-old</a><br>
+			11 Dec 2017: Added Rotation Stars section.<br>
 			16 Oct 2017: Finished sketch, worksheet, and videos for the Restrict the Domain section<br>
 			03 Oct 2017: Created Forging Connections banner<br>
       24 Jul 2017: Adjusted styles<br>

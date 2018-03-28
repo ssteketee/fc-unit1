@@ -1,0 +1,53 @@
+Get Started
+	<p>This note gives the teacher an overview of the activity and provides information relevant to launching it effectively.</p>
+	<p>Include a sample video and a sample table.</p>
+	<p>Provide for teacher/facilitator section at the beginning of each unit and of each activity giving general information. This section should be auto-generated basecd on the section name (Lauch or Conclude) and will be showing by default.</p>
+	<p>Implement a similar mechanism for the unit page. Any headings that aren't already on the page will be auto-generated. Include a flag as to whether each section is showing or hidden by default. For each unit include</p>
+	<ul>
+		<li>Overview & Objectives</li>
+		<li>Pacing</li>
+		<li>Assessment</li>
+	</ul>
+	<p> Allison's documents are at https://docs.google.com/document/d/1MLfYyNAMyf7Xk9rKYpeNyHchqk1pOj9VGNW3ZeOhOpA/edit </p>
+	<p>Put in Dropbox or Google docs a sample txt file that includes all the things mentioned above.</p>
+
+Warm-up
+	<p><strong>These notes are for the facilitator only. </strong></p>
+	<p>(Actually, this is just a prototype, and these notes are really a copy of the teacher notes, which themselves aren't much more than place-holder content.)</p>
+	<p>Ask students to begin the activity by solving this four-part puzzle. Encourage students to share strategies with each other, but only after a minute or two of effort.</p><p>Avoid giving away too much information, though a general hint may be useful encouragement. For instance, you might ask a student who’s frustrated, “What do you notice about how the ball moves when you move player <em>x</em>?”</p>
+	<p>Once most of the class has at least one ball in the basket, call the class to attention, with laptop lids closed, and ask two or three students to demonstrate how they solved particular problems. This is a good opportunity to remind students of important feartures of functions (but don’t interject your own answers or clarifications at this time):</p>
+	<ul>
+		<li>With which player was it easiest to score? Why?</li>
+		<li>Do a player and her ball ever come together in one place? If so, how can you find that place?</li>
+		<li>If you drag a player in a straight line, what sort of path does her ball follow?</li>
+		<li>When you got the ball close to the basket, how did you decide which way to move the mouse?</li>
+		<li>Which function made it easiest to score? Which made it hardest?</li>
+		<li>How can you tell the independent variable from the dependent variable?</li>
+		<li>What do you notice about the relative motion of the two variables?</li>
+		<li>Did these functions have any fixed points? If so, were they useful in finding a solution?</li>
+		<li>What is differant about each of these four functions? What similar features (family resemblances) can you identify?</li>
+	</ul>
+	<p>Tell students that they'll begin this activity by constructing their own Rotate functions.</p>
+
+
+
+Introduction
+	<p>Arrange students in pairs, with each pair responsible for discussing with each other first, and then when appropriate comparing their work to the work of other nearby pairs.</p>
+	<p>Have a student read the directions, and make sure students know how to display the worksheet (if you’re not using printed worksheets) and that they know how to play hint videos.</p>
+	<p>For Q1 and Q2 you may want to have students email you screen captures showing their constructions and traces.</p>
+	<p>Displaying a countdown timer (approximately 8 or 10 minutes) may help to keep students on track.</p>
+	<p>Ask several students to identify one thing they noticed, or one thing they wondered, as they constructed their functions.</p>
+	<p>Here are a couple of possible observations or questions:</p>
+	<ul>
+		<li>What three things are part of every function?</li>
+		<li>How do these three things relate to the tools in this sketch?</li>
+		<li>What do the two functions you constructed have in common? What distinguishes then from each other?</li>
+	</ul>
+
+Rotation Stars
+	<p>The patterns on pages 1 through 5 challenge students to think creatively about how to construct designs with rotation symmetry, and at the same time require them to figure out the angle they must use for symmetries of order 3, 4, 5, 6, 8, 9, 10, and 12.</p>
+	<p>The hint videos are quite explicit and should help students figure out how to use the tools. At the same time, they leave a lot of the responsibility on the student, showing only the first step in creating a different design than the one shown in the sketch.</p>
+	<p>Some students will create designs by repeatedly rotating the same restricted domain (segment or triangle) by creating a single rotate function and then changing its angle parameter. Other students may create multiple rotate functions using the same independent variable but different angles. Still other students may use a single function without changing the angle, by composing rotations (using the output point of one rotate function as the input of another rotate function). As you circulate, note the different approaches used by different students so you can call attention to the variety of useful methods during the class discussion.</p>
+	<p>Encourage students to use pages 6 and 7 creatively, and to make screen captures of their results. Other students may be intrigued by the extra tools provided (the <strong>Circle</strong> and <strong>Perpendicular Bisector</strong> tools), and may find ways to use them in positioning segments, in locating a desired center point, and so forth.</p>
+	<p>On pages 6 and 7, when students use the Style Widget to change the colors of their traces, they must have tracing turned on and tap twice on each point they want to color, because there are actually two overlapping points that need to be colored: the one they drag and the one that leaves traces behind.</p>
+	<p>Many thanks to my young assistant Sebastian for helping me to imagine and implement this sketch.</p>
