@@ -159,15 +159,18 @@
 	<p class="fcSectionHead">4 Rotate Games</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
-			<p>This sketch includes four different Rotate Family games:</p>
+			<p>This sketch includes six different Rotate Family games:</p>
 			<ol>
-				<li><strong>Hit the Target:</strong> You are given the the independent variable and the function rule (the center point and angle of rotation). Your job is to locate the dependent variable.</li>
-				<li><strong>What’s the Angle:</strong> You are given both variables and the center of rotation. Your job is to figure out the angle of rotation.</li>
-				<li><strong>Where’s the Center:</strong> You are given both variables and the angle of rotation. Your job is to locate the center of rotation.</li>
-				<li><strong>Inverse Hit the Target:</strong> You are given the function rule and the independent variable. Your job is to reason backwards to locate the independent variable.</li>
+				<li><strong>Hit the Target:</strong> Given `x`, `C`, and `theta`, where is `R_(C,theta)(x)`?</li>
+				<li><strong>What’s the Angle:</strong> Given `x`, `C`, and `R_(C,theta)(x)`, what’s `theta`?</li>
+				<li><strong>Where’s the Center:</strong> Given `x`, `theta`, and `R_(C,theta)(x)`, where’s `C`?</li>
+				<li><strong>Inverse Hit the Target:</strong> Given `C`, `theta`, and `R_(C,theta)(x)`, where’s `x`?</li>
+				<li><strong>What’s the Angle 2:</strong> Given `x` and `R_(C,theta)(x)` varying, what’s `theta`?</li>
+				<li><strong>What’s the Angle 3:</strong> A slightly more challenging version of What’s the Angle 2.</li>
 			</ol>
+			<p>How well can you do at the higher levels of each game?</p>
     </div>
-		<div class="sketch_container" style="margin-left:60px;">
+		<div class="sketch_container">
 			<div class="sketch_canvas" id="rotate-games" data-delayed-url="./rotate-games.json">Loading...</div>
 			<div class="page_buttons" id="rotate-games-pageCtl"></div>
 		</div>
