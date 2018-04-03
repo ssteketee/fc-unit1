@@ -4,7 +4,7 @@
     "height": 540,
     "wsp-version": "4.5.1-alpha",
     "wsp-build-number": "1020",
-    "wsp-build-stamp": "stek-macbook-pro.fios-router.home/20170525171716",
+    "wsp-build-stamp": "stek-macbook-pro.lan/20180119091811",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "identify-functions.gsp",
@@ -1236,7 +1236,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "77": {
@@ -1259,7 +1260,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "78": {
@@ -1387,7 +1389,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -1416,7 +1419,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -1830,7 +1834,8 @@
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonMove",
           "messages": [
@@ -2032,7 +2037,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "23": {
@@ -2055,7 +2061,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "24": {
@@ -2188,7 +2195,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -2217,7 +2225,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -2729,7 +2738,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "20": {
@@ -2752,7 +2762,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "21": {
@@ -2885,7 +2896,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -2914,7 +2926,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -3239,7 +3252,8 @@
           "shape": "polar",
           "style": {
             "hidden": true,
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "12": {
@@ -3259,7 +3273,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -3300,7 +3315,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "15": {
@@ -3321,7 +3337,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "16": {
@@ -3384,7 +3401,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "19": {
@@ -3721,7 +3739,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "36": {
@@ -3744,7 +3763,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "37": {
@@ -3877,7 +3897,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -3906,7 +3927,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -4368,7 +4390,8 @@
             "hidden": true,
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonMove",
           "messages": [
@@ -4527,7 +4550,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "20": {
@@ -4550,7 +4574,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "21": {
@@ -4683,7 +4708,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -4712,7 +4738,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -5157,7 +5184,8 @@
           "shape": "square",
           "style": {
             "hidden": true,
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "10": {
@@ -5177,7 +5205,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "11": {
@@ -5197,7 +5226,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "12": {
@@ -5217,7 +5247,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -5237,7 +5268,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "14": {
@@ -5258,7 +5290,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "15": {
@@ -5279,7 +5312,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "16": {
@@ -5300,7 +5334,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "17": {
@@ -5321,7 +5356,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "18": {
@@ -5342,7 +5378,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "19": {
@@ -5583,7 +5620,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "31": {
@@ -5606,7 +5644,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "32": {
@@ -5739,7 +5778,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -5768,7 +5808,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -6057,7 +6098,8 @@
           "shape": "square",
           "style": {
             "hidden": true,
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "10": {
@@ -6077,7 +6119,8 @@
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "11": {
@@ -6139,7 +6182,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "14": {
@@ -6160,7 +6204,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "15": {
@@ -6418,7 +6463,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "28": {
@@ -6441,7 +6487,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "29": {
@@ -6574,7 +6621,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -6603,7 +6651,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -6904,7 +6953,8 @@
           "shape": "square",
           "style": {
             "hidden": true,
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "10": {
@@ -6924,7 +6974,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "11": {
@@ -6944,7 +6995,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "12": {
@@ -6964,7 +7016,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -7041,7 +7094,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "18": {
@@ -7081,7 +7135,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "20": {
@@ -7121,7 +7176,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "22": {
@@ -7318,7 +7374,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "32": {
@@ -7341,7 +7398,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "33": {
@@ -7474,7 +7532,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -7503,7 +7562,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -7792,7 +7852,8 @@
           "shape": "square",
           "style": {
             "hidden": true,
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "10": {
@@ -7812,7 +7873,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "11": {
@@ -7832,7 +7894,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "12": {
@@ -7852,7 +7915,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "13": {
@@ -7872,7 +7936,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "14": {
@@ -7892,7 +7957,8 @@
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "15": {
@@ -7912,7 +7978,8 @@
             "hidden": true,
             "precision": 2,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "16": {
@@ -7934,7 +8001,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "17": {
@@ -8175,7 +8243,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "29": {
@@ -8198,7 +8267,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "30": {
@@ -8331,7 +8401,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -8360,7 +8431,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -8579,7 +8651,8 @@
             "hidden": true,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "5": {
@@ -8656,7 +8729,8 @@
           "shape": "square",
           "style": {
             "hidden": true,
-            "grid": "gridlines"
+            "grid": "gridlines",
+            "selectable": false
           }
         },
         "10": {
@@ -8677,7 +8751,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "11": {
@@ -8697,7 +8772,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "12": {
@@ -8719,7 +8795,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "13": {
@@ -8740,7 +8817,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "14": {
@@ -8761,7 +8839,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "15": {
@@ -8821,7 +8900,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "18": {
@@ -8843,7 +8923,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "19": {
@@ -8865,7 +8946,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "20": {
@@ -8887,7 +8969,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "21": {
@@ -8909,7 +8992,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "22": {
@@ -8931,7 +9015,8 @@
           "style": {
             "hidden": true,
             "precision": 0,
-            "nameOrigin": "namedFromLabel"
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
           }
         },
         "23": {
@@ -8954,7 +9039,8 @@
           "style": {
             "hidden": true,
             "precision": 2,
-            "nameOrigin": "namedFromTemplate"
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
           }
         },
         "24": {
@@ -8968,6 +9054,7 @@
           "constraint": "PlotMarkedXMarkedY",
           "label": "n'",
           "style": {
+            "selectable": false,
             "label": {
               "showLabel": true,
               "labelOffsetX": 8,
@@ -8993,7 +9080,8 @@
             "font-size": 9,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "26": {
@@ -9038,7 +9126,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "28": {
@@ -9061,7 +9150,8 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "29": {
@@ -9194,7 +9284,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -9223,7 +9314,8 @@
           "style": {
             "label": {
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
@@ -9288,19 +9380,19 @@
     },
     {
       "metadata": {
-        "title": "Objectives",
+        "title": "11",
         "id": "11",
         "sketchRect": {
-          "top": 0,
+          "top": 4,
           "left": 0,
-          "bottom": 540,
+          "bottom": 544,
           "right": 960
         }
       },
       "preferences": {
         "units": {
           "length": "px",
-          "angle": "deg"
+          "angle": "rad"
         },
         "precision": {
           "length": 2,
@@ -9309,25 +9401,25 @@
         },
         "colorableComponents": {
           "Points": {
-            "color": "rgb(252,0,0)"
+            "color": "rgb(250,0,0)"
           },
           "Straights": {
-            "color": "rgb(0,0,125)"
+            "color": "rgb(0,0,123)"
           },
           "Curves": {
-            "color": "rgb(0,125,0)"
+            "color": "rgb(0,123,0)"
           },
           "Plot": {
-            "color": "rgb(125,0,125)"
+            "color": "rgb(123,0,123)"
           },
           "PointLocus": {
-            "color": "rgb(125,0,0)"
+            "color": "rgb(123,0,0)"
           },
           "Selection": {
-            "color": "rgb(252,0,252)"
+            "color": "rgb(250,0,250)"
           },
           "Background": {
-            "color": "rgb(255,255,238)"
+            "color": "rgb(240,255,255)"
           },
           "ActionButton": {
             "color": "rgb(255,128,0)"
@@ -9338,14 +9430,10 @@
           "textTypes": {
             "Label": {
               "font-family": "\"Times New Roman\", sans-serif",
-              "font-size": 12,
               "font-weight": "normal"
             },
             "Caption": {
-              "font-family": "\"Arial\", sans-serif",
-              "font-size": 36,
-              "font-weight": "bold",
-              "color": "blue"
+              "font-family": "\"Times New Roman\", sans-serif"
             },
             "Measurement": {
               "font-family": "\"Times New Roman\", sans-serif",
@@ -9353,7 +9441,7 @@
             },
             "Action": {
               "label": {
-                "font-family": "\"Times New Roman\", sans-serif",
+                "font-family": "\"Arial\", sans-serif",
                 "font-size": 18
               }
             },
@@ -9371,410 +9459,483 @@
       },
       "objects": {
         "1": {
-          "kind": "Text",
-          "genus": "Caption",
+          "kind": "Point",
+          "genus": "Point",
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 88,
-              "y": 16
+              "x": 636,
+              "y": 245
             }
           },
-          "textMFS": "<VL<T'ldentify Functions Objectives:'>>",
+          "label": "h",
           "style": {
-            "font-style": "italic",
-            "color": "rgb(0,0,254)"
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
           }
         },
         "2": {
-          "kind": "Text",
-          "genus": "Caption",
+          "kind": "Point",
+          "genus": "Point",
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 110,
-              "y": 76
+              "x": 337,
+              "y": 239
             }
           },
-          "textMFS": "<VL<T'You will drag independent points and observe and describe the'><T'behavior of dependent point(s).'><F1FxxFFFFFFFFx20x8x>>",
-          "latentVisibility": true,
+          "label": "g",
           "style": {
-            "font-family": 0,
-            "font-size": 24,
-            "font-weight": "normal",
-            "color": "rgb(0,0,127)"
+            "color": "rgb(253,0,0)",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
           }
         },
         "3": {
           "kind": "Text",
-          "genus": "Caption",
-          "constraint": "Free",
+          "genus": "CompositeText",
+          "parents": {
+            "0": "2",
+            "1": "1"
+          },
+          "constraint": "CompositeText",
           "geom": {
             "loc": {
-              "x": 110,
-              "y": 147
+              "x": 16,
+              "y": 16
             }
           },
-          "textMFS": "<VL<T'You will become comfortable thinking of points as variables that may be'><T'independent, or may be dependent on other variables.'><F1FxxFFFFFFFFx20x8x>>",
-          "latentVisibility": true,
+          "textMFS": "<VL<SP1#18W2R1G1LFF<T'Identify Functions'>><0><S#12<H<T'Drag '><?1x1<SS2<T'g'>>><T' and '><?1x2<SS2<T'h'>>><T', and describe the behavior.'>>><S#12<T'Which relation is a function? Why?'>><S#12<T'Which relation is not a function? Why?'>>>",
           "style": {
-            "font-family": 0,
-            "font-size": 24,
-            "font-weight": "normal",
-            "color": "rgb(0,0,127)"
+            "selectable": false
           }
         },
         "4": {
-          "kind": "Text",
-          "genus": "Caption",
+          "kind": "Expression",
+          "genus": "DistanceParameter",
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 110,
-              "y": 218
+              "x": 13,
+              "y": 40
             }
           },
-          "textMFS": "<SS2R1G1L1<VL<SW1S1R1G1L80<T'You will use the drag test to distinguish relations in which the dependent point'>><H<SW1S1R1G1L80<T'has a single location from those in which it can have two or more locations'>><SS1R1G1L80<T'.'>>><F1FxxFFFFFFFFx20x8x>>>",
-          "latentVisibility": true,
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "100 pixels",
+          "label": "t[5]",
           "style": {
-            "font-family": 0,
-            "font-size": 24,
-            "color": "rgb(0,0,127)"
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true,
+            "selectable": false
           }
         },
         "5": {
-          "kind": "Text",
-          "genus": "Caption",
+          "kind": "Point",
+          "genus": "OriginPoint",
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 110,
-              "y": 289
+              "x": 537,
+              "y": 387
             }
           },
-          "textMFS": "<VL<H<T'You will formulate and discuss your own definition of '><SS2<T'function'>><T'.'>>>",
-          "latentVisibility": true,
           "style": {
-            "font-family": 0,
-            "font-size": 24,
-            "font-weight": "normal",
-            "color": "rgb(0,0,127)"
+            "hidden": true,
+            "color": "rgb(252,0,0)"
           }
         },
         "6": {
-          "kind": "Text",
-          "genus": "Caption",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 110,
-              "y": 333
-            }
+          "kind": "Axis",
+          "genus": "Axis",
+          "parents": {
+            "origin": "5",
+            "unitDistance": "4"
           },
-          "textMFS": "<VL<T'You will use your definition to categorize relationships between variable points'><T'as functions or not functions.'><F1FxxFFFFFFFFx20x8x>>",
-          "latentVisibility": true,
+          "constraint": "AxisExternalDist",
+          "orientation": "horizontal",
+          "label": "x",
           "style": {
-            "font-family": 0,
-            "font-size": 24,
-            "font-weight": "normal",
-            "color": "rgb(0,0,127)"
+            "hidden": true,
+            "label": {
+              "showLabel": false
+            },
+            "width": 1
           }
         },
         "7": {
-          "kind": "Text",
-          "genus": "Caption",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 110,
-              "y": 404
-            }
+          "kind": "Point",
+          "genus": "UnitPoint",
+          "parents": {
+            "axis": "6"
           },
-          "textMFS": "<VL<H<T'You will become familiar with use of the term '><SS2<H<T'relation'><SS1<T' '>>>><T'to describe two'>><T'variables that have a relationship which may or may not be a function.'><F1FxxFFFFFFFFx20x8x>>",
-          "latentVisibility": true,
+          "constraint": "UnitPointExternalSquare",
           "style": {
-            "font-family": 0,
-            "font-size": 24,
-            "font-weight": "normal",
-            "color": "rgb(0,0,127)"
+            "hidden": true,
+            "color": "rgb(252,0,0)"
           }
         },
         "8": {
-          "kind": "Button",
-          "genus": "Action",
+          "kind": "Axis",
+          "genus": "Axis",
           "parents": {
-            "0": "2"
+            "origin": "5",
+            "unitPoint": "7"
           },
-          "geom": {
-            "loc": {
-              "x": 831,
-              "y": 566
-            }
-          },
-          "label": "\u2022",
+          "constraint": "AxisInternalDist",
+          "orientation": "vertical",
+          "label": "y",
           "style": {
             "hidden": true,
             "label": {
-              "font-size": 12
-            }
-          },
-          "constraint": "ActionButtonToggleHideShow",
-          "messages": [
-            "\u2022",
-            "\u2022"
-          ],
-          "fade": true
+              "showLabel": false
+            },
+            "width": 1
+          }
         },
         "9": {
-          "kind": "Text",
-          "genus": "CompositeText",
+          "kind": "CoordSys",
+          "genus": "CoordSys",
           "parents": {
-            "0": "8"
+            "axisX": "6",
+            "axisY": "8"
           },
-          "constraint": "CompositeText",
-          "geom": {
-            "loc": {
-              "x": 88,
-              "y": 67
-            }
-          },
-          "textMFS": "<?1x1<T'\u2022'>>"
-        },
-        "10": {
-          "kind": "Button",
-          "genus": "Action",
-          "parents": {
-            "0": "3"
-          },
-          "geom": {
-            "loc": {
-              "x": 831,
-              "y": 566
-            }
-          },
-          "label": "\u2022",
+          "constraint": "CoordSys",
+          "shape": "square",
           "style": {
             "hidden": true,
-            "label": {
-              "font-size": 12
+            "grid": "gridlines",
+            "selectable": false
+          }
+        },
+        "10": {
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "2",
+            "coordSys": "9"
+          },
+          "constraint": "MeasurementAbscissa",
+          "geom": {
+            "loc": {
+              "x": 28,
+              "y": 237
             }
           },
-          "constraint": "ActionButtonToggleHideShow",
-          "messages": [
-            "\u2022",
-            "\u2022"
-          ],
-          "fade": true
+          "label": "m[1]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
         },
         "11": {
-          "kind": "Text",
-          "genus": "CompositeText",
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "point": "1",
+            "coordSys": "9"
+          },
+          "constraint": "MeasurementAbscissa",
+          "geom": {
+            "loc": {
+              "x": 20,
+              "y": 176
+            }
+          },
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
+        },
+        "12": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
           "parents": {
             "0": "10"
           },
-          "constraint": "CompositeText",
+          "constraint": "Calculation",
           "geom": {
             "loc": {
-              "x": 88,
-              "y": 138
+              "x": 17,
+              "y": 164
             }
           },
-          "textMFS": "<?1x1<T'\u2022'>>"
-        },
-        "12": {
-          "kind": "Button",
-          "genus": "Action",
-          "parents": {
-            "0": "4"
-          },
-          "geom": {
-            "loc": {
-              "x": 831,
-              "y": 566
-            }
-          },
-          "label": "\u2022",
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "sin(@0/2*\u03c0)",
+          "label": "m[4]",
           "style": {
             "hidden": true,
-            "label": {
-              "font-size": 12
-            }
-          },
-          "constraint": "ActionButtonToggleHideShow",
-          "messages": [
-            "\u2022",
-            "\u2022"
-          ],
-          "fade": true
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
         },
         "13": {
-          "kind": "Text",
-          "genus": "CompositeText",
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
           "parents": {
-            "0": "12"
+            "0": "10"
           },
-          "constraint": "CompositeText",
+          "constraint": "Calculation",
           "geom": {
             "loc": {
-              "x": 88,
-              "y": 209
+              "x": 13,
+              "y": 132
             }
           },
-          "textMFS": "<?1x1<T'\u2022'>>"
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "-sin(@0/2*\u03c0)",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
         },
         "14": {
-          "kind": "Button",
-          "genus": "Action",
+          "kind": "Measure",
+          "genus": "ScalarMeasure",
           "parents": {
-            "0": "5"
+            "point": "1",
+            "coordSys": "9"
           },
+          "constraint": "MeasurementOrdinate",
           "geom": {
             "loc": {
-              "x": 831,
-              "y": 566
+              "x": 20,
+              "y": 197
             }
           },
-          "label": "\u2022",
           "style": {
             "hidden": true,
-            "label": {
-              "font-size": 12
-            }
-          },
-          "constraint": "ActionButtonToggleHideShow",
-          "messages": [
-            "\u2022",
-            "\u2022"
-          ],
-          "fade": true
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
         },
         "15": {
-          "kind": "Text",
-          "genus": "CompositeText",
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
           "parents": {
-            "0": "14"
+            "0": "11"
           },
-          "constraint": "CompositeText",
+          "constraint": "Calculation",
           "geom": {
             "loc": {
-              "x": 88,
-              "y": 280
+              "x": 18,
+              "y": 218
             }
           },
-          "textMFS": "<?1x1<T'\u2022'>>"
-        },
-        "16": {
-          "kind": "Button",
-          "genus": "Action",
-          "parents": {
-            "0": "6"
-          },
-          "geom": {
-            "loc": {
-              "x": 831,
-              "y": 566
-            }
-          },
-          "label": "\u2022",
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "@0-.5",
+          "label": "m[2]",
           "style": {
             "hidden": true,
-            "label": {
-              "font-size": 12
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
+        },
+        "16": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "15"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 19,
+              "y": 243
             }
           },
-          "constraint": "ActionButtonToggleHideShow",
-          "messages": [
-            "\u2022",
-            "\u2022"
-          ],
-          "fade": true
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "2*\u03c0*(@0-round(@0-.5))",
+          "label": "t[n]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
+          }
         },
         "17": {
-          "kind": "Text",
-          "genus": "CompositeText",
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
           "parents": {
             "0": "16"
           },
-          "constraint": "CompositeText",
+          "constraint": "Calculation",
           "geom": {
             "loc": {
-              "x": 88,
-              "y": 324
+              "x": 19,
+              "y": 265
             }
           },
-          "textMFS": "<?1x1<T'\u2022'>>"
-        },
-        "18": {
-          "kind": "Button",
-          "genus": "Action",
-          "parents": {
-            "0": "7"
-          },
-          "geom": {
-            "loc": {
-              "x": 831,
-              "y": 566
-            }
-          },
-          "label": "\u2022",
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "-sin(@0)",
+          "label": "m[3]",
           "style": {
             "hidden": true,
-            "label": {
-              "font-size": 12
-            }
-          },
-          "constraint": "ActionButtonToggleHideShow",
-          "messages": [
-            "\u2022",
-            "\u2022"
-          ],
-          "fade": true
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
         },
-        "19": {
-          "kind": "Text",
-          "genus": "CompositeText",
+        "18": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
           "parents": {
-            "0": "18"
+            "0": "16"
           },
-          "constraint": "CompositeText",
+          "constraint": "Calculation",
           "geom": {
             "loc": {
-              "x": 88,
-              "y": 395
+              "x": 19,
+              "y": 287
             }
           },
-          "textMFS": "<?1x1<T'\u2022'>>"
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "cos(@0)+2",
+          "label": "m[4]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
+        },
+        "19": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "17"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 19,
+              "y": 309
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "(1-sgn(-.5+sgn(@0)))/2",
+          "label": "m[3]\u22640",
+          "style": {
+            "hidden": true,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "selectable": false
+          }
         },
         "20": {
+          "kind": "Expression",
+          "genus": "ScalarMeasure",
+          "parents": {
+            "0": "16",
+            "1": "19"
+          },
+          "constraint": "Calculation",
+          "geom": {
+            "loc": {
+              "x": 19,
+              "y": 331
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "cos(@0)*(2*@1-1)+2",
+          "label": "m[4]",
+          "style": {
+            "hidden": true,
+            "precision": 2,
+            "nameOrigin": "namedFromTemplate",
+            "selectable": false
+          }
+        },
+        "21": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 637,
+              "y": 387
+            }
+          },
+          "label": "h'",
+          "style": {
+            "selectable": false,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "22": {
+          "kind": "Expression",
+          "genus": "DistanceParameter",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 2,
+              "y": -29
+            }
+          },
+          "expressionType": "UniMeasure_ExprType",
+          "expression": "960 pixels",
+          "label": "width",
+          "style": {
+            "hidden": true,
+            "font-size": 9,
+            "precision": 0,
+            "nameOrigin": "namedFromLabel",
+            "contenteditable": true,
+            "selectable": false
+          }
+        },
+        "23": {
           "kind": "Point",
           "genus": "Point",
           "constraint": "Free",
           "geom": {
             "loc": {
               "x": 0,
-              "y": 0
+              "y": 4
             }
           },
-          "label": "A",
+          "label": "V",
           "style": {
             "hidden": true,
             "color": "red",
             "label": {
               "showLabel": true,
-              "labelOffsetX": -13,
-              "labelOffsetY": -15
+              "labelOffsetX": 5,
+              "labelOffsetY": 8
             },
             "radius": 2
           }
         },
-        "21": {
+        "24": {
           "kind": "Expression",
           "genus": "DistanceParameter",
           "constraint": "Free",
           "geom": {
             "loc": {
               "x": 233,
-              "y": -29
+              "y": -25
             }
           },
           "expressionType": "UniMeasure_ExprType",
@@ -9787,17 +9948,18 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
-        "22": {
+        "25": {
           "kind": "Expression",
           "genus": "DistanceParameter",
           "constraint": "Free",
           "geom": {
             "loc": {
               "x": 139,
-              "y": -29
+              "y": -25
             }
           },
           "expressionType": "UniMeasure_ExprType",
@@ -9810,15 +9972,16 @@
             "font-size": 10,
             "precision": 0,
             "nameOrigin": "namedFromLabel",
-            "contenteditable": true
+            "contenteditable": true,
+            "selectable": false
           }
         },
-        "23": {
+        "26": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "20",
-            "distance": "21"
+            "source": "23",
+            "distance": "24"
           },
           "angle": -1.5707963267949,
           "constraint": "TranslateMeasureDistFixAngle",
@@ -9829,34 +9992,34 @@
             "radius": 2
           }
         },
-        "24": {
+        "27": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "20",
-            "distance": "22"
+            "source": "23",
+            "distance": "25"
           },
           "angle": 0,
           "constraint": "TranslateMeasureDistFixAngle",
           "shouldAutogenerateLabel": true,
-          "label": "A'",
+          "label": "V'",
           "style": {
             "hidden": true,
             "color": "red",
             "label": {
               "showLabel": true,
-              "labelOffsetX": 4,
-              "labelOffsetY": -15
+              "labelOffsetX": 5,
+              "labelOffsetY": 8
             },
             "radius": 2
           }
         },
-        "25": {
+        "28": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "23",
-            "distance": "22"
+            "source": "26",
+            "distance": "25"
           },
           "angle": 0,
           "constraint": "TranslateMeasureDistFixAngle",
@@ -9865,51 +10028,6 @@
             "hidden": true,
             "color": "red",
             "radius": 2
-          }
-        },
-        "26": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "20",
-            "p1": "24"
-          },
-          "constraint": "Segment",
-          "latentVisibility": true,
-          "style": {
-            "hidden": true,
-            "color": "navy",
-            "width": 1
-          }
-        },
-        "27": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "24",
-            "p1": "25"
-          },
-          "constraint": "Segment",
-          "latentVisibility": true,
-          "style": {
-            "hidden": true,
-            "color": "navy",
-            "width": 1
-          }
-        },
-        "28": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "25",
-            "p1": "23"
-          },
-          "constraint": "Segment",
-          "latentVisibility": true,
-          "style": {
-            "hidden": true,
-            "color": "navy",
-            "width": 1
           }
         },
         "29": {
@@ -9917,7 +10035,7 @@
           "genus": "Segment",
           "parents": {
             "p0": "23",
-            "p1": "20"
+            "p1": "27"
           },
           "constraint": "Segment",
           "latentVisibility": true,
@@ -9928,23 +10046,68 @@
           }
         },
         "30": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "27",
+            "p1": "28"
+          },
+          "constraint": "Segment",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "color": "navy",
+            "width": 1
+          }
+        },
+        "31": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "28",
+            "p1": "26"
+          },
+          "constraint": "Segment",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "color": "navy",
+            "width": 1
+          }
+        },
+        "32": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "26",
+            "p1": "23"
+          },
+          "constraint": "Segment",
+          "latentVisibility": true,
+          "style": {
+            "hidden": true,
+            "color": "navy",
+            "width": 1
+          }
+        },
+        "33": {
           "kind": "Button",
           "genus": "Action",
           "parents": {
-            "0": "20"
+            "0": "23"
           },
           "geom": {
             "loc": {
               "x": 12,
-              "y": -28
+              "y": -24
             }
           },
           "label": "Scroll",
           "style": {
             "label": {
-              "font-family": 2,
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonScroll",
           "messages": [
@@ -9952,35 +10115,126 @@
           ],
           "scrollDest": "topLeft"
         },
-        "31": {
+        "34": {
           "kind": "Button",
           "genus": "Action",
           "parents": {
-            "0": "26",
-            "1": "27",
-            "2": "28",
-            "3": "29",
-            "4": "22",
-            "5": "21"
+            "0": "29",
+            "1": "30",
+            "2": "31",
+            "3": "32",
+            "4": "25",
+            "5": "24"
           },
           "geom": {
             "loc": {
               "x": 53,
-              "y": -28
+              "y": -24
             }
           },
           "label": "Show Frame",
           "style": {
             "label": {
-              "font-family": 2,
               "font-size": 10
-            }
+            },
+            "selectable": false
           },
           "constraint": "ActionButtonToggleHideShow",
           "messages": [
             "Hide Frame",
             "Show Frame"
           ]
+        },
+        "35": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 337,
+              "y": 239
+            }
+          },
+          "style": {
+            "hidden": true
+          }
+        },
+        "36": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 636,
+              "y": 245
+            }
+          },
+          "style": {
+            "hidden": true
+          }
+        },
+        "37": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "36",
+            "1": "1",
+            "2": "35",
+            "3": "2"
+          },
+          "geom": {
+            "loc": {
+              "x": 14,
+              "y": 510
+            }
+          },
+          "label": "Reset",
+          "style": {
+            "selectable": false
+          },
+          "constraint": "ActionButtonMove",
+          "messages": [
+            "Reset"
+          ],
+          "rate": 5
+        },
+        "38": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordX": "10",
+            "coordY": "12",
+            "coordSys": "9"
+          },
+          "constraint": "PlotMarkedXMarkedY",
+          "label": "g'",
+          "style": {
+            "selectable": false,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
+          }
+        },
+        "39": {
+          "kind": "Point",
+          "genus": "PlottedPoint",
+          "parents": {
+            "coordX": "10",
+            "coordY": "13",
+            "coordSys": "9"
+          },
+          "constraint": "PlotMarkedXMarkedY",
+          "label": "g'",
+          "style": {
+            "selectable": false,
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": 8,
+              "labelOffsetY": 5
+            }
+          }
         }
       }
     }

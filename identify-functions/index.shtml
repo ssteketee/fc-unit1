@@ -24,32 +24,49 @@
 <div class="title">Identify Functions</div>
 <div class = "bodyText">
 
-  <div class="section">
-    <p class="fcSectionHead">▿︎ Sketch</p>
-    <div class="jaxContainer twoColumn notes">
-      <p>Facilitator notes go here.</p>
-    </div>
-    <div class="fcSectionBody fcVisible">
-      <div class="jaxContainer">
-        <p>Using this sketch, you’ll learn to distinguish a function from a non-function.</p>
-      </div>
-      <p class="fcSubsectionHead">▹︎︎ Worksheet</p>
-      <div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
-        <object data="./identify-functions.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
-      </div>
-      <div class="sketch_container" style="width: 960px;">
-        <div class="sketch_canvas" id="sketch" data-url="./identify-functions.json">&nbsp;</div>
-        <div class="sketch_caption">
-          <p>Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;</p>
-        </div>
-        <span class="page_buttons"></span>
-      </div>		
-    </div>
-  </div>				
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Sketch</p>
+	<div class="jaxContainer twoColumn notes">
+		<p>Facilitator notes go here.</p>
+	</div>
+	<div class="fcSectionBody fcVisible">
+		<div class="jaxContainer">
+			<p>Using this sketch, you’ll learn to distinguish a function from a non-function.</p>
+		</div>
+		<p class="fcSubsectionHead">Worksheet</p>
+		<div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
+			<object data="./identify-functions.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
+		</div>
+		<div class="sketch_container" style="width: 960px;">
+			<div class="sketch_canvas" id="sketch" data-url="./identify-functions.json">&nbsp;</div>
+			<div class="sketch_caption">
+				<p>Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;</p>
+			</div>
+			<span class="page_buttons"></span>
+		</div>		
+	</div>
+</div>				
   
-  
+<div class="section">
+	<p class="fcSectionHead">2 Objectives</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>This page supports the Identify Functions lesson from <a href="../">Unit 1: Introducing Geometric Transformations as Functions</a>. You will .</p>
+      <p>By the end of this lesson, you&rsquo;ll be able to perform these actions and answer these questions:</p>
+			<ul>
+				<li><em>Vary variables.</em> You will drag independent points and observe and describe the behavior of dependent point(s).</li>
+				<li><em>Distinguish independent variables from dependent variables.</em> You will become comfortable thinking of points as variables that may be independent, or may be dependent on other variables.</li>
+				<li><em>Distinguish functions from non-functions.</em> You will use the drag test to determine how examples of functions are different from examples of non-functions.</li>
+				<li><em>Define the term “function.”</em> You will formulate and discuss your own definition of function.</li>
+				<li><em>Apply your definition.</em> You will use your definition to categorize relations as functions or not functions.</li>
+				<li><em>Use the term “relation.”</em> You will become familiar with use of the term <em>relation</em> to describe variables with a relationship that may or may not be a function.</li>
+				</ul>
+    </div>
+  </div>
+</div>			
+			
   <div class="section">
-    <p class="fcSectionHead" style="font-size: .8rem">▹︎︎ The Fine Print</p>
+    <p class="fcSectionHead" style="font-size: .8rem">3 The Fine Print</p>
     <div class="fcSectionBody finePrint">
       <p><strong>Requirements:</strong></p>
       <p>These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
@@ -57,7 +74,8 @@
       <!--#include virtual="/includes/v4.5/js/js-version.html" -->
       <p><strong>Update History:</strong></p>
      <div class="updateHistory">
-        21 Oct 2017: Migrated to FC site.<br>
+        03 Apr 2018: Added a sketch page, revised worksheet, and revised objectives.<br>
+				21 Oct 2017: Migrated to FC site.<br>
         18 Oct 2015: Created this page.<br>
      </div>
       <br>
