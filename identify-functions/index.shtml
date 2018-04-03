@@ -26,9 +26,6 @@
 
 <div class="section">
 	<p class="fcSectionHead fcOpen">1 Sketch</p>
-	<div class="jaxContainer twoColumn notes">
-		<p>Facilitator notes go here.</p>
-	</div>
 	<div class="fcSectionBody fcVisible">
 		<div class="jaxContainer">
 			<p>Using this sketch, you’ll learn to distinguish a function from a non-function.</p>
@@ -51,7 +48,7 @@
 	<p class="fcSectionHead">2 Objectives</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
-      <p>This page supports the Identify Functions lesson from <a href="../">Unit 1: Introducing Geometric Transformations as Functions</a>. You will .</p>
+      <p>This page supports the Identify Functions lesson from <a href="../">Unit 1: Introducing Geometric Transformations as Functions</a>.</p>
       <p>By the end of this lesson, you&rsquo;ll be able to perform these actions and answer these questions:</p>
 			<ul>
 				<li><em>Vary variables.</em> You will drag independent points and observe and describe the behavior of dependent point(s).</li>
