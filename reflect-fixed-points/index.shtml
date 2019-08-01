@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/includes/mathjax.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
+
+	<title>Reflection Fixed Points</title>
+	<meta name="description" content="This page supports the Reflect Family activity from Introducing Geometric Transformations as Functions.">
+
+		<script type="text/javascript">
+			PREF.setWebPagePrefs ([
+				{pages: "none"}, // turn off all widgets for all sketches
+				{category: "util", sketches: "reflect-construct", pages:"all"},
+				{category: "widget", name: "visibility", sketches: "construct-fixed-points, construct-compass-line, construct-perp-bisector"},
+				{category: "widget", sketches: "check-pb-theorem, prove-pb-theorem"}
+			]);
+		</script>
+
+</head>
+
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area" style="margin:0 auto; padding:10px;">
+	
+<div class="title lessonTitle">Reflection Fixed Points</div>
+
+<div class = "bodyText">
+
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
+	<div class="fcSectionBody fcVisible">
+    <div class="sketch_container jaxContainer">
+			<div class="sketch_canvas" id="fixed-point-warmup1" data-url="./fixed-point-warmup1.json">Loading...</div>
+			<div class="page_buttons"></div>
+		</div>
+    <div class="sketch_container jaxContainer">
+			<div class="sketch_canvas" id="fixed-point-warmup2" data-url="./fixed-point-warmup2.json">Loading...</div>
+		</div>
+		<div class="jaxContainer twoColumn">
+			<p class="pencil">On page 1, write down what you notice and wonder. (Don’t use the Distance tool yet.)</p>
+			<p class="pencil">On page 2, measure some distances. Then write down what you notice and wonder about the distances.</p>
+			<p class="pencil">With only the two distances shown above, how can you drag `x` to make it equally distant from `y` and `r`(`y`)? </p>
+			<p class="pencil">What did you notice and wonder, when you tried to do this?</p>
+			
+		</div>
+	</div>
+</div>
+
+
+<div class="section">
+	<p class="fcSectionHead">2 Find the Fixed Points</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>Below, you can’t drag `x`. Construct a second reflection. (It will use the same mirror.) Then use tracing to find the fixed points.</p>
+			<p>Below, use the first two tools to construct the line of all the fixed points. Use the Compass tool to check your answer. </p>
+		</div>
+    <div class="sketch_container">
+			<div class="sketch_canvas" id="trace-fixed-points" data-delayed-url="./trace-fixed-points.json">Loading...</div>
+			<button class="widget_button"></button>
+		</div>
+    <div class="sketch_container">
+			<div class="sketch_canvas" id="construct-fixed-points" data-delayed-url="./construct-fixed-points.json">Loading...</div>
+      <button class="widget_button"></button>
+		</div>
+	</div>
+</div>
+
+
+<div class="section">
+	<p class="fcSectionHead">3 Construct The Mirror</p>
+	<div class="fcSectionBody">
+    <p class="fcSubsectionHead">3a The Two-Circle Construction</p>
+    <div class="fcSubsectionBody">
+			<div class="jaxContainer twoColumn">
+				<p>As you already know, a reflect function’s <em>fixed-point line</em> is the same as its <em>mirror line</em>.</p>
+				<p>On the left, use the Compass twice and the Line tool once to construct the line of all the fixed points. Use the Compass tool again to check your answer.</p>
+				<p>On the right, use the same method to construct the perpendicular bisector of `\overline{AB}`. Drag `A` or `B` to check your construction. Then try the experiment suggested on page 2.</p>
+			</div>
+			<div class="sketch_container">
+				<div class="sketch_canvas" id="construct-compass-line" data-delayed-url="./construct-compass-line.json">Loading...</div>
+				<div class="page_buttons"></div>
+					<p><a class="play-video" data-src="./construct-compass-hint">Hint video</a></p>
+			</div>
+			<div class="sketch_container">
+				<div class="sketch_canvas" id="construct-perp-bisector" data-delayed-url="./construct-perp-bisector.json">Loading...</div>
+				<div class="page_buttons"></div>
+				<button class="widget_button"></button>
+			</div>
+			<p class="pencil">Now that you’ve done the two-circle construction, can you explain why it works? How do you know for surew that the two points you used to construct the line are both fixed points of the reflect function?</p>
+		</div>
+    <p class="fcSubsectionHead">3b A Line with Four Identities</p>
+    <div class="fcSubsectionBody">
+			<p>There are four ways you can think about this line:</p>
+			<ul>
+				<li>It’s the mirror line that defines the reflect function that takes `x` to `r(x)`.</li>
+				<li>It’s the locus of all the fixed points of the function that takes `x` to `r(x)`.</li>
+				<li>It’s the perpendicular bisector of the segment between `x` and `r(x)`.</li>
+				<li>It’s the line constructed using the intersections of the two circles defined by points `x` and `r(x)`.</li>
+			</ul>
+			<p>Use the tools to construct and/or trace all of these on the same page. The tools include Hide/Show buttons you can use to hide or show each way of constructing or tracing this line.</p>
+			<p class="pencil">In your own words, describe something that's interesting or important about each of these four lines—four lines that are all the same, but also different, each in its own way!</p>
+			<div class="sketch_container">
+				<div class="sketch_canvas" id="mirror-constructions" data-delayed-url="./mirror-constructions.json">Loading...</div>
+				<div class="page_buttons"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--#include virtual="/includes/modal-video.html" -->            
+
+<div class="section">
+	<p class="fcSectionHead">4 Patty Paper Reflection</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<a href="patty-paper.pdf" download><img style="float: left; height: 12rem; margin: 0.5rem;" src="patty-paper.png"></a>
+			<p>Click the image on the left to print it full size, or get a copy from your teacher. The top printed diagram shows `x`, `r(x)`, and the constructed line of fixed points. Trace points `x` and `r(x)` onto a piece of patty paper. Fold the patty paper so that `x` lies on top of `r(x)`.</p>
+			<p>✏️ How does the patty-paper fold line relate to the fixed points of the reflect function connecting `x` and `r(x)`?</p>
+			<p>Use the bottom printed diagram to trace `\overline{AB}` and `\overline{CD}` on a new sheet of patty paper. Fold the patty paper to reflect `A` onto `C`, trace the reflected location of `\overline{AB}`, and label the reflected endpoints `A'` and `B'`.</p>
+			<p>Unfold your paper. Then make a new fold to put `B'` on top of `D`.</p>
+			<p>✏️ What do you notice? What do you wonder?</p>
+		</div>	
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">5 The Perpendicular Bisector Theorem</p>
+	<div class="fcSectionBody">
+    <p class="fcSubsectionHead">Investigate Distances</p>
+    <div class="fcSubsectionBody">
+			<div class="jaxContainer twoColumn">
+				<p>In this sketch, construct a segment and its perpendicular bisector.</p>
+				<p>Label the segment `\overline{AB}`, and label the perpendicular bisector `m`.</p>
+				<p>Construct a point `P` on the perpendicular bisector. Then construct `\overline{PA}` and `\overline{PB}`, and measure their lengths.</p>
+				<p>✏️ What do you notice? What do you wonder?</p>
+				<p>✏️ Is your observation always true? To check, drag `P` to different locations on `m`, and drag `A` and `B` around to change the location and length of `\overline{AB}`.</p>
+				<p>✏️ Write your conclusion down as an “If a point ... then the distance(s) ...” statement. This is the perpendicular bisector theorem.</p>
+			</div>
+			<div class="sketch_container">
+				<div class="sketch_canvas" id="check-pb-theorem" data-delayed-url="./check-pb-theorem.json">&nbsp;</div>
+				<div class="page_buttons"></div>
+				<button class="widget_button"></button>
+			</div>
+		</div>
+    <p class="fcSubsectionHead">Prove the Theorem</p>
+    <div class="fcSubsectionBody">
+			<div class="jaxContainer twoColumn">
+				<p>It’s one thing to make a statement about distances in a geometric figure. It’s quite another thing to be able explain why that statement <em>must</em> be true, to demonstrate the <em>logic</em> behind it, to truly <em>understand the mathematics</em> that makes it true.</p>
+				<p>In this sketch you’ll work out the steps to prove the theorem.</p>
+				<p>Begin by constructing the same point `P` and the same segments `\overline{PA}` and `\overline{PB}` as you did above.</p>
+				<p>How can you use the remaining tools to illustrate the perpendicular bisector theorem?</p>
+				<p>What is the effect of each tool?</p>
+				<p>How do these tools work together to show that the perpendicular bisector theorem must be true?</p>
+			</div>
+			<div class="sketch_container">
+				<div class="sketch_canvas" id="prove-pb-theorem" data-delayed-url="./prove-pb-theorem.json">&nbsp;</div>	
+				<div class="page_buttons"></div>
+				<button class="widget_button"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--
+				<div class="sketch_caption">
+					<p>Hint videos:
+						<a class="play-video" data-src="./step01">Step 1</a>
+						<a class="play-video" data-src="./step05">Step 5</a>
+						<a class="play-video" data-src="./step11">Step 11</a>
+						Download the <a href="./reflect-family-worksheet.pdf">student worksheet.</a>
+					</p>
+				</div>
+-->
+
+<div class="section">
+	<p class="fcSectionHead">6 The Converse of the Perpendicular Bisector Theorem</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>The perpendicular bisector theorem says, "If point `P` is on the perpendicular bisector of `\overline{AB}`, then the lengths of `\overline{PA}` and `\overline{PA}` are equal.</p>
+			<p>What happens if you turn this statement around? If the lengths of `\overline{PA}` and `\overline{PA}` are equal, what does that tell you about `P`, `A`, and `B`?</p>
+			<p>If a point is equally distant from two other points, it lies on the perpendicular bisector of the segment connecting those two points.</p>
+		</div>
+		<h3>TO BE WRITTEN</h3>
+    <div class="sketch_container jaxContainer">
+			<div class="sketch_canvas" id="prove-pb-converse" data-delayed-url="./prove-pb-converse.json">Coming soon...</div>
+			<div class="util-menu-btn"></div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>
+
+
+
+  <!--#include virtual="/includes/modal-video.html" -->            
+
+<!--
+
+<div class="section">
+	<p class="fcSectionHead">4 Interlude</p>
+	<div class="fcSectionBody">
+		<video width="960" controls
+			poster="./video/lucy-harpo-mime.png" >
+			<source
+				src="./video/lucy-harpo-mime-960x720.webm"
+				type="video/webm">
+			<source
+				src="./video/lucy-harpo-mime-960x720.mp4"
+				type="video/mp4">
+			Your browser doesn't support HTML5 video tag.
+		</video>
+    <p style="font-size: 70%;"><a href="https://www.youtube.com/watch?v=TNm5Dax56ck">From <em>I Love Lucy</em> Season 4 Episode 27. Downloaded from https://www.youtube.com/watch?v=TNm5Dax56ck</a></p>
+		<p>✏️ How does this video relate to the reflect dance you just did?</p>
+  </div>
+</div>                                     
+
+<div class="section">
+	<p class="fcSectionHead">5 Match the Traces</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+			<p>Each page of this sketch has a faint background image showing traces left by an independent variable x and its reflected image `r_j(x)`. But the mirror is hidden!</p>
+			<p>Construct your own reflect function and adjust it so you can drag x to make the same pattern as the one shown faintly in the background.</p>
+			<p>✏️ Try each of the two mirror tools. Which did you find more useful? Why?</p>
+			<p>✏️ What did you learn as you solved these challenges? Describe your method so another student could use it.</p>
+			<p>✏️ Why do you think there’s an extra tool at the bottom of the toolbox?</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./reflection-designs.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">6 Reflect Games</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>Each of these three games has a different purpose:</p>
+      <ol>
+        <li>Given independent variable `x` and mirror `j`, how can you find `r_j(x)`?</li>
+        <li>Given mirror `j` and `r_j(x)`, how can you find independent variable `x`?</li>
+        <li>Given independent variable `x` and `r_j(x)`, how can you find mirror `j`?</li> 
+      </ol>
+      <p>For each game play a few times at easier levels, and work your way up to level 5. (Once you start a game at one level, you must press Reset to change to a different level.)</p>
+      <p>✏️ For each game, how many hits can you score in ten tries at level 5?</p>
+      <p>✏️ What methods did you invent to make it easier to get a high score?</p>
+    </div>
+		<div class="sketch_container" style="margin-left:4rem;">
+			<div class="sketch_canvas" data-delayed-url="./reflect-games.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">7 Reflect Shapes</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>With this sketch, you can reflect a variety of shapes.</p>
+			<ol>
+				<li>Construct one of the shapes.</li>
+				<li>Using the Reflect tool, attach `x` to your shape.</li>
+				<li>Use the Animate tool to animate your independent variable`x` along the shape</li>
+			</ol>
+			<p>Note that the Reflect tool in this sketch constructs three things: the independent variable `x`, the mirror, and the dependent variable `r_j(x)`.</p>
+			<ul>
+				<li>Page 1: Experiment with reflecting shapes.</li>
+				<li>Page 2: Reflect to m,atch the given letter shape.</li>
+				<li>Page 3: Reflect to create other letter shapes.</li>
+				<li>Page 4: Experiment on your own.</li>
+			</ul>
+		</div>
+    <div class="sketch_container jaxContainer">
+			<div class="sketch_canvas" id="intro" data-delayed-url="./reflect-shapes.json">Loading...</div>
+			<div class="util-menu-btn"></div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">8 Find the Mirror</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+			<p>This sketch challenges you to find the hidden mirror(s). On pages 1, 2, and 3, your job is to find the mirror so that if you animate `x` on the domain, `r_j(x)` will move around the range. Pages 4 and 5 povide slightly different challenges.</p>
+			<p></p>
+			<p>✏️ What did you notice, and what did you wonder, as you constructed these reflect functions?.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./find-the-mirror.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+	</div>
+</div>
+  
+<div class="section">
+	<p class="fcSectionHead">9 Reflect Dance 2</p>
+  <div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+			<a href="./reflect-dance2-paper.pdf" target="_blank"><img src="./reflect-dance2-paper.png" style="width: 15rem; float: right;"></a>
+      <p>In a group of four or five students, tape <a href="./reflect-dance2-paper.pdf" target="_blank">a dance guide paper</a> on the classroom floor to mark two perpendicular mirrors. Invent a reflect-family dance that uses both mirrors.</p>
+      <p>Dancer `x` is the independent variable and dancer `r_j(x)` is the reflected image, across mirror `j`, of `x`. Dancer `r_k(x)` is the reflected image across mirror `k` of `x`. Decide among yourselves how the fourth dancer should move. As you create and practice your dance, check to be sure the dancers are correctly positioned relative to the mirror.</p>
+      <p>As you choreograph and practice your dance, take turns so everyone in the group has a chance to be the independent dancer. When you’re ready to perform your dance, ask someone from another group to video your group dance.</p>
+			<p>✏️ As you created your dance, how did you decide the fourth dancer should move?</p>
+			<p>✏️ In what direction must each of the other dancers move when `x` moves at 0°? at 90°? at 180°? at 270°?</p>
+			<p>✏️ What else did you notice, and what did you wonder, about the reflect functions that connect your dancers to each other?</p>
+			<p>✏️ How could you use function notation to describe the fourth dancer?</p>
+    </div>
+    <div><img src="./video/ballet.png" style="width: 970px;"><br><a href="www.nytimes.com/2016/10/25/arts/dance/review-ballet-with-intricate-geometry-and-a-lot-of-fun-suzanne-farrell-george-balanchine-kennedy-center.html">NY Times 25 October 2016</a> Suzanne Farrell Ballet at Kennedy Center</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./reflect-danceB.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+
+	</div>
+</div>
+-->
+<div class="section">
+	<p class="fcSectionHead">7 Objectives</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>This page supports the Reflection Fixed Points lesson from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. After investigating and experimenting with the fixed points of the reflect function, if you are given two points you will be able to construct the mirror that relates them, and if you are given a mirror and a single point you will be able to construct the other point. You will learn some important facts about distances between points, and you will be able to describe and explain the perpendicular bisector theorem and its converse.</p>
+      <p>By the end of this lesson, you&rsquo;ll be able to perform these actions and answer these questions:</p>
+			<ul>
+        <li>To be written.</li>
+			</ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+		<p>Record every major revision, in reverse chronological order</p>
+    <div class="updateHistory">
+      21 Mar 2019: First draft of this lesson.<br>
+		</div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>
+

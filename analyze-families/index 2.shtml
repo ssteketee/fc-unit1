@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.shtml" -->
+
+    <title>Four Families</title>
+    <meta name="description" content="This page supports the Reflection Family activity from Introducing Geometric Transformations as Functions.">
+
+    <script charset="utf-8" type="text/javascript" src="../js/jquery-2.1.0.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="../js/wsp-min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="../js/wsp-runner.js"></script>
+    <link rel="StyleSheet" type="text/css" href="/includes/worksheet-styles.css">
+
+    <style type="text/css">
+      .sketch_canvas {
+          border: medium solid lightgray;
+          display: inline-block;
+      }
+    </style>
+
+   </head>
+  <body>
+    <div id="templatemo_container"> 
+      <!--#include virtual="/includes/banner.html" -->
+      <div id="templatemo_content">
+        <div id="templatemo_full_column" style="background:#fff;">
+          <div class="text_area" align="left">
+            <div class="title">Four Families
+            </div>
+            <p>This page supports the Four Families activity from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. You will use Web Sketchpad to construct example functions from each of these families. You will observe each family to find similar behaviors, and you will compare the families with each other to find their differences.</p>
+            <p>This activity is a more open-ended, independent group-inquiry version of the individual family activities.</p>
+            <p>This activity is under construction! The worksheet and other support are not yet available.</p>
+            
+            <div class="sketch_canvas" data-url="./four-families.json" >&nbsp;</div>
+  
+            <p class="subtitle">Release Information and Rights</p>
+  <!--#include virtual="../js/js-version.html" -->
+  
+            <p class="subtitle">Update History:</p>
+            18 May 2016: Created this page with version 1 of the websketch.<br>
+          </div> <!--templatemo_text_area-->
+        </div> <!--templatemo_full_column-->
+      </div> <!--templatemo_content-->
+      <!--#include virtual="/includes/footer.html" -->
+    </div> <!--templatemo_container-->
+       
+  </body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
 	<title>Rotate Family</title>
@@ -14,7 +14,7 @@
 				{sketches: "intro, further"},	// enable all widgets on all pages for these sketches
 				{widget: "style", sketches: "where-solve, rotate-stars"},	// enable style widget on all pages for this sketch
 				{widget: "visibility", sketches: "rotate-stars", pages: "6,7"},
-				{sketches: "rotate-dance", pages: "all"},
+				{widget: "label", sketches: "intro, rotate-stars, further"},
 			]);
 		</script>
 
@@ -28,26 +28,11 @@
 	
 <div class="title lessonTitle">The Rotate Family
 
-<!--<button type="submit" style="float: right;" onclick="window.open('rotate-family-journal.docx')"> Ⓙ </button>
--->
-<!--<form style="float: right;" method="get" action="rotate-family-journal.docx">
-   <button type="submit"> Ⓙ </button>
-</form>-->
-
-<!--	<div class="notesButton buttontip">
-		<a href="rotate-family-journal.docx" download> Ⓙ 
-			<span class="buttontiptext">Download lesson journal</span>
-		</a>
-	</div>-->
-	
-	
-	
-	
-		<div class="notesButton buttontip" onclick=
-				 "window.open('rotate-family-journal.docx');
-				 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download lesson journal');">
-		 Ⓙ 
-			<span class="buttontiptext" id="download-text">Download lesson journal</span>
+	<div class="notesButton buttontip" onclick=
+			 "window.open('rotate-family-journal.docx');
+			 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download lesson journal');">
+	 Ⓙ 
+		<span class="buttontiptext" id="download-text">Download lesson journal</span>
 	</div>
 		
 </div>
@@ -98,9 +83,8 @@
 	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
 	<div class="fcSectionBody fcVisible">
 			<div class="sketch_canvas" id="warm-up" data-url="./warm-up.json">Loading...</div>		
-		<div class="jaxContainer">
-			<p>✏️ What&rsquo;s going on here? What do you notice? What do you wonder?</p>
-		</div>
+		<div style="float: right; font-size: 0.9rem;"><a href="./rotate-family-part1.pdf">Download Part 1 worksheet</a></div>
+		<div><p>✏️ What&rsquo;s going on here? What do you notice? What do you wonder?</p></div>
 	</div>
 </div>				
 						
@@ -115,7 +99,7 @@
 				<li>Create a dependent variable using the <strong>Rotate</strong> tool.</li>
 				<li>Change `theta` to 180°. Drag `x` to trace a shape.</li>
 				<li class="pencil">On your worksheet draw a picture of the shape.</li>
-				<li class="pencil">What you notice, and wonder, when you drag `x`?</li>
+				<li class="pencil">What do you notice, and wonder, when you drag `x`?</li>
 				<li>Use page 2 to investigate the behavior of a `90°` rotation.</li>
 				<li class="pencil">Trace a shape, and draw a picture on your worksheet.</li>
 				<li>Use page 3 to investigate the behavior of a `45°` rotation.</li>
@@ -124,7 +108,6 @@
 				<li class="pencil">What do you notice, and wonder, about the fixed point(s)?</li>
 			</ul>
 		</div>
-
     <div class="sketch_container jaxContainer">
 			<div class="sketch_canvas" id="intro" data-delayed-url="./intro.json">Loading...</div>
 			<p>Hint videos: &nbsp; &nbsp; &nbsp;
@@ -159,16 +142,17 @@
 	<p class="fcSectionHead">4 Rotate Games</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
-			<p>This sketch includes six different Rotate Family games:</p>
+			<p>This sketch includes five different Rotate Family games:</p>
 			<ol>
-				<li><strong>Hit the Target:</strong> Given `x`, `C`, and `theta`, where is `R_(C,theta)(x)`?</li>
-				<li><strong>What’s the Angle:</strong> Given `x`, `C`, and `R_(C,theta)(x)`, what’s `theta`?</li>
-				<li><strong>Where’s the Center:</strong> Given `x`, `theta`, and `R_(C,theta)(x)`, where’s `C`?</li>
-				<li><strong>Inverse Hit the Target:</strong> Given `C`, `theta`, and `R_(C,theta)(x)`, where’s `x`?</li>
-				<li><strong>What’s the Angle 2:</strong> Given `x` and `R_(C,theta)(x)` varying, what’s `theta`?</li>
-				<li><strong>What’s the Angle 3:</strong> A slightly more challenging version of What’s the Angle 2.</li>
+				<li><strong>Hit the Target:</strong> Where’s the missing dependent variable?</li>
+				<li><strong>What’s the Angle:</strong> What’s the missing angle?</li>
+				<li><strong>Where’s the Center:</strong> Where’s the missing center?</li>
+				<li><strong>Inverse Hit the Target:</strong> Where’s the missing independent variable?</li>
+				<li><strong>What’s the Moving Angle:</strong> Find the missing angle while `x` varies.</li>
 			</ol>
-			<p>How well can you do at the higher levels of each game?</p>
+			<p>For each game, the level number (1, 2, and 3) determines how many hints are available, and the letter (a, b, and c) determines what angles are used. (For instance, multiples of 10° are harder to estimate than multiples of 45°.)</p>
+			<p>After you start a level, you must press Reset to change levels.</p>
+			<p>How well can you do at the higher levels of each game? (Don’t expect to get perfect scores at levels 2 and 3, but you will be able to get higher scores as you improve your ability to estimate angles and distances.)</p>
     </div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" id="rotate-games" data-delayed-url="./rotate-games.json">Loading...</div>
@@ -181,13 +165,18 @@
 	<p class="fcSectionHead">5 Trace a Star</p>
 	<div class="fcSectionBody">
 		<div class="jaxContainer twoColumn">
-			<p>Adjust the domain and the function rule to trace out the star below. Can you find two different ways to complete your trace?</p>
+			<ul>
+				<li>Page 1: Adjust the function rule to trace out the star.</li>
+				<li>Page 2: Can you find two ways to trace each arm?</li>
+				<li>Page 3: Trace another star of your own choosing.</li>
+			</ul>
 		</div>
 		<div class="sketch_container">
 			<div class="sketch_canvas" id="rotate-stars-intro" data-delayed-url="./rotate-stars-intro.json">Loading...</div>
 			<p>Hint videos: &nbsp; &nbsp; 
-				<a class="play-video" data-src="./video/stars1">One method</a>
-				<a class="play-video" data-src="./video/stars2">A different method</a>
+				<a class="play-video" data-src="./video/trace-a-star1">One method</a>
+				<a class="play-video" data-src="./video/trace-a-star2">A different method</a>
+				<a href="./rotate-family-part2.pdf">Download Part 2 worksheet</a>
 			</p>
 			<div class="page_buttons"></div>
 			<button class="widget_button"></button>
@@ -196,69 +185,37 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">6 Rotate Dance</p>
+	<p class="fcSectionHead">6 Rotate Dances</p>
 	<div class="fcSectionBody">
-		<div class="jaxContainer twoColumn">
-			<p>In a group of three, choose an independent dancer, mark a domain segment on the floor, and choose one end of the segment as the center point. First dance the star shape you just finished tracing. As you dance, coordinate your body movements to match the rotation.</p>
-			<p>Then perform a more complicated dance. Choose a different independent dancer, decide on a domain for the independent dancer to follow, perform your new dance. (Consider asking a classmate to record a video of your dance.)</p>
-			<p>If time permits, join with another group to choreograph and perform a rotation dance with four or more dancers.</p>
-		</div>
-		<p>You can use the pages of the sketch below to diagram your dances.</p>
 		<div class="subsection">
-			<p class="fcSubsectionHead">Diagram a Dance</p>
+			<p class="fcSubsectionHead">6a Physical Dances</p>
 			<div class="fcSubsectionBody">
+				<div class="jaxContainer twoColumn">
+					<h4>First Dance</h4>
+					<p>Use a group of three or four students to perform a 180° rotate dance: an independent dancer, a dependent dancer, and one or two choreographers. You will do at least four dances, so each group member should take a turn playing each role.</p>
+					<p>You can include specific arm, leg, and other body motions in your dance. The choreographer(s) should make sure the dependent dancer's motion is a rotation. (For instance, if the independent dancer raises her right arm, the choreographer(s) should check that the dependent dancer also raises her right arm (<em>not</em> her left arm).</p>
+					<p>For your first dance, follow the steps below.</p>
+					<ol>
+						<li>Choose one person as the independent dancer and another as the dependent dancer.</li>
+						<li>Mark a center point on the floor.</li>
+						<li>The two dancers face each other, close to the center point.</li>
+						<li>The independent dancer moves in a similar pattern to the penguin in the sketch below, backing away from the center, moving around the center, and finally approaching the center.</li>
+						<li>The dependent dancer moves at the same speed in the opposite direction.</li>
+						<li>The choreographer(s) make sure the dependent dancer keeps the center half-way between the two dancers (as in the dance below).</li>
+					</ol>
+					<h4>More Dances</h4>
+					<p>Change roles and do a 90° rotate dance, similar to the 90° dance the penguin and frog do below.</p>
+					<p>Do two more dances (first 180° and then 270°), changing roles each time. For these dances use a more challenging pattern. Page 2 of the sketch shows an example.</p>
+				</div>
 				<div class="sketch_container">
 					<div class="sketch_canvas" id="rotate-dance" data-delayed-url="./rotate-dance.json">Loading...</div>
-					<p>Hint videos: &nbsp; &nbsp; &nbsp;
-						<a class="play-video" data-src="./video/intro-1">Use the tools</a>
-						<a class="play-video" data-src="./video/intro-4">Change <em>&theta;</em> and trace</a>
-						<a class="play-video" data-src="./video/style-widget">Use the style widget</a>
-					</p>
 					<div class="page_buttons"></div>
 					<button class="widget_button"></button>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-
-<!--<div class="section">
-	<p class="fcSectionHead">4 Old Rotate Dances</p>
-	<div class="fcSectionBody">
-		<div class="jaxContainer twoColumn">
-			<p>With your team you’ll create, perform, and videotape a rotation dance, and then do a virtual dance challenge.</p>
-			<p>Begin by taking a look  at the example dance below.</p>
-		</div>
 		<div class="subsection">
-			<p class="fcSubsectionHead">4a Example</p>
-			<div class="fcSubsectionBody">
-				<div class="sketch_container">
-					<div class="sketch_canvas" id="two-dancers-rotate" data-delayed-url="./two-dancers-rotate.json">Loading...</div>
-				</div>
-			</div>
-		</div>
-		<div class="subsection">
-			<p class="fcSubsectionHead">4b Do the Rotate Dance</p>
-			<div class="fcSubsectionBody">
-				<div class="jaxContainer twoColumn">
-					<p>Create your own physical dance with your team. Here are some suggestions:</p>
-					<ul>
-						<li><a href="./protractor.pdf">Print a large protractor</a> and place it on the floor to mark the center point `C` of your dance.</li>
-						<li>Choose a rotation angle `theta`.</li>
-						<li>Decide who on your team will be `x`, who will be `R(x)`, who will be the choreographers, and who will be the videographer.</li>
-						<li>The first part of your dance should use a restricted domain, and the second part should be unrestricted (improvised).</li>
-						<li>The choreographers can use sticky notes on the floor to mark the domain for the restricted part of your dance.</li>
-						<li>As you practice, the choreographers should periodically stop the dance and use a piece of clothesline to check the position of `R(x)`.</li>
-						<li>To check, stretch the clothesline from `C` to `x`, and note the length and angle.</li>
-						<li>Stretch the clothesline from `C` to `R(x)`. The length should be the same, and the angles should differ by `theta`.</li>
-						<li>Practice several dances using different angles, different domains, and with team members playing different roles. Video at least one of them.</li>
-						<li>Be creative and have fun!</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="subsection">
-			<p class="fcSubsectionHead">4c︎︎ Virtual Dance Challenge</p>
+			<p class="fcSubsectionHead">6b Virtual Dances</p>
 			<div class="fcSubsectionBody">
 				<div class="jaxContainer twoColumn">
 					<p>Up until now, you’ve mostly been the independent variable: you were either free to move around the plane, or you had to move around a polygon or other restricted domain. But in this challenge, you have to help the frog, who's the dependent variable. The penguin will move around a polygon, and your challenge is to help the frog follow the function rule.</p>
@@ -277,48 +234,25 @@
 				</div>
 				<div class="sketch_container">
 					<div class="sketch_canvas" id="dance-challenge" data-delayed-url="./dance-challenge.json">Loading...</div>
+					<p>Hint video: &nbsp; &nbsp; 
+						<a class="play-video" data-src="./video/virtual-dance">Trying the challenge at Level 4</a>
+					</p>
 					<div class="page_buttons"></div>
 					<button class="widget_button"></button>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>-->
+</div>
 		
 <div class="section">
 	<p class="fcSectionHead">7 Rotation Stars</p>
 	<div class="fcSectionBody">
 		<div class="subsection">
-			<p class="fcSubsectionHead">5a Create Your First Star by Adjusting an Existing Function</p>
-			<div class="fcSubsectionBody">
-				<div class="sketch_container">
-					<div class="sketch_canvas" id="rotate-stars-intro" data-delayed-url="./rotate-stars-intro.json">Loading...</div>
-					<p>Hint videos: &nbsp; &nbsp; 
-						<a class="play-video" data-src="./video/stars1">One method</a>
-						<a class="play-video" data-src="./video/stars2">A different method</a>
-					</p>
-					<div class="page_buttons"></div>
-					<button class="widget_button"></button>
-				</div>		
-			</div>
-		</div>
-		<div class="subsection">
-			<p class="fcSubsectionHead">5b Describe How to Construct a Star</p>
+			<p class="fcSubsectionHead">7a Construct Stars</p>
 			<div class="fcSubsectionBody">
 				<div class="jaxContainer twoColumn">
-					<p>In the drawing below, this student shows that he used two different function rules. In the first line he writes `R_1: C_1, 60°` to say that rotation `R_1` rotates about center `C_1` by `60°`, and then he writes `x_1=R_1(x)` to say that dependent variable `x_1` was constructed by applying function rule `R_1` to independent variable `x`. Similarly, he writes another line to describe his function `R_2`, with a different center point and angle, which he used to construct dependent variable `x_2`.</p>
-					<img src="./video/describe-star1.png">
-					<p>In this second drawing, another student shows that she used a single function rule two times. In the first line she writes `R_1: C, 120°` to say that rotation `R_1` rotates about center `C` by `120°`, and then she writes `x_1=R_1(x)` to say that dependent variable `x_1` was constructed by applying function rule `R_1` to independent variable `x`. On her second line she uses the same function again, so she just writes `x_2=R_1(x_1)` to say that dependent variable `x_2` was constructed by applying function rule `R_1` to variable `x_1`.</p>
-					<img src="./video/describe-star2.png">
-				</div>
-				<div class="jaxContainer">This way of describing your constructions (in which you first describe the rule and then describe how it was used to construct a dependent variable) is called <em>function notation.</em></div>
-			</div>
-		</div>
-		<div class="subsection">
-			<p class="fcSubsectionHead">5c Create More Stars by Constructing and Describing Your Own Functions</p>
-			<div class="fcSubsectionBody">
-				<div class="jaxContainer twoColumn">
-					<p>On page 1 the orange segmnent has already been moved to the correct location for you to use as your restricted domain. (You’ll have to do this yourself on the rest of the pages.)</p>
+					<p>On page 1 the orange segment has already been moved to the correct location for you to use as your restricted domain. (You’ll have to do this yourself on the rest of the pages.)</p>
 					<p>On pages 2, 3, 4, and 5 you’ll construct several rotation stars. On each page you can press the New Design button to find a design you like. As you create your star designs, don’t do them all the same way. Instead, try to use as many different methods as you can.</p>
 					<p>To keep track of different constructions, draw a picture in your journal of each star, and use <em>function notation</em> to describe the function you used to make each part of the star.</p>
 					<img src="./video/rotate-design.png" style="float: right; width:50px; background-color: #f0f7ff; border:1px solid; padding:3px; margin: 5px;">
@@ -327,12 +261,24 @@
 				<div class="sketch_container">
 					<div class="sketch_canvas" id="rotate-stars" data-delayed-url="./rotate-stars.json">Loading...</div>
 					<p>Page 1 hints for function #2: &nbsp; &nbsp; 
-						<a class="play-video" data-src="./video/stars3">One method</a>
-						<a class="play-video" data-src="./video/stars4">Another method</a>
-						<a class="play-video" data-src="./video/stars5">Still another method</a>
+						<a class="play-video" data-src="./video/star1">One method</a>
+						<a class="play-video" data-src="./video/star2">Another method</a>
+						<a class="play-video" data-src="./video/star3">Still another method</a>
 					</p>
 					<div class="page_buttons"></div>
 					<button class="widget_button"></button>
+				</div>
+			</div>
+		</div>
+		<div class="subsection">
+			<p class="fcSubsectionHead">7b Describe Your Constructions</p>
+			<div class="fcSubsectionBody">
+				<div class="jaxContainer" style="border-bottom: 1px solid black; margin-bottom: 0.5rem;">The easiest way to describe your star constructions is to combine function notation with drawings, as described below.</div>
+				<div class="jaxContainer twoColumn">
+					<p>In the drawing below, this student shows that he used two different function rules. In the first line he writes `R_1: C_1, 60°` to say that rotation `R_1` rotates about center `C_1` by `60°`, and then he writes `x_1=R_1(x)` to say that dependent variable `x_1` was constructed by applying function rule `R_1` to independent variable `x`. Similarly, he writes another line to describe his function `R_2`, with a different center point and angle, which he used to construct dependent variable `x_2`.</p>
+					<img src="./video/describe-star1.png">
+					<p>In this second drawing, another student shows that she used a single function rule two times. In the first line she writes `R_1: C, 120°` to say that rotation `R_1` rotates about center `C` by `120°`, and then she writes `x_1=R_1(x)` to say that dependent variable `x_1` was constructed by applying function rule `R_1` to independent variable `x`. On her second line she uses the same function again, so she just writes `x_2=R_1(x_1)` to say that dependent variable `x_2` was constructed by applying function rule `R_1` to variable `x_1`.</p>
+					<img src="./video/describe-star2.png">
 				</div>
 			</div>
 		</div>
@@ -455,6 +401,8 @@
 		<p><strong>Update History:</strong></p>
 	 <div class="updateHistory">
 			27 Mar 2018: Updated to new organization; previous version is preserved temporarily at <a href="https://geometricfunctions.org/fc/unit1/rotate-family-old">https://geometricfunctions.org/fc/unit1/rotate-family-old</a><br>
+			02 May 2018: Rotation stars bjects lost due to resizing are now back on-screen.Rotate-games objects showing in error are now hidden.<br>
+			27 Apr 2018: Resized Rotation Stars sketch to fit the widescreen format<br>
 			11 Dec 2017: Added Rotation Stars section.<br>
 			16 Oct 2017: Finished sketch, worksheet, and videos for the Restrict the Domain section<br>
 			03 Oct 2017: Created Forging Connections banner<br>

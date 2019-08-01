@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
 	<title>Function Dances</title>
@@ -34,8 +34,9 @@
 </div>
 
 <div class = "bodyText">
-<p>This page supports a student project on Geometric Function Dances.</p>
+<p>This page will eventually support a student project on Geometric Function Dances.</p>
 <p>It currently contains only video examples of dance routines. It can be useful to observe the videos ands identify which functions are being used, and how the dancers transition from one function to another.</p>
+
 <div class="section">
 	<p class="fcSectionHead fcOpen">1 Masters of Dance</p>
 	<div class="fcSectionBody fcVisible">
@@ -74,14 +75,60 @@
 				<p>Downloaded from <a href="https://www.youtube.com/watch?v=H2pvvGRzTEI">https://www.youtube.com/watch?v=H2pvvGRzTEI</a>. The clip comes from the 1940 movie “Broadway Melody.” Read more about <a href="https://newrepublic.com/article/110438/remembering-eleanor-powell-the-dancer-too-good-fred-astaire">Eleanor Powell—“the dancer too good for Fred Astaire”—here.</a></p>
 			</div>
 		</div>
+		<div class="subsection">
+			<p class="fcSubsectionHead">1c Géométrie Variable</p>
+			<div class="fcSubsectionBody">
+				<p>This dance group explores geometric figures and transformations in a remarkable way.</p>
+				<p>What transformations do you particularly notice? Describe each of these transformations, including the time at which they occurred.</p>
+				<video width="960" controls
+					poster="./video/geometrie-variable-labora-r.png" >
+					<source
+						src="./video/geometrie-variable-labora-r.webm"
+						type="video/webm">
+					<source
+						src="./video/geometrie-variable-labora-r.mp4"
+						type="video/mp4">
+					Your browser doesn't support HTML5 video tag.
+				</video>
+				<p>Downloaded from <a href="https://www.instagram.com/p/BjsUz45hieG/">https://www.instagram.com/p/BjsUz45hieG/</a>.  Géométrie Variable often performs at hip-hop dance festivals. Their dance style is sometimes referred to as <a href="http://www.hiphoparea.com/breakdance/tutting.html">&ldquo;tutting.&rdquo;.</a></p>
+			</div>
+		</div>
 	</div>
 </div>
 			
 <div class="section">
-	<p class="fcSectionHead">2 Leopard Dances</p>
+	<p class="fcSectionHead">2 Student Function Dances</p>
+	<div class="fcSectionBody">
+		<p>These dances were created by students doing a mini-project at the end of Unit 1.</p>
+		<p>✏️ How do the dances below relate to the transformations you have been learning about?</p>
+		<video width="960" controls
+			poster="./video/dance-1-poster.png" >
+			<source
+				src="./video/dance-1.webm"
+				type="video/webm">
+			<source
+				src="./video/dance-1.mp4"
+				type="video/mp4">
+			Your browser doesn't support HTML5 video tag.
+		</video>
+		<video width="960" controls
+			poster="./video/dance-2-poster.png" >
+			<source
+				src="./video/dance-2.webm"
+				type="video/webm">
+			<source
+				src="./video/dance-2.mp4"
+				type="video/mp4">
+			Your browser doesn't support HTML5 video tag.
+		</video>
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">3 Leopard Dances</p>
 	<div class="fcSectionBody">
 		<div class="subsection">
-			<p class="fcSubsectionHead">2a Demonstration </p>
+			<p class="fcSubsectionHead">3a Demonstration </p>
 			<div class="fcSubsectionBody">
 				<div class="jaxContainer">This websketch demonstrates several animations you can create using the construction steps below.
 				</div>
@@ -93,7 +140,7 @@
 			</div>
 		</div>
 		<div class="subsection">
-			<p class="fcSubsectionHead">2b Construction Steps</p>
+			<p class="fcSubsectionHead">3b Construction Steps</p>
 			<div class="fcSubsectionBody">
 				<div class="jaxContainer twoColumn">
 					<p>Use pages 1 through 6 to see examples of various construction techniques you can use.</p>
@@ -110,7 +157,7 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">3 More Coming Soon...</p>
+	<p class="fcSectionHead">4 More Coming Soon...</p>
 	<div class="fcSectionBody">
 		<p>Your patience is appreciated.</p>
 	</div>

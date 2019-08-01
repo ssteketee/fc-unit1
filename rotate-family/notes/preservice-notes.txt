@@ -61,7 +61,7 @@ Rotation Stars
 		<li>FILL THIS SECTION OUT...</li>
 	</ul>	<p>Many thanks to my young assistant Sebastian for helping me to imagine and implement this sketch.</p>
 
-Check Yourself
+Rotate Games
 	<p>You may want to ask students to submit, by email or otherwise, a screen capture of their best effort at each of the challenges. Point out to students that earlier levels can be done precisely and later levels require students to develop estimating skills, you might ask them to submit two screen captures, one at a level of precision aiming for 10 correct results out of 10 tries and one at a level of estimation aiming for 7 </p>
 	
 Objectives

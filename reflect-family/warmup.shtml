@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.shtml" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Reflect Family</title>
+	<meta name="description" content="This page supports the Reflect Family activity from Introducing Geometric Transformations as Functions.">
+
+		<script type="text/javascript">
+			WIDGETS.setWidgetsPrefs ([
+				{pages: "none"}, // turn off all widgets for all sketches
+				{category: "util", sketch: "reflect-construct"},
+				{category: "widget", sketch: "reflect-construct", pages: "2,3"}
+			]);
+		</script>
+
+</head>
+
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area" style="margin:0 auto; padding:10px;">
+	
+<div class="title lessonTitle">The Reflect Family</div>
+
+<div class = "bodyText">
+
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
+	<div class="fcSectionBody fcVisible">
+			<div class="sketch_canvas" id="reflect-warmup" data-url="./reflect-warmup.json">Loading...</div>		
+		<div><p>✏️ What do you notice? What do you wonder?</p></div>
+	</div>
+</div>
+
+<script>
+	$(function() {
+		var goButton, activeValue, successValue, successButton, failureButton;
+		
+		function beginChallenge (challengeButton) {	// Hide the challenge button until success or failure.
+			if (!goButton.state.isActive()) {
+				challengeButton.hide();	// Don't show the challenge button again until the challenge ends.
+				goButton.press ();
+				activeValue.on("update", endChallenge);
+			}
+		}
+		
+		function endChallenge () {
+			if (activeValue.value () !== 0)
+				return;
+			else {	// hit an obstacle or target
+				if (successValue.value() === 1)
+					successButton.press();
+				else
+					failureButton.press();
+			}
+		}
+		
+		// It appears that update is the only event WSP ever emits, so recognizing a button press likely requires that one effect of the button is to change the value or location of a specific target object, so that a button press is recognized by an update event to the target.
+		
+		function setWarmupHandlers (sketch) {
+			activeValue = sketch.sQuery('Expression[label="neither obstacle nor target hit yet"]')[0];
+			goButton = sketch.sQuery('Button[label="Go"]')[0];
+			successValue = sketch.sQuery('Expression[label="point reaches target"]')[0];
+			successButton = sketch.sQuery('Button[label="Success"]')[0];
+			failureButton = sketch.sQuery('Button[label="Failure"]')[0];
+			sketch.sQuery('Button[label="Try the challenge!"]').on ("press", function () {
+				beginChallenge (this);
+			});
+			sketch.sQuery('Button[label="Failure"]').on ("update", function () {
+				alert ("failure updated");
+			});
+		}
+		
+		$("#reflect-warmup").on("StartCurrentPage.WSP", function (event, context) {
+					setWarmupHandlers (context.document);
+		});
+	
+	});
+			
+</script>
+
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+		<p>Record every major revision, in reverse chronological order</p>
+    <div class="updateHistory">
+      04 Mar 2018: Converted to new lesson format.<br>
+      06 Mar 2017: Fixed a bug on page 5 where the <em>x</em> tool didn&rsquo;t work.<br>
+      16 May 2016: Updated websketch page 8 to eliminate tracing, which was confusing.<br>
+      31 Oct 2015: Updated this page to the website format.<br>
+		</div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>
+

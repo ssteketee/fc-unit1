@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!--#include virtual="/fc/includes/head.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
   <!--#include virtual="/includes/mathjax.html" -->
 
 	<title>Identify Functions</title>
 	<meta name="description" content="This page supports the activity on Identifying Functions.">
 
 		<script type="text/javascript">
-		WIDGETS.setWidgetsPrefs ([
-			{pages: "none"} // disable all widgets for all sketches; add restrictions if appropriate for "widget", "sketches", and "pages" properties on comma-separated lines below
+
+		PREF.setWebPagePrefs  ([
+	 		{pages: "none"}, // turn off all widgets for all sketches (omitting widget implies all widgets; omitting sketches implies all sketches)
+			{category: "widget", sketches: "warmup", name: "trace", pages: "2"}
 		]);
 	</script>
 
@@ -21,31 +23,68 @@
 <div id="templatemo_content">
 <div id="templatemo_full_column">
 <div class="text_area">
-<div class="title">Identify Functions</div>
+<div class="title">Identify Functions
+	<div class="notesButton buttontip" onclick=
+			 "window.open('identify-functions-tickets.pdf');
+			 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download entrance/exit tickets');">
+	Ⓔ 
+		<span class="buttontiptext" id="download-text">Download entrance/exit tickets</span>
+	</div> &nbsp; &nbsp;
+	<div class="notesButton buttontip" onclick=
+			 "window.open('identify-functions.pdf');
+			 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download worksheet');">
+	 Ⓦ 
+		<span class="buttontiptext" id="download-text">Download worksheet</span>
+	</div>
+</div>
 <div class = "bodyText">
 
 <div class="section">
-	<p class="fcSectionHead fcOpen">1 Sketch</p>
+	<p class="fcSectionHead fcOpen">1 Warmup</p>
 	<div class="fcSectionBody fcVisible">
+		<div class="jaxContainer">
+			<p>Using this sketch, you’ll distinguish independent and dependent variables.</p>
+		</div>
+		<p class="fcSubsectionHead">Worksheet</p>
+		<div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
+			<object data="./identify-functions-p1.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
+		</div>
+		<div class="sketch_container" style="width: 960px;">
+			<div class="sketch_canvas" id="warmup" data-url="./identify-functions-warmup.json">&nbsp;</div>
+      <div class="button_area">
+        <p class="page_toggle p_1">Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;</p>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+      <div class="twoColumn jaxContainer" style="clear: both; border-top: 1px solid black; padding-top: 0.3rem;">
+        <p class="pencil">Which points can you drag?</p>
+        <p class="pencil">What do you notice, and what do you wonder?</p>
+      </div>
+		</div>		
+	</div>
+</div>				
+ 
+<div class="section">
+	<p class="fcSectionHead">2 Examples and Non-Examples</p>
+	<div class="fcSectionBody">
 		<div class="jaxContainer">
 			<p>Using this sketch, you’ll learn to distinguish a function from a non-function.</p>
 		</div>
 		<p class="fcSubsectionHead">Worksheet</p>
 		<div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
-			<object data="./identify-functions.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
+			<object data="./identify-functions-p2.pdf?#zoom=100" style="width:968px; height: 100%; border:0;">Unable to display the worksheet</object>
 		</div>
 		<div class="sketch_container" style="width: 960px;">
-			<div class="sketch_canvas" id="sketch" data-url="./identify-functions.json">&nbsp;</div>
+			<div class="sketch_canvas" id="sketch" data-delayed-url="./identify-functions-examples.json">&nbsp;</div>
 			<div class="sketch_caption">
-				<p>Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;</p>
 			</div>
 			<span class="page_buttons"></span>
 		</div>		
 	</div>
-</div>				
-  
+
+</div>	
 <div class="section">
-	<p class="fcSectionHead">2 Objectives</p>
+	<p class="fcSectionHead">3 Objectives</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
       <p>This page supports the Identify Functions lesson from <a href="../">Unit 1: Introducing Geometric Transformations as Functions</a>.</p>

@@ -296,7 +296,6 @@
           "expression": "120 pixels",
           "label": "tool-width",
           "style": {
-            "hidden": true,
             "font-family": 0,
             "font-size": 9,
             "precision": 0,
@@ -319,7 +318,6 @@
           "expression": "960 pixels",
           "label": "raw-width",
           "style": {
-            "hidden": true,
             "font-family": 0,
             "font-size": 9,
             "precision": 0,
@@ -417,7 +415,6 @@
           "expression": "@0-@1-20 pixels*@2",
           "label": "sketch-width",
           "style": {
-            "hidden": true,
             "font-family": 0,
             "font-size": 9,
             "precision": 0,
@@ -523,7 +520,6 @@
           },
           "label": "Scroll",
           "style": {
-            "hidden": true,
             "color": "rgb(255,128,0)",
             "label": {
               "font-size": 10

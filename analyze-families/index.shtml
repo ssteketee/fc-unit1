@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/fc/includes/head.shtml" -->
+  <!--#include virtual="/includes/mathjax.html" -->
+
+	<title>Lesson Template</title>
+	<meta name="description" content="This page is a lesson template.">
+
+		<script type="text/javascript">
+			WIDGETS.setWidgetsPrefs ([
+				{pages: "none"}, // turn off all widgets for all sketches
+				{widget: "style", sketches: "intro, rotate-stars"}, //turn on the style widget for all pages in sketches intro and rotate-stars.
+				{sketches: "rotate-stars", pages: "6,7"},	// turn on both widgets for pp. 6 and 7
+				{widget: "visibility", sketches: "intro", pages: "2"},
+			]);
+		</script>
+
+</head>
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area" style="margin:0 auto; padding:10px;">
+
+<div class="title lessonTitle">Lesson Template
+	<div class="notesButton buttontip" onclick = "window.open('lesson-template-journal.docx'); $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download lesson journal');">
+		 Ⓙ 
+			<span class="buttontiptext" id="download-text">Download lesson journal</span>
+	</div>
+</div>
+
+<div class = "bodyText">
+
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
+	<div class="fcSectionBody fcVisible">
+		<p>The Warm-Up section is normally visible by default, so includes the fcVisible class in the fcSectionBody and uses data-url instead of data-delayed to specify the sketch json.</p>
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="warm-up" data-url="./warm-up.json">Loading...</div>
+			<!-- The page_button and widget_button would go here, if this sketch had such buttons. -->
+		</div>		
+	</div>
+</div>				
+	
+<div class="section">
+	<p class="fcSectionHead">2 Mathematical Notation</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer">
+			<p>Specify the jaxContainer class if your div uses math formatting, and specify the twoColumn class to format it in columns.</p>
+			<p>We use a system called AsciiMath or AsciiMathML for mathematical formatting. Each math expression is delimited by backticks (right under the escape key on your keyboard), and can display various mathematical symbols, formulas, etc.</p>
+			<p>Here are a few examples:<p>
+			<table style="width:50rem;">
+				<tr>
+					<th>For this math</th>
+					<th>Type this (between backticks)</th>
+				</tr>
+				<tr>
+					<td>`overline(AB)`</td>
+					<td>overline(AB)</td>
+				</tr>
+				<tr>
+					<td>`vec(AB)`</td>
+					<td>vec(AB)</td>
+				</tr>
+				<tr>
+					<td>`stackrel harr (AB)`</td>
+					<td>stackrel harr (AB)</td>
+				</tr>
+				<tr>
+					<td>`stackrel harr (AB) ∥ overline(CD)`</td>
+					<td>stackrel harr (AB) ∥ overline(CD)</td>
+				</tr>
+				<tr>
+					<td>`stackrel harr (AB)\ ⟂\ overline(CD)`</td>
+					<td>stackrel harr (AB)\ ⟂\ overline(CD) (The "\ " adds a space.)</td>
+				</tr>
+				<tr>
+					<td>`angleABC`</td>
+					<td>/_ABC or angleABC</td>
+				</tr>
+				<tr>
+					<td>`triABC`</td>
+					<td>triABC</td>
+				</tr>
+				<tr>
+					<td>`circleAB`</td>
+					<td>circleAB</td>
+				</tr>
+				<tr>
+					<td>`(x+2)/(y-3)`</td>
+					<td>(x+2)/(y-3)</td>
+				</tr>
+				<tr>
+					<td>`int_0^1 x^2\ dx`</td>
+					<td>int_0^1 x^2\ dx (The "\ " adds a space before `dx`.)</td>
+				</tr>
+				<tr>
+					<td>`sum_(i=1)^n n = (n*(n + 1))/2`</td>
+					<td>sum_(i=1)^n n = (n*(n + 1))/2</td>
+				</tr>
+				<tr>
+					<td>`x = (-b +- sqrt(b^2 - 4ac))/(2a)`</td>
+					<td>x = (-b +- sqrt(b^2 - 4ac))/(2a)</td>
+				</tr>
+			</table>
+			<p>The circle (`circle`) and triangle (`tri`) symbols are not standard AsciiMath. Math layout tools for the web have historically neglected elementary geometry in favor of a multitude of operator symbols, so neither TeX, LaTeX, nor MathML has standard symbols for geometric circles. With the help of Davide Cervone from MathJax, I have put in place a custom configuration for MathJax that makes these symbols work for us.</p>
+		</div>
+	</div>
+</div>	
+						
+<div class="section">
+	<p class="fcSectionHead">3 Section Heading</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+			<p>This section has it all: a two-column intro, two subsections each with its own sketch, and an embedded video in the section body itself.</p>
+		</div>
+		<div class="subsection">
+			<p class="fcSubsectionHead">3a︎︎ Subsection 1 Heading</p>
+			<div class="fcSubsectionBody">
+				<p>Text (possibly in a div of class jaxContainer and/or twoColumn) can go above or below the sketch.</p>
+				<div class="sketch_container">
+					<div class="sketch_canvas" id="intro" data-delayed-url="./intro.json">Loading...</div>
+					<p>Hint videos coming soon: 
+						<a class="play-video" data-src="./video/intro-1">Page 1</a>
+						<a class="play-video" data-src="./video/intro-4">Page 2</a>
+					</p>
+					<div class="page_buttons"></div>
+					<button class="widget_button"></button>
+				</div>
+			</div>
+		</div>
+		<div class="subsection">
+			<p class="fcSubsectionHead">3b Subsection 2 Heading</p>
+			<div class="fcSubsectionBody">
+				<div class="sketch_container">
+					<div class="sketch_canvas" id="rotate-stars" data-delayed-url="./rotate-stars.json">Loading...</div>
+					<p>Hint videos coming soon: 
+						<a class="play-video" data-src="./video/intro-1">Page 1</a>
+						<a class="play-video" data-src="./video/intro-4">Page 2</a>
+					</p>
+					<div class="page_buttons"></div>
+					<button class="widget_button"></button>
+				</div>
+			</div>
+		</div>
+		<p>Below is an embedded video with a poster. You can use embedded videos, or videos that appear (like the hint videos) in a modal window.</p>
+		<video width="960" controls
+			poster="./video/teacup-ride.png" >
+			<source
+				src="./video/teacup-ride.webm"
+				type="video/webm">
+			<source
+				src="./video/teacup-ride.mp4"
+				type="video/mp4">
+			Your browser doesn't support HTML5 video tag.
+		</video>
+	</div>
+</div>
+             
+<div class="section">
+	<p class="fcSectionHead">4 Objectives</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+      <p>This page supports the Rotate Family lesson from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. You will construct rotation functions, manipulate and observe them, and learn how this function family behaves.</p>
+      <p>By the end of this lesson, you&rsquo;ll be able to perform these actions and answer these questions:</p>
+			<ul>
+				<li><em>Item 1</em> This is the first of some number of items.</li>
+			</ul>
+			<p>Early items in the above list should be as specifically targeted as possible to things students actually do during the lesson.</p>
+			<p>Later items can be more general, and more abstract in nature.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.5/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+		<p>Record every major revision, in reverse chronological order</p>
+		<div class="updateHistory">
+			 14 Feb 2018: Simplified this template.<br>
+			 24 Jan 2018: Created this lesson template.<br>
+		</div>
+		<br>
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>

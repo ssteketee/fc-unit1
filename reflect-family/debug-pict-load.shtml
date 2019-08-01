@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--#include virtual="/includes/mathjax.html" -->
+  <!--#include virtual="/fc/includes/head.shtml" -->
+
+	<title>Reflect Family</title>
+	<meta name="description" content="This page supports the Reflect Family activity from Introducing Geometric Transformations as Functions.">
+
+		<script type="text/javascript">
+			PREF.setWebPagePrefs ([
+				{pages: "none"}, // turn off all widgets for all sketches
+				{category: "util", sketches: "reflect-construct", pages:"all"},
+				{category: "widget", sketches: "reflect-construct", pages: "2,3"},
+				{sketches: "reflect-warmup", pages: "none"}
+			]);
+		</script>
+
+</head>
+
+<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->
+<div id="templatemo_content">
+<div id="templatemo_full_column">
+<div class="text_area" style="margin:0 auto; padding:10px;">
+	
+<div class="title lessonTitle">The Reflect Family</div>
+
+<div class = "bodyText">
+
+<div class="section">
+	<p class="fcSectionHead">5 Match the Traces</p>
+	<div class="fcSectionBody">
+    <div class="jaxContainer twoColumn">
+			<p>Each page of this sketch has a faint background image showing traces left by an independent variable x and its reflected image `r_j(x)`. But the mirror is hidden!</p>
+			<p>Construct your own reflect function and adjust it so you can drag x to make the same pattern as the one shown faintly in the background.</p>
+			<p>✏️ What did you learn as you solved these challenges? Describe your method so another student could use it.</p>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./reflection-designs.json">Loading...</div>
+      <div class="page_buttons"></div>
+      <button class="widget_button"></button>
+    </div>		
+	</div>
+</div>
+
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>
+
