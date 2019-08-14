@@ -47,32 +47,35 @@
 <div class="section">
 	<p class="fcSectionHead">2 Reflect Dance 1</p>
 	<div class="fcSectionBody">
-		<div class="jaxContainer twoColumn">
-			<p>Work with a partner to perform two short reflect dances, moving as if there is a mirror between you. To locate the mirror, put a piece of tape on the floor, with <a href="./reflect-dance-pair.pdf" target="_blank">a dance guide paper</a> in the middle of the mirror like this:</p>
-			<a href="./reflect-dance-pair.pdf" target="_blank"><img src="./reflect-dance-pair-img.png" style="width: 25rem; margin-left: 2rem;"></a>
-			<p>For the first dance, flip a coin to identify one person as the independent dancer and the other as the dependent dancer. You will switch roles for the second dance.</p>
-			<p><strong>Independent Dancer:</strong> Always look at your partner, and take steps according to the directions below. As you dance, you can do any other body movement that’s both safe and simple enough that your partner can mirror it. Start one step back from the middle of the mirror.</p>
-			<p><strong>Dependent Dancer:</strong> Mirror your partner’s movements, staying exactly across the mirror from your partner and the same distance away from the mirror.</p>
-			<strong>First Dance:</strong><br>
-			<ul>
-				<li>3 steps south</li>
-				<li>6 steps west</li>
-				<li>4 steps northeast</li>
-				<li>3 steps southeast</li>
-			</ul>
-			<p>✏️ Draw a diagram to show the path that each of you followed.</p>
-			<p>✏️ Describe the relative directions you moved in each part of the dance.</p>
-			<strong>Second Dance:</strong> (after switching roles)<br>
-			<p>Begin with the three-part dance routine below and finish by improvising your own dance pattern. If possible, ask a classmate to video your dance.</p>
-			<ul>
-				<li>3 steps southeast</li>
-				<li>2 steps north</li>
-				<li>3 steps southwest</li>
-				<li>Improvise and record the rest of your dance routine</li>
-			</ul>
-			<p>✏️ When did you both move in the same direction? When did you move in opposite directions?</p>
+		<p class="fcSubsectionHead fcOpen">Physical Dance</p>
+		<div class="fcSubsectionBody fcVisible">
+			<div class="jaxContainer twoColumn">
+				<p>Work with a partner to perform two short reflect dances, moving as if there is a mirror between you. To locate the mirror, put a piece of tape on the floor, with <a href="./reflect-dance-pair.pdf" target="_blank">a dance guide paper</a> in the middle of the mirror like this:</p>
+				<a href="./reflect-dance-pair.pdf" target="_blank"><img src="./reflect-dance-pair-img.png" style="width: 25rem; margin-left: 2rem;"></a>
+				<p>For the first dance, flip a coin to identify one person as the independent dancer and the other as the dependent dancer. You will switch roles for the second dance.</p>
+				<p><strong>Independent Dancer:</strong> Always look at your partner, and take steps according to the directions below. As you dance, you can do any other body movement that’s both safe and simple enough that your partner can mirror it. Start one step back from the middle of the mirror.</p>
+				<p><strong>Dependent Dancer:</strong> Mirror your partner’s movements, staying exactly across the mirror from your partner and the same distance away from the mirror.</p>
+				<strong>First Dance:</strong><br>
+				<ul>
+					<li>3 steps south</li>
+					<li>6 steps west</li>
+					<li>4 steps northeast</li>
+					<li>3 steps southeast</li>
+				</ul>
+				<p>✏️ Draw a diagram to show the path that each of you followed.</p>
+				<p>✏️ Describe the relative directions you moved in each part of the dance.</p>
+				<strong>Second Dance:</strong> (after switching roles)<br>
+				<p>Begin with the three-part dance routine below and finish by improvising your own dance pattern. If possible, ask a classmate to video your dance.</p>
+				<ul>
+					<li>3 steps southeast</li>
+					<li>2 steps north</li>
+					<li>3 steps southwest</li>
+					<li>Improvise and record the rest of your dance routine</li>
+				</ul>
+				<p>✏️ When did you both move in the same direction? When did you move in opposite directions?</p>
+			</div>
 		</div>
-		<p class="fcSubsectionHead fcOpen">Example</p>
+		<p class="fcSubsectionHead">Virtual Dance</p>
 		<div class="fcSubsectionBody">
 			<div class="jaxContainer twoColumn">
 			</div>
@@ -80,16 +83,23 @@
 				<div class="sketch_canvas" id="dance1" data-delayed-url="dance1.json" >Loading...
 				</div>
 				<div class="button_area">
+					<p>Hint Video: &nbsp; &nbsp;
+						<a onclick="playVideo('./virtual-dance-1');">
+							 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
+							 Virtual Dance 1
+						</a>&nbsp; &nbsp; &nbsp;
+					</p>
 					<div class="page_buttons"></div>
 					<button class="widget_button"></button>
 				</div>
-				<div class="page_toggle p_1 jaxContainer" style="clear: both;">
-					<p>The penguin and frog like to do reflect dances. Drag the penguin around to see how she leads the frog.</p>
-					<p>Press the Dance button to make the penguin and frog do the same dance as your first dance.</p>
-					<p>Use the Trace widget <sub></sub><img style="width: 15px; border: 1px solid black; vertical-align: -12%;" src="trace-icon.png"></sub> to enable or disable tracing, and to turn trace fading on or off.</p>
+				<div class="page_toggle p_1 jaxContainer twoColumn" style="clear: both;">
+					<p>The penguin and frog want to do your reflect dance. Drag the penguin to show her the dance that you and your partner did.</p>
+					<p>You can use the Trace widget <sub></sub><img style="width: 15px; border: 1px solid black; vertical-align: -12%;" src="trace-icon.png"></sub> to enable or disable tracing and to turn trace fading off.</p>
 				</div>
-				<div class="page_toggle p_2 twoColumn jaxContainer">
-					<p>On this page, use the Dance tool to choreograph a dance for the penguin and the frog. For each part of the dance, set the number of steps and the angle for the penguin to use, and the tool will make a button for that part of the dance. </p>
+				<div class="page_toggle p_2 jaxContainer twoColumn" style="clear: both;">
+					The penguin and frog want to use the buttons to do the dance that's shown. However, the buttons are mixed up.<br>
+					Rearrange the buttons so they can do the dance correctly.<br>
+					Use the Trace widget <sub></sub><img style="width: 15px; border: 1px solid black; vertical-align: -12%;" src="trace-icon.png"></sub> to trace the paths of the dancers.<br>
 					The angle measurements for the penguin work this way: <br>
 						<ul>
 							<li>East is `0°`.</li>
@@ -97,6 +107,18 @@
 							<li>West is `180°`.</li>
 							<li>South is `270°`.</li>
 						</ul>
+				</div>
+				<div class="page_toggle p_3 jaxContainer twoColumn" style="clear: both;">
+					<p>Use the Move tool to create at least three dance moves for the penguin and frog.</p>
+					<p>For each dance move, set the number of steps and the angle for the penguin to use, and the tool will make a button for that move.</p>
+					<p>Then turn on tracing and press the buttons to trace the dancers as they perform your moves.</p>
+				</div>
+				<div class="page_toggle p_4 jaxContainer twoColumn" style="clear: both;">
+					<p>The penguin and frog want to do one of the dances that you and your partner did. Choose which dance to use, and create Move buttons for that dance.</p>
+					<p>Then use the buttons to make the penguin and frog perform your dance. Trace their paths as they do your dance.</p>
+				</div>
+				<div class="page_toggle p_5 twoColumn twoColumn jaxContainer">
+					<p>On this page, use the Dance tool to choreograph a dance for the penguin and the frog. For each part of the dance, set the number of steps and the angle for the penguin to use, and the tool will make a button for that part of the dance. </p>
 				</div>
 			</div>
 		</div>
@@ -128,22 +150,38 @@
 					<li>Create a function rule using the <strong>Mirror</strong> tool.</li>
 					<li>Create a dependent variable using the <strong>Reflect</strong> tool.</li>
 				</ul>
-				<p class="pencil">Drag `x` around. What do you notice about the relative speed and direction of `x` and `r_m(x)`?</p>
+				<p class="pencil">Drag `x` around. What do you notice about the relative speed and direction of `x` and `r_j(x)`?</p>
 				<ul>
-					<li>Turn on tracing for `x` and `r_m(x)` and draw an interesting shape. Include parts where you drag x toward and away from the mirror and parts where you drag it parallel to the mirror.</li>
+					<li>Turn on tracing for `x` and `r_j(x)` and draw an interesting shape. Include parts where you drag x toward and away from the mirror and parts where you drag it parallel to the mirror.</li>
 				</ul>
 				<p class="pencil">Draw a picture of your traces. Show the mirror in your drawing.</p>
 				<ul>
 					<li>You and your partner should each take a turn making a design of your own, and you should each submit a drawing of your traces to your teacher.</li>
 				</ul>
 			</div>
-			<div class="page_toggle p_2">
-				<p>Construct a reflect function and use it to make traces to match the background image.</p>
+			<div class="page_toggle p_2 jaxContainer">
+				<p>On page 1, the instructions said to use the <strong>Point</strong> tool first to create <em>independent variable</em> `x,` the <strong>Mirror</strong> tool to create <em>mirror</em> `j,` and the <strong>Reflect</strong> tool to create <em>dependent variable</em> `r_j(x).` The idea behind this was to emphasize the three parts of a function: the <em>independent variable,</em> the <em>function rule,</em> and the <em>dependent variable.</em></p>
+				<p>The <strong>Reflect</strong> tool can actually create all three parts of a Reflect function, so you don't really need all three tools—but please be sure to keep in mind these three parts of any function that you work with.</p>
+				<p>Use the <strong>Reflect</strong> tool to construct a reflect function. Then adjust the function rule so that you can drag `x` to make the traces match the background image.</p>
+				<p class="pencil">What other letters can you trace out by using a reflect function?</p>
 			</div>
 			<div class="page_toggle p_3 twoColumn">
-				<p>Use this page to make an interesting design. You can use multiple mirrors if you like.</p>
-				<p class="pencil">Make a screen capture of your result.</p>
-				<p class="pencil">What do you notice about the reflect function? What do you wonder?</p>
+				<p>The <em>fixed points</em> of a function are the places where the independent variable `x` and the dependent variable `r_j(x)` come together.</p>
+				<p class="pencil">Construct a reflect function and figure out where its fixed points are.</p>
+				<p class="pencil">What do you notice about these fixed points? What do you wonder?</p>
+				<p class="pencil">What do you think the symbols `r_j(x)` represent?</p>
+				<p class="pencil">If you saw a dependent variable labeled `r_p(z),` what do you think this label would mean?</p>
+			</div>
+			<div class="page_toggle p_4 twoColumn">
+				<p>On this page, reflect point `x` across two different mirrors, `j` and `k.` Then trace to make an interesting design.</p>
+				<p class="pencil">Is there more than one way to interpret this direction?</p>
+				<p class="pencil">Make a drawing of your result.</p>
+			</div>
+			<div class="page_toggle p_5 twoColumn">
+				<p>On this page, see if you can figure out how to construct these dependent variables: `r_j(r_k(x))` and `r_k(r_j(x)).`</p>
+				<p class="pencil">Describe in words what these two labels mean.</p>
+				<p class="pencil">How can you arrange `j` and `k` so that `r_j(r_k(x))` and `r_k(r_j(x))` lie on top of each other?</p>
+				<p class="pencil">Make a drawing of your result.</p>
 			</div>
 		</div>
 	</div>
@@ -229,7 +267,7 @@
 				<p class="page_toggle p_3" style="font-size: 1.1rem;">Given independent variable `x` and `r_j(x)`, how can you find mirror `j`?</p>
 				<button class="widget_button"></button>
 			</div>
-			<div class="jaxContainer twoColumn">
+			<div class="jaxContainer twoColumn" style="clear: both; border-top: 1px solid black;" >
 				<ul>
 					<li>Each page of this sketch has a different game.</li>
 					<li>For each game play a few times at easier levels, and work your way up to level 5.</li>
