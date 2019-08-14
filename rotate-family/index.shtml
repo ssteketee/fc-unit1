@@ -38,86 +38,66 @@
 </div>
 
 <div class = "bodyText">
-
-<!--<div class="section">
-	<p class="fcSectionHead" style="background-color: #fef0d0">▹ Under Construction: Tap for more info.</p>
-	<div class="fcSectionBody">
-		<div style="border:2px solid; border-color: #ff0000; padding:5px; margin-bottom:5px; font-size: 1rem;">
-			<p>This lesson is under construction, and neither its activities nor its teacher notes are final.</p>
-			<p>Changes from earlier work include:</p>
-			<ul>
-				<li>This lesson consists of a series of activities in which students investigate, explore, and create the mathematics they are learning.</li>
-				<li>The Warm-Up activity is already displayed, to engage students right away.</li>
-				<li>Each subsequent activity can be shown or hidden by tapping its title bar.</li>
-				<li>The Check Yourself activity is an opportunity for students to assess their own understanding.</li>
-				<li>Most activities include short silent “hint videos” that provide useful hints, reducing students’ need for explicit worksheet instructions.</li>
-				<li>For multi-page sketches, there's now a page controller to make it easy to switch pages.</li>
-				<li>When appropriate, sketch pages include widgets that students can use to change the style or visibility of objects in the sketch.</li>
-				<li>Students should be asked to keep a journal of their work on the entire lesson.</li>
-				<li>A journal template contains questions for students to answer and other prompts for them to respond to and write about.</li>
-				<li>A pencil icon ✏️ on the web page indicates a question that students should address in their journal.</li>
-				<li>The standard journal template can be downloaded by pressing the Ⓙ button in the lesson title bar, or can be customized by the teacher.</li>
-				<li>Worksheets are few in number, replaced by multiple other supports:</li>
-				<ul style="margin-left: 2rem;">
-					<li>Short general directions on the web page.</li>
-					<li>Per-page directions in the sketch.</li>
-					<li>Hint videos.</li>
-					<li>The prompts and questions in the journal template.</li>
-				</ul>
-				<li>Teacher notes are available by adding "?user=teacher" at the end of the url in the browser's address bar. Teacher notes aim to cover basic information and suggestions most important for using the lesson successfully. More in-depth background and commentary is available in the PD/Preservice notes.</li>
-				<li>To access the teacher notes for any activity, press the Ⓣ button in the activity title bar. To access pd/preservice notes, press the Ⓟ button.</li>
-			</ul>
-			<p>What's not finished as of 2/12/18:</p>
-			<ul>
-				<li>The lesson journal template is only partially complete.</li>
-				<li>Some hint videos are missing, and some need to be redone due to edits in activities.</li>
-				<li>Some in-sketch directions are not yet coordinated with the corresponding web-page text.</li>
-				<li>The teacher notes and the pd/preservice notes are not yet complete.</li>
-			</ul>
-			<p>Feel free to use this lesson in its current form, recognizing that some elements remain incomplete. As we continue refining this lesson, <a href="mailto:webmaster@geometricfunctions.org?subject=Rotate%20Family%20Activity">we solicit your feedback and suggestions to make it better</a>.</p>
-		</div>
-	</div>
-</div>	-->
 						
 <div class="section">
 	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
 	<div class="fcSectionBody fcVisible">
 			<div class="sketch_canvas" id="warm-up" data-url="./warm-up.json">Loading...</div>		
 		<div style="float: right; font-size: 0.9rem;"><a href="./rotate-family-part1.pdf">Download Part 1 worksheet</a></div>
-		<div><p>✏️ What&rsquo;s going on here? What do you notice? What do you wonder?</p></div>
+		<div><p class="pencil">What&rsquo;s going on here? What do you notice? What do you wonder?</p></div>
 	</div>
 </div>				
 						
 <div class="section">
 	<p class="fcSectionHead">2 Introduction</p>
 	<div class="fcSectionBody">
-		<div class="jaxContainer twoColumn">
-			<ul>
-				<!--<li>Use the <img src="/images/video-icon-16x16.png" alt="Video"> hint videos if you need help.</li>-->
-				<li>Create an independent variable using the <strong>Point</strong> tool.</li>
-				<li>Create a function rule using the <strong>Center & Angle</strong> tool.</li>
-				<li>Create a dependent variable using the <strong>Rotate</strong> tool.</li>
-				<li>Change `theta` to 180°. Drag `x` to trace a shape.</li>
-				<li class="pencil">On your worksheet draw a picture of the shape.</li>
-				<li class="pencil">What do you notice, and wonder, when you drag `x`?</li>
-				<li>Use page 2 to investigate the behavior of a `90°` rotation.</li>
-				<li class="pencil">Trace a shape, and draw a picture on your worksheet.</li>
-				<li>Use page 3 to investigate the behavior of a `45°` rotation.</li>
-				<li class="pencil">Trace a shape, and draw a picture on your worksheet.</li>
-				<li>Drag `x` to find fixed points, where `x` and `R_(C,theta)(x)` come together.</li>
-				<li class="pencil">What do you notice, and wonder, about the fixed point(s)?</li>
-			</ul>
-		</div>
     <div class="sketch_container jaxContainer">
 			<div class="sketch_canvas" id="intro" data-delayed-url="./intro.json">Loading...</div>
-			<p>Hint videos: &nbsp; &nbsp; &nbsp;
-				<a class="play-video" data-src="./video/intro-1">Use the tools</a>
-				<a class="play-video" data-src="./video/intro-4">Change <em>&theta;</em> and trace</a>
-				<a class="play-video" data-src="./video/style-widget">Use the style widget</a>
-			</p>
-			<div class="page_buttons"></div>
-			<button class="widget_button"></button>
-		</div>		
+			<div class="button_area">
+        <p>Hint videos: &nbsp; &nbsp; &nbsp;
+          <a class="play-video" data-src="./video/intro-1">Use the tools</a>
+          <a class="play-video" data-src="./video/intro-4">Change <em>&theta;</em> and trace</a>
+          <a class="play-video" data-src="./video/style-widget">Use the style widget</a>
+        </p>
+        <div class="page_buttons"></div>
+        <button class="widget_button"></button>
+      </div>
+			<div class="page_toggle p_1 twoColumn jaxContainer" style="clear: both;">
+        <ul>
+          <!--<li>Use the <img src="/images/video-icon-16x16.png" alt="Video"> hint videos if you need help.</li>-->
+          <li>Create an independent variable using the <strong>Point</strong> tool.</li>
+          <li>Create a function rule using the <strong>Center & Angle</strong> tool.</li>
+          <li>Create a dependent variable using the <strong>Rotate</strong> tool.</li>
+          <li>Change `theta` to 180°. Drag `x` to trace a shape.</li>
+          <li class="pencil">What do you notice about the relative speed and direction of `x` and `R_(C,θ)(x)?`</li>
+          <li>Erase the traces and draw a new shape.</li>
+          <li>Include parts where you drag x toward and away from the center, in an arc around the center, and in a straight line that’s not toward or away from the center.</li>
+          <li class="pencil">On your worksheet draw a picture of the shape. Show `C` and `theta` in your picture.</li>
+          <li class="pencil">What do you notice, and wonder, when you drag `x`?</li>
+        </ul>
+      </div>
+			<div class="page_toggle p_2 twoColumn jaxContainer" style="clear: both;">
+        <ul>
+          <li>Use this page to investigate the behavior of a `90°` rotation.</li>
+          <li>Create an independent variable, a rotate rule, and a dependent variable.</li>
+          <li>Adjust `theta` to `90°` and drag `x` to trace a shape.</li>
+          <li>Include parts where you vary `x` toward and away from the center, in an arc around the center, and in a straight line that’s not toward or away from the center.</li>
+          <li class="pencil">Describe the relative speed and direction of `x` and `R_(C,θ)(x).`</li>
+          <li class="pencil">On your worksheet draw a picture of the shape. Show `C` and `theta` in your picture.</li>
+        </ul>
+        <p>
+</p>
+      </div>
+			<div class="page_toggle p_3 twoColumn jaxContainer" style="clear: both;">
+        <ul>
+          <li>Use this page to investigate the behavior of a `45°` rotation.</li>
+          <li class="pencil">Trace a shape, and draw a picture on your worksheet.</li>
+          <li class="pencil">Describe the relative speed and direction of x and `R_(C,θ)(x).`</li>
+          <li>Drag `x` to find fixed points, where `x` and `R_(C,theta)(x)` come together.</li>
+          <li class="pencil">What do you notice, and wonder, about the fixed point(s)?</li>
+        </ul>
+      </div>
+    </div>		
 	</div>
 </div>
 
@@ -142,14 +122,7 @@
 	<p class="fcSectionHead">4 Rotate Games</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
-			<p>This sketch includes five different Rotate Family games:</p>
-			<ol>
-				<li><strong>Hit the Target:</strong> Where’s the missing dependent variable?</li>
-				<li><strong>What’s the Angle:</strong> What’s the missing angle?</li>
-				<li><strong>Where’s the Center:</strong> Where’s the missing center?</li>
-				<li><strong>Inverse Hit the Target:</strong> Where’s the missing independent variable?</li>
-				<li><strong>What’s the Moving Angle:</strong> Find the missing angle while `x` varies.</li>
-			</ol>
+			<p>This sketch includes five different Rotate Family games.</p>
 			<p>For each game, the level number (1, 2, and 3) determines how many hints are available, and the letter (a, b, and c) determines what angles are used. (For instance, multiples of 10° are harder to estimate than multiples of 45°.)</p>
 			<p>After you start a level, you must press Reset to change levels.</p>
 			<p>How well can you do at the higher levels of each game? (Don’t expect to get perfect scores at levels 2 and 3, but you will be able to get higher scores as you improve your ability to estimate angles and distances.)</p>
@@ -157,6 +130,21 @@
 		<div class="sketch_container">
 			<div class="sketch_canvas" id="rotate-games" data-delayed-url="./rotate-games.json">Loading...</div>
 			<div class="page_buttons" id="rotate-games-pageCtl"></div>
+			<div class="page_toggle p_1 jaxContainer" style="clear: both;">
+        <p><strong>Hit the Target:</strong> Where’s the missing dependent variable?</p>
+      </div>
+			<div class="page_toggle p_2 jaxContainer" style="clear: both;">
+        <p><strong>What’s the Angle:</strong> What’s the missing angle?</p>
+      </div>
+			<div class="page_toggle p_3 jaxContainer" style="clear: both;">
+				<p><strong>Where’s the Center:</strong> Where’s the missing center?</p>
+      </div>
+			<div class="page_toggle p_4 jaxContainer" style="clear: both;">
+				<p><strong>Inverse Hit the Target:</strong> Where’s the missing independent variable?</p>
+      </div>
+			<div class="page_toggle p_5 jaxContainer" style="clear: both;">
+				<p><strong>What’s the Moving Angle:</strong> Find the missing angle while `x` varies.</p>
+      </div>
 		</div>
   </div>
 </div>
