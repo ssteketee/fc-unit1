@@ -11,7 +11,7 @@
 			PREF.setWebPagePrefs ([
 				{pages: "none"}, // turn off all widgets for all sketches
 				{category: "util", sketches: "reflect-construct", pages:"all"},
-				{category: "widget", sketches: "reflect-construct", pages: "all"},
+				{category: "widget", sketches: "reflect-construct", name: "style, trace, label", pages: "all"},
 				{category: "widget", sketches: "match-reflections", name: "style,label", pages: "all"},
 				{category: "widget", sketches: "find-the-mirror", name: "style,label, trace", pages: "all"},
 				{sketches: "reflect-dance2,find-the-mirror", category: "widget", name: "label,trace,style"},
@@ -22,6 +22,7 @@
 </head>
 
 <body>
+<div id="widget">Widget</div>
 <div id="templatemo_container"> 
 <!--#include virtual="/fc/includes/banner.html" -->
 <div id="templatemo_content">
@@ -131,13 +132,17 @@
 	<p class="fcSectionHead">3 Construct Reflect Functions</p>
 	<div class="fcSectionBody">
 		<div class="sketch_container">
-			<div class="sketch_canvas" id="reflect-construct" data-delayed-url="reflect-construct.json" >Loading...</div>
+			<div class="sketch_canvas" id="reflect-construct" data-delayed-url="reflect-construct2.json" >Loading...</div>
 			<div class="button_area">
 				<div class="util-menu-btn"></div>
 				<p class="page_toggle p_1">Hint Video: &nbsp; &nbsp;
+					<a onclick="playVideo('./useTheTools');">
+						 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
+						 Use the Tools
+					</a>&nbsp; &nbsp; &nbsp;
 					<a onclick="playVideo('./tracing');">
 						 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
-						 Tracing
+						 Trace the Variables
 					</a>&nbsp; &nbsp; &nbsp;
 				</p>
 				<div class="page_buttons"></div>
@@ -146,24 +151,24 @@
 			<div class="page_toggle p_1 twoColumn jaxContainer" style="clear: both;">
 				<ul>
 					<!--<li>Use the <img src="/images/video-icon-16x16.png" alt="Video"> hint videos if you need help.</li>-->
-					<li>Create an independent variable using the <strong>Point</strong> tool.</li>
-					<li>Create a function rule using the <strong>Mirror</strong> tool.</li>
-					<li>Create a dependent variable using the <strong>Reflect</strong> tool.</li>
+					<li>Create an independent variable, a function rule, and a dependent variable.</li>
 				</ul>
-				<p class="pencil">Drag `x` around. What do you notice about the relative speed and direction of `x` and `r_j(x)`?</p>
+				<p class="pencil">Drag `x` around. What three objects did you use to create this function?</p>
+				<p class="pencil">Drag `x` again. What do you notice about the relative speed and direction of `x` and `r_j(x)`?</p>
 				<ul>
 					<li>Turn on tracing for `x` and `r_j(x)` and draw an interesting shape. Include parts where you drag x toward and away from the mirror and parts where you drag it parallel to the mirror.</li>
 				</ul>
 				<p class="pencil">Draw a picture of your traces. Show the mirror in your drawing.</p>
 				<ul>
-					<li>You and your partner should each take a turn making a design of your own, and you should each submit a drawing of your traces to your teacher.</li>
+					<li>You and your partner should each take a turn making a design, and you should each submit a drawing of your traces to your teacher.</li>
 				</ul>
 			</div>
 			<div class="page_toggle p_2 jaxContainer">
-				<p>On page 1, the instructions said to use the <strong>Point</strong> tool first to create <em>independent variable</em> `x,` the <strong>Mirror</strong> tool to create <em>mirror</em> `j,` and the <strong>Reflect</strong> tool to create <em>dependent variable</em> `r_j(x).` The idea behind this was to emphasize the three parts of a function: the <em>independent variable,</em> the <em>function rule,</em> and the <em>dependent variable.</em></p>
+				<p>On the first page, the instructions said to use the <strong>Point</strong> tool first to create <em>independent variable</em> `x,` the <strong>Mirror</strong> tool to create <em>mirror</em> `j,` and the <strong>Reflect</strong> tool to create <em>dependent variable</em> `r_j(x).` The idea behind this was to emphasize the three parts of a function: the <em>independent variable,</em> the <em>function rule,</em> and the <em>dependent variable.</em></p>
 				<p>The <strong>Reflect</strong> tool can actually create all three parts of a Reflect function, so you don't really need all three tools—but please be sure to keep in mind these three parts of any function that you work with.</p>
 				<p>Use the <strong>Reflect</strong> tool to construct a reflect function. Then adjust the function rule so that you can drag `x` to make the traces match the background image.</p>
 				<p class="pencil">What other letters can you trace out by using a reflect function?</p>
+				<p class="pencil">Draw each letter you were able to make, showing where you put the mirror.</p>
 			</div>
 			<div class="page_toggle p_3 twoColumn">
 				<p>The <em>fixed points</em> of a function are the places where the independent variable `x` and the dependent variable `r_j(x)` come together.</p>
