@@ -8,11 +8,9 @@
 	<title>Identify Functions</title>
 	<meta name="description" content="This page supports the activity on Identifying Functions.">
 
-		<script type="text/javascript">
-
+	<script type="text/javascript">
 		PREF.setWebPagePrefs  ([
-	 		{pages: "none"}, // turn off all widgets for all sketches (omitting widget implies all widgets; omitting sketches implies all sketches)
-			{category: "widget", sketches: "warmup", name: "trace", pages: "2"}
+	 		{sketches: "identify-functions-examples", pages: "none"} // turn off all widgets for this sketch
 		]);
 	</script>
 
@@ -20,6 +18,7 @@
 <body>
 <div id="templatemo_container"> 
 <!--#include virtual="/fc/includes/banner.html" -->
+<!--#include virtual="/includes/modal-video.html" -->
 <div id="templatemo_content">
 <div id="templatemo_full_column">
 <div class="text_area">
@@ -52,7 +51,18 @@
 		<div class="sketch_container" style="width: 960px;">
 			<div class="sketch_canvas" id="warmup" data-url="./identify-functions-warmup.json">&nbsp;</div>
       <div class="button_area">
-        <p class="page_toggle p_1">Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;</p>
+        <p>
+        	Hint Videos: &nbsp; &nbsp;
+						<a onclick="playVideo('./style-widget');">
+							 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
+							 Style Widget
+						</a>&nbsp; &nbsp; &nbsp;
+						<a onclick="playVideo('./trace-widget');">
+							 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
+							 Trace Widget
+						</a>&nbsp; &nbsp; &nbsp;
+          Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;
+        </p>
         <div class="page_buttons"></div>
         <button class="widget_button"></button>
       </div>
