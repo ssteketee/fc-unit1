@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--#include virtual="/fc/includes/head.shtml" -->
+
+	<title>Dilate Family</title>
+	<meta name="description" content="This page supports the Dilate Family activity from Introducing Functions.">
+
+		<script type="text/javascript">
+			PREF.setWebPagePrefs ([
+				{category: "util", pages:"all"},
+				{category: "widget", name: "visibility", pages: "none"}
+			]);
+			
+			function clipPointToSketchRect(aPoint) { // Clip the point to the visible window.
+				var pt=aPoint.geom.loc;
+				var rect=aPoint.sQuery.sketch.metadata.sketchRect;
+				if (pt.x > rect.right) 
+					pt.x = rect.right-2;
+				else if (pt.x < rect.left)
+					pt.x = rect.left+2;
+				if (pt.y > rect.bottom) 
+					pt.y = rect.bottom-2;
+				else if (pt.y < rect.top)
+					pt.y = rect.top+2;
+			}
+			
+			function dragFinished(event, context, attrs) {
+				// Called at the end of each drag to clip a dragged free point to the window.
+				// Note that some dragged objects drag ancestral free points; such points will not be clipped.
+				// Perhaps it would be better to use labels to identify points that should be clipped?
+				var theGObj = context.gobj;
+				if (theGObj.kind=='Point' && theGObj.constraint=="Free")
+			clipPointToSketchRect (theGObj);
+			}
+
+			function sketchReady(aSketch) {
+				$('#'+aSketch.anchorNode[0].id).on("EndDrag.WSP", dragFinished);
+			}
+			
+			$(document).ready(function() {
+				$('#sketchDiv').WSP("loadSketch", {"data-url": "./dilate-family.json", onReady: sketchReady});
+				}
+			);
+		</script>
+
+</head>
+	<body>
+<div id="templatemo_container"> 
+<!--#include virtual="/fc/includes/banner.html" -->        
+			<div id="templatemo_content">
+				<div id="templatemo_full_column" style="background:#fff;">
+					<div class="text_area" align="left">
+<div class="title">Dilate Family
+	<div class="notesButton buttontip" onclick=
+			 "window.open('dilate-family.pdf');
+			 $('#download-text').hide().html('Downloading...').fadeIn(500).delay(500).fadeOut(500).html('Download worksheet');">
+	 Ⓦ 
+		<span class="buttontiptext" id="download-text">Download worksheet</span>
+	</div>
+</div>
+<p> This page supports the Dilate Family activity from the <a href="../">Introducing Functions</a> unit. You will construct and investigate dilate functions.</p>
+
+						
+<div class = "bodyText">
+
+<div class="section">
+	<p class="fcSectionHead fcOpen">1 Warmup</p>
+	<div class="fcSectionBody fcVisible">
+		<div class="jaxContainer twoColumn">
+		<p>Can you figure out how to hit the target? How many points can you score in ten throws?</p>
+			<ul>
+				<li>Page 2 has a hint; page 3 has more hints.</li>
+				<li>Pages 4 and 5 have slightly different challenges.</li>
+			</ul>
+			Download the <a href="./identify-functions.pdf">student worksheet.</a>
+		</div>
+		<div class="sketch_container jaxContainer">
+			<div class="sketch_canvas" data-url="./dilate-warmup.json">Loading...</div>
+			<div class="button_area">
+			<div class="page_buttons"></div>
+			<div><p>✏️ What do you notice about this game? What do you wonder?</p></div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">2 Construct Dilate Functions</p>
+	<div class="fcSectionBody">
+<!--		<p class="fcSubsectionHead">Worksheet</p>
+		<div class="fcSubsectionBody">
+			<div style = "resize: vertical; width: 964px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
+				<embed src="./dilate-family-worksheet.pdf" style="width:956px; height: 100%; border:0;" alt="pdf">
+			</div>
+		</div>-->
+		<div class="sketch_container jaxContainer">
+			<div class="sketch_canvas" data-delayed-url="dilate-construct.json">Loading...</div>
+			<div class="button_area">
+				<div class="page_buttons"></div>
+				<button class="widget_button"></button>
+				<p>Download the <a href="./dilate-family-worksheet.pdf">student worksheet.</a>&nbsp; &nbsp; &nbsp;
+				</p>
+			</div>
+			<div class="page_toggle p_1 twoColumn">
+				<p>On this page, construct a dilate function and turn on tracing for both variables. Then investigate the relative speeds and direction, and the relationship between their traces.</p>
+			</div>
+			<div class="page_toggle p_2 twoColumn">
+				<p>On this page, construct and compare two dilate functions. Investigate relative speed and direction of the variables. Also investigate the fixed point(s) of your functions.</p>
+			</div>
+			<div class="page_toggle p_3 twoColumn">
+				<p>On this page, attach the independent variable to a polygon. Then investigate the traces made by the dependent variable, using several different function rules.</p>
+			</div>
+			<div class="page_toggle p_4 twoColumn">
+				<p>On this page, you can use negative scale factors. Compare the behavior of dilate functions with several different positive and negative scale factors.</p>
+			</div>
+			<div class="page_toggle p_5 twoColumn">
+				<p>On this page, attach x to the red polygon, and figure out how to make `D_(C,s)(x)` follow the blue polygon.</p>
+				<p class="pencil">What did you notice, what did you wonder, what did you learn as you did this?</p>
+			</div>
+			<div class="page_toggle p_6 twoColumn">
+				<p>Use this page to experiment further on your own.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">3 Interlude</p>
+	<div class="fcSectionBody">
+		<video width="960" controls
+			poster="./alice-shrinks-and-grows.png" >
+			<source
+				src="./alice-shrinks-and-grows.webm"
+				type="video/webm">
+			<source
+				src="./alice-shrinks-and-grows.mp4"
+				type="video/mp4">
+			Your browser doesn't support HTML5 video tag.
+		</video>
+		<p style="font-size: 70%;"><a href="https://www.youtube.com/watch?v=UxsHkI0-dPM">From <em>Alice in Wonderland</em>, from Walt Disney Pictures, directed by Tim Burton with Mia Wasikowska as Alice and Johnny Depp as the Mad Hatter. Downloaded from https://www.youtube.com/watch?v=UxsHkI0-dPM</a></p>
+		<p>✏️ How does this video relate to the dilate activity you just did?</p>
+	</div>
+</div>
+
+<div class="section">
+	<p class="fcSectionHead">4 Dilate Games</p>
+	<div class="fcSectionBody">
+		<div class="jaxContainer twoColumn">
+		<p>Each page below contains a different dilate game.</p>
+		<p>Test (and improve!) your understanding of the dilate family by practicing these games.</p>
+		</div>
+		<div class="sketch_container jaxContainer" style="margin-left:3.5rem">
+			<div class="sketch_canvas" data-delayed-url="./dilate-games.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<p></p>
+		</div>
+	</div>
+</div>
+						
+<div class="section">
+	<p class="fcSectionHead" style="font-size: .8rem">The Fine Print</p>
+	<div class="fcSectionBody finePrint">
+		<p><strong>Requirements:</strong></p>
+		<p style="font-size:.8rem; line-height:1rem;">These activities require web access using a browser that supports HTML5 and JavaScript. (That means almost any current browser.) No purchase is required, and there&rsquo;s no advertising anywhere.</p>
+		<p><strong>Release Information</strong></p>
+	 <!--#include virtual="/includes/v4.6/js/js-version.html" -->
+		<p><strong>Update History:</strong></p>
+		<p>Record every major revision, in reverse chronological order</p>
+		<div class="updateHistory">
+			24 Oct 2019: Created this page.<br>
+		</div>
+		<br>
+	</div>
+</div>
+						
+						
+</div> <!-- bodyText -->
+
+</div> <!--templatemo_text_area-->
+</div> <!--templatemo_full_column-->
+</div> <!--templatemo_content-->
+<!--#include virtual="/fc/includes/footer.html" -->
+</div> <!--templatemo_container-->
+</body>
+</html>
