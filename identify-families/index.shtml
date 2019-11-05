@@ -9,12 +9,6 @@
   <title>Function Families</title>
   <meta name="description" content="This page supports the activity on Identifying Function Families.">
 
-  <script type="text/javascript">
-    WIDGETS.setWidgetsPrefs ([
-      {pages: "none"} // turn off all widgets for all sketches
-//			, {widget: "visibility", sketches: "rotate2", pages: "3,4,5"} // turn on some widgets if desired
-    ]);
-  </script>
 </head>
 
 <body>
