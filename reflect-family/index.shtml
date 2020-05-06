@@ -161,7 +161,7 @@
 
 <div class="section">
 	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
-	<div class="fcSectionBody fcVisible">
+	<div class="fcSectionBody fcVisible" style="margin-left:50px;">
 		<p>After you master the challenge on page 1, you can try slightly harder challenges on pages 2 and 3.</p>
 		<div class="sketch_container jaxContainer">
 			<div class="sketch_canvas" data-delayed-url="./reflect-warmup.json">Loading...</div>
@@ -607,7 +607,7 @@
 <div class="section">
 	<p class="fcSectionHead">8 Dependent Dance Challenge</p>
 	<div class="fcSectionBody">
-		<div class="sketch_container">
+		<div class="sketch_container" style="margin-left:50px;">
 			<div class="jaxContainer twoColumn" style="clear: both; border-top: none; border-bottom: 2px solid black; border-collapse: collapse;">
 				<p>Until now, you’ve mostly been the independent variable (the penguin): either you were free to move around the plane, or you could move along a restricted domain. But in this challenge, you are the dependent variable (the frog), and your challenge is to follow the function rule as the penguin moves around her restricted domain.</p>
 				<p>To move correctly, you have to always be in the correct location across the mirror from the penguin. Fortunately you have a reflection segment to help you. When the penguin is in the center of the white circle, you are in the correct location for the function rule.</p>
