@@ -2,3 +2,8 @@
 git instructions.txt
 **/*.screenflow
 old-versions/
+reflect-family/.DS_Store
+identify-functions/.DS_Store
+identify-families/.DS_Store
+function-dances/.DS_Store
+.DS_Store
