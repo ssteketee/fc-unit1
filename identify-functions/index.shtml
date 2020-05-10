@@ -35,6 +35,7 @@
 	 Ⓦ 
 		<span class="buttontiptext" id="download-text">Download worksheet</span>
 	</div>
+  <div class="downloadPrompt"> &nbsp; Download:</div>
 </div>
 <div class = "bodyText">
 
@@ -61,7 +62,6 @@
 							 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
 							 Trace Widget
 						</a>&nbsp; &nbsp; &nbsp;
-          Download the <a href="./identify-functions.pdf">student worksheet.</a> &nbsp; &nbsp; &nbsp; Download the <a href="./identify-functions-tickets.pdf">entrance/exit tickets.</a>&nbsp;
         </p>
         <div class="page_buttons"></div>
         <button class="widget_button"></button>
@@ -78,7 +78,7 @@
 	<p class="fcSectionHead">2 Examples and Non-Examples</p>
 	<div class="fcSectionBody">
 		<div class="jaxContainer">
-			<p>Using this sketch, you’ll learn to distinguish a function from a non-function.</p>
+			<p>Using this sketch, you’ll learn to distinguish a function from a relation that is not a function.</p>
 		</div>
 		<p class="fcSubsectionHead">Worksheet</p>
 		<div class="fcSubsectionBody" style = "resize: vertical; width: 968px; height: 400px; min-height: 300px; overflow: hidden; border: 1px solid;">
@@ -86,26 +86,25 @@
 		</div>
 		<div class="sketch_container" style="width: 960px;">
 			<div class="sketch_canvas" id="sketch" data-delayed-url="./identify-functions-examples.json">&nbsp;</div>
-			<div class="sketch_caption">
-			</div>
-			<span class="page_buttons"></span>
+      <div class="button_area">
+        <span class="page_buttons"></span>
+      </div>
 		</div>		
 	</div>
 
 </div>	
 <div class="section">
-	<p class="fcSectionHead">3 Objectives</p>
+	<p class="fcSectionHead">3 Accomplishments</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
-      <p>This page supports the Identify Functions lesson from <a href="../">Unit 1: Introducing Geometric Transformations as Functions</a>.</p>
-      <p>By the end of this lesson, you&rsquo;ll be able to perform these actions and answer these questions:</p>
+      <p>By the end of this lesson, you accomplished several goals:</p>
 			<ul>
-				<li><em>Vary variables.</em> You will drag independent points and observe and describe the behavior of dependent point(s).</li>
-				<li><em>Distinguish independent variables from dependent variables.</em> You will become comfortable thinking of points as variables that may be independent, or may be dependent on other variables.</li>
-				<li><em>Distinguish functions from non-functions.</em> You will use the drag test to determine how examples of functions are different from examples of non-functions.</li>
-				<li><em>Define the term “function.”</em> You will formulate and discuss your own definition of function.</li>
-				<li><em>Apply your definition.</em> You will use your definition to categorize relations as functions or not functions.</li>
-				<li><em>Use the term “relation.”</em> You will become familiar with use of the term <em>relation</em> to describe variables with a relationship that may or may not be a function.</li>
+				<li><em>Vary variables.</em> You dragged independent points and observed and described the behavior of dependent point(s).</li>
+				<li><em>Distinguish independent and dependent variables.</em> You learned how to tell the difference between independent and dependent variables.</li>
+				<li><em>Distinguish functions and non-functions.</em> You used the drag test to tell the difference between functions and non-functions.</li>
+				<li><em>Define “function</em>.” You formulated and discussed your own definition of function.</li>
+				<li><em>Apply your definition.</em> You used your definition to categorize relations as functions or not functions.</li>
+				<li><em>Use the term “relation</em>.” You became familiar with the term <em>relation</em> to describe variables with a relationship that may or may not be a function.</li>
 				</ul>
     </div>
   </div>
@@ -120,6 +119,7 @@
       <!--#include virtual="/includes/v4.5/js/js-version.html" -->
       <p><strong>Update History:</strong></p>
      <div class="updateHistory">
+        23 Apr 2020: Added Reset buttons, Accomplishments section, & Download links for Worksheet  & E/E Tickets<br>
         03 Apr 2018: Added a sketch page, revised worksheet, and revised objectives.<br>
 				21 Oct 2017: Migrated to FC site.<br>
         18 Oct 2015: Created this page.<br>

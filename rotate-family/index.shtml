@@ -42,9 +42,11 @@
 <div class="section">
 	<p class="fcSectionHead fcOpen">1 Warm-Up</p>
 	<div class="fcSectionBody fcVisible">
+		<div class="sketch_container jaxContainer">
 			<div class="sketch_canvas" id="warm-up" data-url="./warm-up.json">Loading...</div>		
-		<div style="float: right; font-size: 0.9rem;"><a href="./rotate-family-part1.pdf">Download Part 1 worksheet</a></div>
-		<div><p class="pencil">What&rsquo;s going on here? What do you notice? What do you wonder?</p></div>
+      <div style="float: right; font-size: 0.9rem; padding-right: 1.0rem"><a href="./rotate-family-part1.pdf">Download Part 1 worksheet</a></div>
+      <div class="jaxContainer directions" style="float: left;"><p class="pencil">What&rsquo;s going on here? What do you notice? What do you wonder?</p></div>
+    </div>
 	</div>
 </div>				
 						

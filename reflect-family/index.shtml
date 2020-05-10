@@ -189,8 +189,8 @@
 					<li>4 steps northeast</li>
 					<li>3 steps southeast</li>
 				</ul>
-				<p>✏️ Draw a diagram to show the path that each of you followed.</p>
-				<p>✏️ Describe the relative directions you moved in each part of the dance.</p>
+				<p class="pencil">Draw a diagram to show the path that each of you followed.</p>
+				<p class="pencil">Describe the relative directions you moved in each part of the dance.</p>
 				<ul><strong>Second Dance:</strong> (after switching roles)<br>
 				Begin with the three-part dance routine below and finish by improvising your own dance pattern. If possible, ask a classmate to video your dance.
 					<li>3 steps southeast</li>
@@ -198,7 +198,7 @@
 					<li>3 steps southwest</li>
 					<li>Improvise and record the rest of your dance routine</li>
 				</ul>
-				<p>✏️ When did you both move in the same direction? When did you move in opposite directions?</p>
+				<p class="pencil">When did you both move in the same direction? When did you move in opposite directions?</p>
 			</div>
 		</div>
 		<p class="fcSubsectionHead">Virtual Dance</p>
@@ -220,7 +220,7 @@
 						<button class="play-video" data-src="./video/modify-free-style-domain">Modify a Free-Style Domain</button>
 					</p>
 				</div>
-				<div class="page_toggle p_1 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_1 jaxContainer twoColumn">
 					<ul>
 						<li>Drag the independent variable (the penguin) so that the two dancers make an interesting pattern.</li>
 						<li>Use the <span class="tipLink" data-tip="<img src='WIDGETS/traceIcon.png'>">Trace Widget</span> to erase the traces.</li>
@@ -230,14 +230,14 @@
 						<li class="pencil">Can you find any <span class="tipLink" data-tip="A <em>fixed point</em> is a point where the two dancers come together.">fixed points</span>? If so, where are they?</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_2 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_2 jaxContainer twoColumn">
 					<ul>
 						<li>Drag the <span class="tipLink" data-tip="The <em>independent variable</em> is the one you can drag.">independent variable</span> to follow the gray <span class="tipLink" data-tip="The <em>domain</em> is the path of the independent variable.">domain</span>.</li>
 						<li>You can use the <span class="tipLink" data-tip="<img src='WIDGETS/traceIcon.png'>">Trace Widget</span> to erase the traces and start again.</li>
 						<li class="pencil">What do you notice about the shape of the <em>domain</em> and the shape of the <em><span class="tipLink" data-tip="The <em>range</em> is the path of the dependent variable.">range</span>?</em></li>
 					</ul>
 				</div>
-				<div class="page_toggle p_3 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_3 jaxContainer twoColumn">
 					<ul>
 						<li>Try at least four of the Step tools to see what they do.</li>
 						<li class="pencil">When the penguin moves east (E), which way does the frog move?</li>
@@ -248,7 +248,7 @@
 						<li>Use the <span class="tipLink" data-tip="<img src='/fc/images/undo.png'>">Undo</span> and <span class="tipLink" data-tip="<img src='/fc/images/redo.png'>">Redo</span> arrows to undo the last tool or redo the next tool.</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_4 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_4 jaxContainer twoColumn">
 					<ul>
 						<li>Press the Step tools to make the penguin follow the <span class="tipLink" data-tip="The <em>domain</em> is the path of the independent variable.">domain</span> marked in gray.</li>
 						<li>Use the <span class="tipLink" data-tip="<img src='/fc/images/undo.png'>">Undo</span> and <span class="tipLink" data-tip="<img src='/fc/images/redo.png'>">Redo</span> arrows to fix any mistakes you make.</li>
@@ -256,7 +256,7 @@
 						<li class="pencil">When the penguin moves north-east (NE), which way does the frog move? Why does it move in this direction?</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_5 p_6 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_5 p_6 jaxContainer twoColumn">
 					<ul>
 						<li>Use the Step tools to make the frog follow the given <span class="tipLink" data-tip="The <em>range</em> is the path of the dependent variable.">range</span>.</li>
 						<li>Use the Dance tool to make the dependent variable dance along the range.</li>
@@ -264,7 +264,7 @@
 						<li class="pencil page_toggle p_6">Why was it even harder to make the dependent variable follow this given range?</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_7 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_7 jaxContainer twoColumn">
 					<ul>
 						<li>Use the Step tools to choreograph a domain and range of your choice.</li>
 						<li>Make part of your domain go above the mirror.</li>
@@ -272,7 +272,7 @@
 						<li class="pencil">What would happen if two real human dancers tried to get to the other side of the mirror?</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_8 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_8 jaxContainer twoColumn">
 					<ul>
 						<li>Use the Free Style tool to choreograph a domain and range of your choice.</li>
 						<li>Double-tap the Free Style tool to make it stay active. Tap it again to turn it off.</li>
@@ -311,7 +311,7 @@
 				<div class="page_buttons"></div>
 				<button class="widget_button"></button>
 			</div>
-			<div class="page_toggle p_1 twoColumn jaxContainer" style="clear: both;">
+			<div class="page_toggle p_1 twoColumn jaxContainer">
 				<ul>
 					<li>Create an independent variable, a function rule, and a dependent variable.</li>
 					<li class="pencil">Drag `x` around. What three objects did you use to create this function?</li>
@@ -408,38 +408,63 @@
 				<p>These traces were left behind by an independent variable `x` and its reflected image `r_j(x)`. But both variables and the <span class="tipLink" data-tip="The <em>function rule</em> is the mirror.">function rule</span> are hidden!</p>
 				<p>Your job is to find the rule.</p>
 				<ul>
-					<li>Construct a domain to match the <span style="color:darkred">red</span> trace.</li>
-					<li>Use <strong>Vary x</strong> to restrict `x` to the domain and make a <em>Vary x</em> button.</li>
+					<li>Construct a domain to match the red trace.</li>
+					<li>Use <strong>Indep. Var. x</strong> to restrict `x` to the domain and make a <em>Vary x</em> button.</li>
 					<li>Reflect `x` to construct the dependent variable.</li>
 					<li><span class="tipLink" data-tip="Drag the two points that determine the mirror.">Adjust the function rule</span> so that the dependent variable moves along the blue trace while you vary `x` along its domain.</li>
-					<li>Press <em>New Challenge</em> to try <span class="tipLink" data-tip="Don’t make a new domain or mirror. Just move the ones you already created.">a different problem</span>. Do as many problems as you need to get good at them.</li>
+					<li>Press <em>New Case</em> to try <span class="tipLink" data-tip="Don’t make a new domain or mirror. Just move the ones you already created.">a different problem</span>. Do as many problems as you need to get good at them.</li>
 				</ul>
-				<p>✏️ What did you notice, and wonder, as you solved these problems?</p>
+				<p class="pencil">What did you notice, and wonder, as you solved these problems?</p>
 			</div>
 			<div class="page_toggle p_2 jaxContainer twoColumn">
-				<p>The reflect functions on this page are different, but your job is the same: find the function rule so that your dependent variable follows the blue trace while your independent variable varies along the red trace.</p>
+				<p>The cases on this page are harder, but your job is the same: find the function rule so that `r_j(x)` follows the blue trace while you vary `x` along the red trace.</p>
 				<ul>
 					<li>Construct a domain using the red trace, and restrict `x` to your domain.</li>
 					<li>Reflect `x` to construct the dependent variable, and adjust the function rule.</li>
-					<li>You’ve solved the chanllenge when your two variables move exactly along the two traces.</li>
-					<li>Do this challenge several times, until you get good at it.</li>
+					<li>You’ve solved the case when your two variables move exactly along the two traces.</li>
+					<li>Practice on more cases until you are reasonably confident about your guesses.</li>
 				</ul>
-				<p>✏️ Make a drawing of your solution to a particularly interesting challenge. Show the traces, both variables, and the mirror line.</p>
+				<p class="pencil">Make a drawing of your solution to a particularly interesting case. Show the traces, both variables, and the mirror line.</p>
 			</div>
 			<div class="page_toggle p_3 jaxContainer twoColumn">
-				<p>The reflect functions on this page are harder to match, but you’re getting pretty good at it by now.</p>
+				<p>After your practice on pages 1 and 2, you’re ready to guess the location of the mirror ahead of time.</p>
+        <ul>
+          <li>Make your guess by using the <strong>Line</strong> tool.</li>
+          <li>Construct the domain, restrict `x` to the domain, and reflect in your line.</li>
+          <li>Press the <em>Vary x</em> button to check your guess.</li>
+        </ul>
+				<p class="pencil">How close was your first guess? Did you get it exactly right?</p>
+        <p>To improve your skills, practice with several more cases. Follow the steps below for each new case:</p>
 				<ul>
-					<li>Construct the domain, restrict `x` to the domain, and create a reflect function.</li>
-					<li>Adjust the function rule so the two variables move exactly along the traces.</li>
-					<li>Do this challenge several times, looking for a particularly hard challenge.</li>
+					<li><span class="tipLink" data-tip="<img src='/fc/images/undo.png'>">Undo</span> your reflection.</li>
+					<li>Press <em>New Case.</em></li>
+          <li>Adjust your line for the new case.</li>
+					<li>Adjust your domain for the new case, and reflect in your line.</li>
+          <li><em>Vary x</em>  to see how well you did.</li>
 				</ul>
-				<p>✏️ Make a drawing of your solution to one of the hardest challenge you saw.</p>
-				<p class="pencil">What made this challenge harder than others?</p>
+				<p class="pencil">How did more practice help you improve your accuracy?</p>
+				<p class="pencil">Describe your strategy for locating the mirror. What did you pay attention to as you dragged its two points?</p>
 			</div>
-			<div class="page_toggle p_4 jaxContainer twoColumn" style="clear:both; border-top: 1px solid black; font-size: 1.1rem; line-height: 1.4rem;">
-				<p>This page has an additional tool. Experiment with it as you solve several challenges.</p>
-				<p>✏️ How can this tool help you find the rule?</p>
-				<p>✏️ What else do you notice about this tool? What do you wonder?</p>
+			<div class="page_toggle p_4 jaxContainer twoColumn">
+				<p>On this page you have another new tool.</p>
+        <p>Experiment to see if you can use both the <strong>Midpoint</strong> tool and the <strong>Line</strong> tool to make a more accurate guess about where the mirror should be.</p>
+				<p>Construct the domain, restrict `x` to the domain, reflect in your line, and vary `x` to check your guess.</p>
+				<p class="pencil">How close was your first guess? Did you get it exactly right?</p>
+        <p>Do these next steps at least two times. As you do so, think about how to use the Midpoint and Line tools together to make the best possible guess.</p>
+				<ul>
+					<li><span class="tipLink" data-tip="<img src='/fc/images/undo.png'>">Undo</span> all the way back to when you used the Midpoint tool.</li>
+          <li>Press <em>New Case.</em></li>
+          <li>Use the <strong>Midpoint</strong> and <strong>Line</strong> tools to make a guess for the new case.</li>
+					<li>Adjust your domain, reflect `x` in your guess, and check your result.</li>
+				</ul>
+				<p class="pencil">Describe your strategy for for using the <strong>Midpoint</strong> and <strong>Line</strong> tools to locate the mirror.</p>
+				<p class="pencil">Why do you think this strategy works?</p>
+			</div>
+			<div class="page_toggle p_5 jaxContainer twoColumn">
+				<p>This page has a <strong>Midpoint</strong> tool and a <strong>Perpendicular</strong> tool.</p>
+        <p>As you did on previous pages, experiment to figure out how these two tools can help you guess the mirror correctly.</p>
+				<p class="pencil">What strategy did you invent, using these two tools, to figure out the location of the mirror?
+				<p class="pencil">Explain in your own words why you think this strategy works.</p>
 			</div>
 		</div>    
 	</div>
@@ -459,7 +484,7 @@
 			Your browser doesn't support HTML5 video tag.
 		</video>
 		<p style="font-size: 70%;"><a href="https://www.youtube.com/watch?v=TNm5Dax56ck">From <em>I Love Lucy</em> Season 4 Episode 27. Downloaded from https://www.youtube.com/watch?v=TNm5Dax56ck</a></p>
-		<p>✏️ How does this video relate to the reflect dance you did earlier?</p>
+		<p class="pencil">How does this video relate to the reflect dance you did earlier?</p>
 	</div>
 </div>                                     
 
@@ -475,23 +500,25 @@
 				</ul>
 			</div>
 			<div class="sketch_canvas" data-delayed-url="./reflect-arcade.json">Loading...</div>
-			<div class="button_area" style="border-bottom: none;">
-				<div class="jaxContainer directions">
-					<p class="page_toggle p_1">Where is `r_j(x)?` Drag `y` to the spot, and press Check.</p>
-					<p class="page_toggle p_2">Where is `x?` Drag `z` to the spot, and press Check.</p>
-					<p class="page_toggle p_3">Where’s the mirror that relates `x` and `r_j(x)?` Drag `P` and `Q` to show where you think it is.</p>
-					<p class="page_toggle p_4" style="font-size: 1.1rem;">Where’s the mirror that relates `x` and `r_j(x)?` Drag `P` and `Q` to show where you think it is.</p>
-					<div class="page_buttons"></div>
-					<ul style="clear: both;">
-						<li class="pencil page_toggle p_1">Given independent variable `x` and mirror `j`, describe how to find `r_j(x).`</li>
-						<li class="pencil page_toggle p_2">Given mirror `j` and `r_j(x)`, describe how to find independent variable `x.`</li>
-						<li class="pencil page_toggle p_3 p_4">Given independent variable `x` and `r_j(x)`, describe how to find mirror `j.`</li>
-						<li class="pencil page_toggle p_4">How is this way of adjusting the mirror different from page 3?</li>
-						<li class="pencil">For this game, what was the highest level at which you scored 8 hits in ten tries?</li>
-						<li class="pencil">What methods did you invent to help you improve your score?</li>
-					</ul>
-				</div>
-			</div>
+			<div class="button_area">
+        <div class="jaxContainer directions">
+          <p class="page_toggle p_1">Where is `r_j(x)?` Drag `y` to the spot, and press Check.</p>
+          <p class="page_toggle p_2">Where is `x?` Drag `z` to the spot, and press Check.</p>
+          <p class="page_toggle p_3">Where’s the mirror that relates `x` and `r_j(x)?` Drag `P` and `Q` to show your guess.</p>
+          <p class="page_toggle p_4">Where’s the mirror that relates `x` and `r_j(x)?` Drag `P` and `Q` to show your guess.</p>
+          <div class="page_buttons"></div>
+        </div>
+      </div>
+      <div class="jaxContainer directions" style="padding: 15px 0px;">
+        <ul>
+          <li class="pencil page_toggle p_1">Given independent variable `x` and mirror `j`, describe how to find `r_j(x).`</li>
+          <li class="pencil page_toggle p_2">Given mirror `j` and `r_j(x)`, describe how to find independent variable `x.`</li>
+          <li class="pencil page_toggle p_3 p_4">Given independent variable `x` and `r_j(x)`, describe how to find mirror `j.`</li>
+          <li class="pencil page_toggle p_4">How is this way of adjusting the mirror different from page 3?</li>
+          <li class="pencil">For this game, what was the highest level at which you scored 8 hits in ten tries?</li>
+          <li class="pencil">What methods did you invent to help you improve your score?</li>
+        </ul>
+      </div>
 		</div>
 	</div>
 </div>
@@ -506,10 +533,10 @@
 				<p>In a group of four or five students, tape <a href="./reflect-dance2.pdf" target="_blank">a dance guide paper</a> on the classroom floor to mark two perpendicular mirrors. Invent a reflect-family dance that uses both mirrors.</p>
 				<p>Dancer `x` is the independent variable and dancer `r_j(x)` is the reflected image, in mirror `j`, of `x`. Dancer `r_k(x)` is the reflected image in mirror `k` of `x`. Decide among yourselves how the fourth dancer should move. As you create and practice your dance, check to be sure the dancers are correctly positioned relative to the mirror.</p>
 				<p>As you choreograph and practice your dance, take turns so everyone in the group has a chance to be the independent dancer. When you’re ready to perform your dance, ask someone from another group to video your group dance.</p>
-				<p>✏️ As you created your dance, how did you decide the fourth dancer should move?</p>
-				<p>✏️ In what direction must each of the other dancers move when `x` moves north? south? east? west?</p>
-				<p>✏️ What else did you notice, and what did you wonder, about the reflect functions that connect your dancers to each other?</p>
-				<p>✏️ How could you use function notation to describe the fourth dancer?</p>
+				<p class="pencil">As you created your dance, how did you decide the fourth dancer should move?</p>
+				<p class="pencil">In what direction must each of the other dancers move when `x` moves north? south? east? west?</p>
+				<p class="pencil">What else did you notice, and what did you wonder, about the reflect functions that connect your dancers to each other?</p>
+				<p class="pencil">How could you use function notation to describe the fourth dancer?</p>
 			</div>      
 		</div>
 		<p class="fcSubsectionHead">On the Screen</p>
@@ -527,7 +554,7 @@
 					<div class="page_buttons"></div>
 					<button class="widget_button"></button>
 				</div>
-				<div class="page_toggle p_1 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_1 jaxContainer twoColumn">
 					<p>Use this page to investigate reflections across perpendicular mirrors.</p>
 					<ul>
 						<li>Construct a pair of angled mirrors and adjust them to make them perpendicular.</li>
@@ -544,7 +571,7 @@
 						<li class="pencil">Help Juanita explain why her answer is right.</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_2 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_2 jaxContainer twoColumn">
 					<p>Use this page to investigate reflections across angled mirrors that are not perpendicular.</p>
 					<ul>
 						<li>Construct a pair of angled mirrors. Adjust them, but don’t make them perpendicular.</li>
@@ -556,7 +583,7 @@
 					<p class="pencil">What do you think Juanita and Donte said to each other when they did this construction?</p>
 					<p class="pencil">How would you explain to a classmate what is special about perpendicular mirrors?</p>
 				</div>
-				<div class="page_toggle p_3 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_3 jaxContainer twoColumn">
 					<p>Use this page to investigate reflections across parallel mirrors.</p>
 					<ul>
 						<li>Construct parallel mirrors, adjust them so they’re vertical, and reflect `x` across each mirror.</li>
@@ -570,7 +597,7 @@
 						<li class="pencil">How does changing the mirror angle affect the relative locations of `x` and `r_j(r_k(x))?`</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_4 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_4 jaxContainer twoColumn">
 					<p>Use this page to choreograph a dance using parallel mirrors.</p>
 					<ul>
 						<li>Construct parallel mirrors and reflect `x` to make `r_j(x)` and `r_k(r_j(x))`</li>
@@ -582,7 +609,7 @@
 						<li class="pencil">Draw a picture of the dance you choreographed. Label the mirrors and the variables in your drawing.</li>
 					</ul>
 				</div>
-				<div class="page_toggle p_5 jaxContainer twoColumn" style="clear: both;">
+				<div class="page_toggle p_5 jaxContainer twoColumn">
 					<p>Use this page to choreograph a dance using angled mirrors.</p>
 					<ul>
 						<li>Construct angled mirrors and decide what angle to use.</li>
@@ -608,7 +635,7 @@
 	<p class="fcSectionHead">8 Dependent Dance Challenge</p>
 	<div class="fcSectionBody">
 		<div class="sketch_container" style="margin-left:50px;">
-			<div class="jaxContainer twoColumn" style="clear: both; border-top: none; border-bottom: 2px solid black; border-collapse: collapse;">
+			<div class="jaxContainer twoColumn">
 				<p>Until now, you’ve mostly been the independent variable (the penguin): either you were free to move around the plane, or you could move along a restricted domain. But in this challenge, you are the dependent variable (the frog), and your challenge is to follow the function rule as the penguin moves around her restricted domain.</p>
 				<p>To move correctly, you have to always be in the correct location across the mirror from the penguin. Fortunately you have a reflection segment to help you. When the penguin is in the center of the white circle, you are in the correct location for the function rule.</p>
 				<p>The hard part comes when the penguin starts moving: because you’re the dependent variable, you have to move to keep the white circle centered on the independent variable.</p>
@@ -621,14 +648,14 @@
 				<div class="page_buttons"></div>
 				<button class="widget_button"></button>
 			</div>
-			<div class="jaxContainer twoColumn page_toggle p_1" style="clear: both; border-top: 1px solid black;" >
+			<div class="jaxContainer twoColumn page_toggle p_1">
 				<ul>
 					<li class="pencil">What did you notice, and wonder, as you practiced the dance on page 1?</li>
 					<li class="pencil">Did you get better as you practiced? Could you do the dance at a more difficult level and still keep the colors green?</li>
 				</ul>
 				<p>Once you master this dance, go to page 2 for a slightly harder challenge.</p>
 			</div>
-			<div class="jaxContainer twoColumn page_toggle p_2" style="clear: both; border-top: 1px solid black;" >
+			<div class="jaxContainer twoColumn page_toggle p_2">
 				<p>Page 2 has another challenge using a different polygon and mirror.</p>
 				<ul>
 					<li class="pencil">Is the dance on pages 2 easier (because of your practice on page 1) or harder? Explain.</li>
