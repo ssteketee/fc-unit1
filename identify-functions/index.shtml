@@ -54,14 +54,8 @@
       <div class="button_area">
         <p>
         	Hint Videos: &nbsp; &nbsp;
-						<a onclick="playVideo('./style-widget');">
-							 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
-							 Style Widget
-						</a>&nbsp; &nbsp; &nbsp;
-						<a onclick="playVideo('./trace-widget');">
-							 <img style="vertical-align: sub;" src="/images/video-icon-16x16.png" alt="Video">
-							 Trace Widget
-						</a>&nbsp; &nbsp; &nbsp;
+  				<button class="play-video" data-src="./style-widget">Style Widget</button>
+  				<button class="play-video" data-src="./trace-widget">Trace Widget</button>
         </p>
         <div class="page_buttons"></div>
         <button class="widget_button"></button>
