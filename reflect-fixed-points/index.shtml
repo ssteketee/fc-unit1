@@ -194,72 +194,52 @@
 	</div>
 </div>
 
-
-
-  <!--#include virtual="/includes/modal-video.html" -->            
-
-<!--
-
+<h2>Moved temporarily from Reflect Family; still need to be integrated here.</h2>
 <div class="section">
-	<p class="fcSectionHead">4 Interlude</p>
+	<p class="fcSectionHead">7 Trace the Fixed Points</p>
 	<div class="fcSectionBody">
-		<video width="960" controls
-			poster="./video/lucy-harpo-mime.png" >
-			<source
-				src="./video/lucy-harpo-mime-960x720.webm"
-				type="video/webm">
-			<source
-				src="./video/lucy-harpo-mime-960x720.mp4"
-				type="video/mp4">
-			Your browser doesn't support HTML5 video tag.
-		</video>
-    <p style="font-size: 70%;"><a href="https://www.youtube.com/watch?v=TNm5Dax56ck">From <em>I Love Lucy</em> Season 4 Episode 27. Downloaded from https://www.youtube.com/watch?v=TNm5Dax56ck</a></p>
-		<p>✏️ How does this video relate to the reflect dance you just did?</p>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./trace-fixed-points1.json">Loading...</div>
+			<div class="button_area">
+				<p class="page_toggle p_1">Hint Video: &nbsp; &nbsp;
+					<button class="play-video" data-src="./video/animate-x">Animate x</button>
+				</p>
+				<div class="page_buttons"></div>
+				<button class="widget_button"></button>
+			</div>
+			<div class="page_toggle p_1 jaxContainer twoColumn">
+				<p>Independent variable `x` and its reflected image `r_j(x)` are shown, but the <span class="tipLink" data-tip="The <em>function rule</em> for reflection is the mirror.">function rule</span> is hidden.</p>
+				<p>Your job is to find it.</p>
+				<ul>
+					<li>Drag independent variable `x` to find a <span class="tipLink" data-tip="A <em>fixed point</em> is a point where the two variables come together.">fixed point</span> of the function.</li>
+					<li>Continue dragging `x` to find more fixed points.</li>
+					<li>Turn on tracing for both points and drag again to trace the whole mirror.</li>
+				</ul>
+				<p>✏️ How do you know that the fixed points you traced are actually points of the mirror?</p>
+			</div>
+    </div>
   </div>
-</div>                                     
-
+</div>
+      
 <div class="section">
-	<p class="fcSectionHead">5 Match the Traces</p>
+	<p class="fcSectionHead">8 Fixed Points and Distances</p>
 	<div class="fcSectionBody">
-    <div class="jaxContainer twoColumn">
-			<p>Each page of this sketch has a faint background image showing traces left by an independent variable x and its reflected image `r_j(x)`. But the mirror is hidden!</p>
-			<p>Construct your own reflect function and adjust it so you can drag x to make the same pattern as the one shown faintly in the background.</p>
-			<p>✏️ Try each of the two mirror tools. Which did you find more useful? Why?</p>
-			<p>✏️ What did you learn as you solved these challenges? Describe your method so another student could use it.</p>
-			<p>✏️ Why do you think there’s an extra tool at the bottom of the toolbox?</p>
+		<div class="jaxContainer twoColumn" style="border: 1px solid black; border-collapse: collapse; padding: 0.1rem 1rem;">
+			<p>Below left, measure the distance from `w` to each of the other points, and drag `w` to make the two distances nearly equal. Turn tracing on and drag `w` to show all the places where the distances are nearly equal.</p>
+			<p>Below right, construct a circle with its center at `w` and its radius point at `x`. Then drag `w` so the circle touches `r(x)`. Turn tracing on and drag `w` to show all the places where the circle touches both `x` and `r(x)`.</p>
 		</div>
 		<div class="sketch_container">
-			<div class="sketch_canvas" data-delayed-url="./reflection-designs.json">Loading...</div>
-      <div class="page_buttons"></div>
-      <button class="widget_button"></button>
-    </div>		
+			<p>✏️ In each sketch, what do the traces have to do with the fixed points of the reflect function `r`? Explain the connection.</p>
+			<div class="sketch_canvas" data-delayed-url="./equal-distance-locus.json">Loading...</div>
+		</div>
+		<div class="sketch_container">
+			<div class="sketch_canvas" data-delayed-url="./circle-center-locus.json">Loading...</div>
+		</div>
 	</div>
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">6 Reflect Games</p>
-	<div class="fcSectionBody">
-    <div class="jaxContainer twoColumn">
-      <p>Each of these three games has a different purpose:</p>
-      <ol>
-        <li>Given independent variable `x` and mirror `j`, how can you find `r_j(x)`?</li>
-        <li>Given mirror `j` and `r_j(x)`, how can you find independent variable `x`?</li>
-        <li>Given independent variable `x` and `r_j(x)`, how can you find mirror `j`?</li> 
-      </ol>
-      <p>For each game play a few times at easier levels, and work your way up to level 5. (Once you start a game at one level, you must press Reset to change to a different level.)</p>
-      <p>✏️ For each game, how many hits can you score in ten tries at level 5?</p>
-      <p>✏️ What methods did you invent to make it easier to get a high score?</p>
-    </div>
-		<div class="sketch_container" style="margin-left:4rem;">
-			<div class="sketch_canvas" data-delayed-url="./reflect-games.json">Loading...</div>
-      <div class="page_buttons"></div>
-      <button class="widget_button"></button>
-    </div>		
-	</div>
-</div>
-
-<div class="section">
-	<p class="fcSectionHead">7 Reflect Shapes</p>
+	<p class="fcSectionHead">9 Reflect Shapes</p>
 	<div class="fcSectionBody">
 		<div class="jaxContainer twoColumn">
 			<p>With this sketch, you can reflect a variety of shapes.</p>
@@ -276,7 +256,7 @@
 				<li>Page 4: Experiment on your own.</li>
 			</ul>
 		</div>
-    <div class="sketch_container jaxContainer">
+		<div class="sketch_container jaxContainer">
 			<div class="sketch_canvas" id="intro" data-delayed-url="./reflect-shapes.json">Loading...</div>
 			<div class="util-menu-btn"></div>
 			<div class="page_buttons"></div>
@@ -286,46 +266,28 @@
 </div>
 
 <div class="section">
-	<p class="fcSectionHead">8 Find the Mirror</p>
+	<p class="fcSectionHead">10 Find the Mirror</p>
 	<div class="fcSectionBody">
-    <div class="jaxContainer twoColumn">
-			<p>This sketch challenges you to find the hidden mirror(s). On pages 1, 2, and 3, your job is to find the mirror so that if you animate `x` on the domain, `r_j(x)` will move around the range. Pages 4 and 5 povide slightly different challenges.</p>
+		<div class="jaxContainer twoColumn">
+			<p>This sketch challenges you to find the hidden mirror(s). On pages 1, 2, and 3, your job is to find the mirror so that if you animate `x` on the domain, `r_j(x)` will move around the range. Pages 4 and 5 provide slightly different challenges.</p>
 			<p></p>
 			<p>✏️ What did you notice, and what did you wonder, as you constructed these reflect functions?.</p>
 		</div>
 		<div class="sketch_container">
-			<div class="sketch_canvas" data-delayed-url="./find-the-mirror.json">Loading...</div>
-      <div class="page_buttons"></div>
-      <button class="widget_button"></button>
-    </div>		
+			<div class="sketch_canvas" id="find-the-mirror" data-delayed-url="./find-the-mirror.json">Loading...</div>
+			<div class="page_buttons"></div>
+			<button class="widget_button"></button>
+		</div>		
 	</div>
 </div>
-  
-<div class="section">
-	<p class="fcSectionHead">9 Reflect Dance 2</p>
-  <div class="fcSectionBody">
-    <div class="jaxContainer twoColumn">
-			<a href="./reflect-dance2-paper.pdf" target="_blank"><img src="./reflect-dance2-paper.png" style="width: 15rem; float: right;"></a>
-      <p>In a group of four or five students, tape <a href="./reflect-dance2-paper.pdf" target="_blank">a dance guide paper</a> on the classroom floor to mark two perpendicular mirrors. Invent a reflect-family dance that uses both mirrors.</p>
-      <p>Dancer `x` is the independent variable and dancer `r_j(x)` is the reflected image, across mirror `j`, of `x`. Dancer `r_k(x)` is the reflected image across mirror `k` of `x`. Decide among yourselves how the fourth dancer should move. As you create and practice your dance, check to be sure the dancers are correctly positioned relative to the mirror.</p>
-      <p>As you choreograph and practice your dance, take turns so everyone in the group has a chance to be the independent dancer. When you’re ready to perform your dance, ask someone from another group to video your group dance.</p>
-			<p>✏️ As you created your dance, how did you decide the fourth dancer should move?</p>
-			<p>✏️ In what direction must each of the other dancers move when `x` moves at 0°? at 90°? at 180°? at 270°?</p>
-			<p>✏️ What else did you notice, and what did you wonder, about the reflect functions that connect your dancers to each other?</p>
-			<p>✏️ How could you use function notation to describe the fourth dancer?</p>
-    </div>
-    <div><img src="./video/ballet.png" style="width: 970px;"><br><a href="www.nytimes.com/2016/10/25/arts/dance/review-ballet-with-intricate-geometry-and-a-lot-of-fun-suzanne-farrell-george-balanchine-kennedy-center.html">NY Times 25 October 2016</a> Suzanne Farrell Ballet at Kennedy Center</div>
-		<div class="sketch_container">
-			<div class="sketch_canvas" data-delayed-url="./reflect-danceB.json">Loading...</div>
-      <div class="page_buttons"></div>
-      <button class="widget_button"></button>
-    </div>		
+	
+<h2>
+  End of Moved from Reflect Family materials...
+</h2>
+  <!--#include virtual="/includes/modal-video.html" -->            
 
-	</div>
-</div>
--->
 <div class="section">
-	<p class="fcSectionHead">7 Objectives</p>
+	<p class="fcSectionHead">11 Objectives</p>
 	<div class="fcSectionBody">
     <div class="jaxContainer twoColumn">
       <p>This page supports the Reflection Fixed Points lesson from the <a href="../">Introducing Geometric Transformations as Functions</a> unit. After investigating and experimenting with the fixed points of the reflect function, if you are given two points you will be able to construct the mirror that relates them, and if you are given a mirror and a single point you will be able to construct the other point. You will learn some important facts about distances between points, and you will be able to describe and explain the perpendicular bisector theorem and its converse.</p>
